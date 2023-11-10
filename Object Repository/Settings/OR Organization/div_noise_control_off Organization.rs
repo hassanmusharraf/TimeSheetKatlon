@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_noise_control_off Organization</name>
+   <tag></tag>
+   <elementGuidId>dfe50360-e1e4-4daf-a2c2-60b8151e5b3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.anml-data.ng-tns-c125-30.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' noise_control_off Organization' or . = ' noise_control_off Organization')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/ng-list-item[4]/div/mat-list-item/span/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>06992242-73cc-487f-a9d8-88564f9119b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>anml-data ng-tns-c125-30 ng-star-inserted</value>
+      <webElementGuid>9f83ff0d-69d0-4758-a22f-e7ef629e0bcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+      <webElementGuid>c5577c58-ac63-4b18-997e-dea4dae9fb80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> noise_control_off Organization</value>
+      <webElementGuid>02f4dec4-96ed-4d56-a131-51ff2cf0319f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened mat-sidenav-fixed ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-21&quot;]/div[@class=&quot;ng-tns-c125-21 ng-trigger ng-trigger-SlideInOut level-2 amml-submenu has-amml-submenu ng-star-inserted&quot;]/ng-list-item[@class=&quot;ng-tns-c125-30 ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-30&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-30 amml-item level-2-submenulevel-3 ng-star-inserted&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-30 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-30 ng-star-inserted&quot;]</value>
+      <webElementGuid>64297d81-7e58-4af6-9e68-1d55cfbc5067</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ng-list-item[4]/div/mat-list-item/span/a/div</value>
+      <webElementGuid>c501b88e-865a-4569-a123-186a5a3fa6fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' noise_control_off Organization' or . = ' noise_control_off Organization')]</value>
+      <webElementGuid>b01308f3-172c-49e4-b594-88c37b6f5c65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

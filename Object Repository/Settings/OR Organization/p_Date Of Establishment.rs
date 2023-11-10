@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Date Of Establishment</name>
+   <tag></tag>
+   <elementGuidId>a76a529c-8899-4935-94bd-eb2f7ff0c9c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-company-form[1]/form[1]/div[1]/div[1]/qmt-new-input[4]/div[1]/input[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//qmt-new-input[4]/div/qmt-label/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>3d569afe-3304-43a7-8e1d-81be14dac0ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[#525252] text-base !mb-2</value>
+      <webElementGuid>2a10c848-4fa2-493f-b4dd-68a43aec3551</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date Of Establishment*</value>
+      <webElementGuid>30a63735-38df-4ac6-bdb3-827236b65954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-company-form[1]/form[1]/div[1]/div[1]/qmt-new-input[4]/div[1]/input[1]</value>
+      <webElementGuid>49ebe310-c9ed-458e-ab6c-f23a98e66306</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-new-input[4]/div/qmt-label/p</value>
+      <webElementGuid>05a38343-15e8-465d-8061-daff35b0516a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Date Of Establishment*' or . = 'Date Of Establishment*')]</value>
+      <webElementGuid>d7faa0ff-e95e-482d-b047-58d26edd5c6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

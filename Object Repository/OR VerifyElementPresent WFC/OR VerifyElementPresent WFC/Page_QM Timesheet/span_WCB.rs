@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_WCB</name>
+   <tag></tag>
+   <elementGuidId>d5ac1380-f111-408c-a29a-ce7689bd7000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.label.ng-tns-c125-40</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/ng-list-item[2]/div/mat-list-item/span/a/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fc5a11c1-3d52-4034-aa7c-6db3fba91e06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label ng-tns-c125-40</value>
+      <webElementGuid>74c6094a-e5a2-485d-81fc-be6bb17086aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>WCB</value>
+      <webElementGuid>aeaa335a-2d9a-41ac-b73e-b9704fc3b216</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened mat-sidenav-fixed ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-23 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-23&quot;]/div[@class=&quot;ng-tns-c125-23 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-2 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-40 ng-tns-c125-23 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-40&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-40 ng-star-inserted amml-item level-2-submenulevel-1&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-40 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-40 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-40&quot;]</value>
+      <webElementGuid>50806e76-9ba4-4e22-8b73-a4f8484bbbbc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ng-list-item[2]/div/mat-list-item/span/a/div/span</value>
+      <webElementGuid>b8918520-fe37-4237-ae8a-427b1a130fad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'WCB' or . = 'WCB')]</value>
+      <webElementGuid>189175be-c6e1-4c0b-991f-57e1a423f46f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

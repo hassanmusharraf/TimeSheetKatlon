@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Division</name>
+   <tag></tag>
+   <elementGuidId>e4ec7c56-111e-4298-999a-bcb1e5cd7286</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.anml-data.ng-tns-c125-33.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/ng-list-item/div/div/ng-list-item/div/mat-list-item/span/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ng-list-item/div/div/ng-list-item/div/mat-list-item/span/a/div</value>
+      <webElementGuid>de7e10a7-e5f1-4bef-aba1-ec011c0088f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Division' or . = 'Division')]</value>
+      <webElementGuid>2a7d25fb-87bc-40c5-a79a-b83baf2f0174</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
