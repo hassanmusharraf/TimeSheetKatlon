@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Testing uom_mat-focus-indicator flex justify-center w-30px h-30px items-center text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</name>
+   <tag></tag>
+   <elementGuidId>6ca15fb2-499b-4f21-9d5b-28969ad015b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_4-table']/tbody/tr/td[2]/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c10125a5-a312-4dd3-b768-6191d4a0b427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>8b488ed1-b885-408a-821c-35c69100986d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_4-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;!border-b-gray-A1 !flex-1 !p-4 text-gray-A3 ng-star-inserted&quot;]/div[1]/div[@class=&quot;flex justify-start items-center h-full w-full gap-2 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>4508cd45-da54-4461-b9d6-05bf07ab8ce2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_4-table']/tbody/tr/td[2]/div/div/button</value>
+      <webElementGuid>3eadc4b8-69bd-4743-880c-96e30bf1f43b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div/button</value>
+      <webElementGuid>5b228178-ea51-48fb-8a35-7857e1f58e6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

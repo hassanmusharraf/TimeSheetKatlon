@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Department</name>
+   <tag></tag>
+   <elementGuidId>a13993b4-7fd3-4a13-b801-c20b7505a3a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.label.ng-tns-c125-36</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/ng-list-item/div/div/ng-list-item[4]/div/mat-list-item/span/a/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4aef3ca0-dc48-465b-9daf-06a86a05d848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label ng-tns-c125-36</value>
+      <webElementGuid>8b5a46c0-0608-462d-a6bd-97599a4c1ee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Department</value>
+      <webElementGuid>93eacbca-8088-4125-887e-79c16ce8e3b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-sidenav-fixed ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-21&quot;]/div[@class=&quot;ng-tns-c125-21 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-2 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-27 ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-27&quot;]/div[@class=&quot;ng-tns-c125-27 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-3 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-36 ng-tns-c125-27 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-36&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-36 ng-star-inserted amml-item level-3-submenulevel-3&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-36 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-36 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-36&quot;]</value>
+      <webElementGuid>d398d503-a967-4f8b-8b63-53300bc4910f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ng-list-item/div/div/ng-list-item[4]/div/mat-list-item/span/a/div/span</value>
+      <webElementGuid>e183d291-1982-4892-8abc-12710b64fa43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Department' or . = 'Department')]</value>
+      <webElementGuid>b82642aa-4eac-498e-a597-af0922b37655</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

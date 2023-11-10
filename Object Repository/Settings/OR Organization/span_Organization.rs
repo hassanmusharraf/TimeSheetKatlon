@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Organization</name>
+   <tag></tag>
+   <elementGuidId>f0f6559b-0250-46cf-83ce-e5915c401581</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.label.ng-tns-c125-30</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Organization' or . = 'Organization')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/ng-list-item[4]/div/mat-list-item/span/a/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a18a529b-01ed-41ef-9dea-7e051317a2f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label ng-tns-c125-30</value>
+      <webElementGuid>2c380b6d-63cc-45bc-a0e7-2eb61b6304a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Organization</value>
+      <webElementGuid>1a232e04-dee8-4a5a-b816-1997f960fe89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container mat-drawer-transition&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-sidenav-fixed ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-21&quot;]/div[@class=&quot;ng-tns-c125-21 ng-trigger ng-trigger-SlideInOut level-2 amml-submenu has-amml-submenu ng-star-inserted&quot;]/ng-list-item[@class=&quot;ng-tns-c125-30 ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-30&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-30 amml-item level-2-submenulevel-3 ng-star-inserted&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-30 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-30 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-30&quot;]</value>
+      <webElementGuid>7cd28075-685c-4472-804f-bcdace49d7d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ng-list-item[4]/div/mat-list-item/span/a/div/span</value>
+      <webElementGuid>89aebc8c-0c9b-4279-8685-2e36d44afc09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Organization' or . = 'Organization')]</value>
+      <webElementGuid>5bde66e4-f083-491b-8817-52d9a69b6516</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

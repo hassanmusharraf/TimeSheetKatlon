@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_download Download Excel Format</name>
+   <tag></tag>
+   <elementGuidId>192835cc-e2de-40cf-8165-ee7aaa8770f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-stroked-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//qmt-download-excel-btn/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>78ed0602-c6cc-454c-bdbb-7878e00a9277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>1c31cfbd-06c1-4e41-98ea-4a563dcddcd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>e2d43785-9a81-478a-9f2a-cb639673693f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>download Download Excel Format </value>
+      <webElementGuid>7fdec7ef-d236-48af-902e-3c1d936c3958</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-base-uom[@class=&quot;ng-star-inserted&quot;]/qmt-datagrid[1]/div[@class=&quot;border border-gray-A1 border-solid my-10 rounded-lg&quot;]/div[@class=&quot;p-5 flex justify-between items-center&quot;]/div[@class=&quot;flex justify-end items-center&quot;]/div[@class=&quot;flex align-middle&quot;]/qmt-download-excel-btn[1]/div[@class=&quot;flex gap-2 mx-2&quot;]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>fe5c6ad0-1b28-4bb2-b030-84ea8612cad6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-download-excel-btn/div/button</value>
+      <webElementGuid>604e2fa6-fdd8-425c-8a41-68d5811c62a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'download Download Excel Format ' or . = 'download Download Excel Format ')]</value>
+      <webElementGuid>98db7664-7976-41f8-a558-b0a46130c529</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

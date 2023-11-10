@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Settings</name>
+   <tag></tag>
+   <elementGuidId>b5050639-fbf7-4be9-8715-a49a94f73028</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Settings' or . = 'Settings')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.label.ng-tns-c125-21</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cost Center'])[1]/preceding::span[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8b518bfc-15b8-410b-8dc1-5f9c26c8cba8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label ng-tns-c125-21</value>
+      <webElementGuid>c0857f5d-49c0-4691-b8b4-2e16d4337712</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>28833c2e-0361-4d93-8f41-023475701d6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened mat-sidenav-fixed ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-21&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-21 ng-star-inserted amml-item selected-amml-item active-amml-item level-1-submenulevel-0&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-21 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-21&quot;]</value>
+      <webElementGuid>5ecf6d07-e151-4104-953a-7998013d4685</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cost Center'])[1]/preceding::span[3]</value>
+      <webElementGuid>ce1f78ce-d2ae-495c-82fc-17ccd8846007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Users'])[1]/preceding::span[7]</value>
+      <webElementGuid>2a1d48b7-b00e-4b34-b2ac-b2b5dbba4cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Settings']/parent::*</value>
+      <webElementGuid>c7436fe2-2927-45b2-82f6-5a94c7148ecd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>ab8898c9-4b69-4a49-a1b2-228e35000564</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Settings' or . = 'Settings')]</value>
+      <webElementGuid>823c31ec-3745-4c35-9202-f5e8ed1f07a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

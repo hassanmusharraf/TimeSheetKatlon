@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Add Base UOM</name>
+   <tag></tag>
+   <elementGuidId>772f9edd-3102-442d-9994-d71c6c93f4e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-dialog-title-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='mat-dialog-title-1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>137edd87-618a-4e2e-8ff1-66389b7b04b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-dialog-title px-6 py-3 text-primary-dark !text-lg !font-semibold border-b border-solid border-gray-A1</value>
+      <webElementGuid>f4c55d2f-af36-49a8-8d0c-a539afb2495a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-dialog-title-1</value>
+      <webElementGuid>3969afc7-3d13-40f6-babd-5cdd25df6868</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Add Base UOM
+</value>
+      <webElementGuid>09fe27ea-26c5-4ef6-b378-ba5d33d02e9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-title-1&quot;)</value>
+      <webElementGuid>7f2e7213-c2fc-4d26-9de3-28d737cf62a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='mat-dialog-title-1']</value>
+      <webElementGuid>bb64cf5e-d957-4c22-84df-1828948acd19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/qmt-base-uom-modal/h2</value>
+      <webElementGuid>b796b6e1-7599-4f1c-b716-16694c9fb584</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>5b148be7-b68b-4b97-af0f-522629e83537</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'mat-dialog-title-1' and (text() = ' Add Base UOM
+' or . = ' Add Base UOM
+')]</value>
+      <webElementGuid>f9bb81aa-866f-4218-b282-38c19f51364e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_add Add department</name>
+   <tag></tag>
+   <elementGuidId>a5de6715-d113-47aa-a5c2-03b7b4682749</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>78324290-a302-42a3-9810-e7f20d355f73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>48de9057-7904-455f-aa0d-66566402b524</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator !pl-2 mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>3ad39339-4ec5-4b70-8810-0ecc671618d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add Add department </value>
+      <webElementGuid>a1204420-9371-47ee-a18e-c79d99c0d4c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-individual-cost[@class=&quot;ng-star-inserted&quot;]/qmt-datagrid[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;border border-gray-A1 border-solid my-10 rounded-lg&quot;]/div[@class=&quot;p-5 flex justify-between items-center&quot;]/div[@class=&quot;flex justify-end items-center&quot;]/div[@class=&quot;flex align-middle&quot;]/button[@class=&quot;mat-focus-indicator !pl-2 mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>46efd934-c890-4d5a-8185-6b50f72c241b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>283761e2-74ba-4cb7-99b0-a8175ca81f42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'add Add department ' or . = 'add Add department ')]</value>
+      <webElementGuid>380f0b6e-b573-4367-bf56-fbff912d223a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

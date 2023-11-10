@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logout_button</name>
+   <tag></tag>
+   <elementGuidId>c25e94a9-3358-493c-b546-50bd46f4cff7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>_ngcontent-iim-c142</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>_ngcontent-iim-c142</value>
+      <webElementGuid>2640d880-8c03-41f6-8e39-acd120a71129</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

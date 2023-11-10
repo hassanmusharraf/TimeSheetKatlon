@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_upload Bulk Upload</name>
+   <tag></tag>
+   <elementGuidId>605d16e3-53ad-49ef-9f0c-a9e326bf6648</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-stroked-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//qmt-upload-excel-btn/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>203a4780-57f6-44c6-9927-bb48d5921112</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>ea17f82d-ff05-41c6-a968-b4028dcf69d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>b97e30b3-ddf3-4795-a07d-9f67832c7f8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>upload Bulk Upload </value>
+      <webElementGuid>66ae966a-2c1b-4c51-ac3e-d2815a79cf09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-pay-group[@class=&quot;ng-star-inserted&quot;]/qmt-datagrid[1]/div[@class=&quot;border border-gray-A1 border-solid my-10 rounded-lg&quot;]/div[@class=&quot;p-5 flex justify-between items-center&quot;]/div[@class=&quot;flex justify-end items-center&quot;]/div[@class=&quot;flex align-middle&quot;]/qmt-upload-excel-btn[1]/div[@class=&quot;flex gap-2&quot;]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>97f1f211-7946-40eb-b611-a8d9dadea846</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-upload-excel-btn/div/button</value>
+      <webElementGuid>df073858-c021-43e9-9e3b-7ec38d5f0cc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'upload Bulk Upload ' or . = 'upload Bulk Upload ')]</value>
+      <webElementGuid>163437ed-22f3-4ed3-b10f-f70bdc419c9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

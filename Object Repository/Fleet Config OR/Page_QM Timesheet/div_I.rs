@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_I</name>
+   <tag></tag>
+   <elementGuidId>fa5b05a3-2c70-47ce-ab3e-200cba3302e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset DB'])[1]/following::div[16]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2a642e55-bf34-4804-8fdb-86bba39e9c57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d8519ae8-e776-401f-8798-ffb4effb7da0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-menu-trigger cursor-pointer ml-[10px] w-10 h-10 aspect-square bg-[#F1F1F9] flex justify-center items-center text-[#4A429E] text-5 font-semibold uppercase rounded-full</value>
+      <webElementGuid>cc73ce66-8dcb-4463-b7a3-fa0c80d5cd79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> I </value>
+      <webElementGuid>b690e619-4be6-4148-a689-0bec09bcf80a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/mat-toolbar[@class=&quot;mat-toolbar sticky top-0 !py-4 !pl-8 !pr-6 border-b flex items-center justify-between z-[200] mat-primary mat-toolbar-single-row&quot;]/div[@class=&quot;flex items-center gap-5&quot;]/div[@class=&quot;mat-menu-trigger cursor-pointer ml-[10px] w-10 h-10 aspect-square bg-[#F1F1F9] flex justify-center items-center text-[#4A429E] text-5 font-semibold uppercase rounded-full&quot;]</value>
+      <webElementGuid>669480c9-b5d6-4fec-a6ff-5804c68b290c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset DB'])[1]/following::div[16]</value>
+      <webElementGuid>9f055690-feb8-42c4-bad9-8dab5d663885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QM Timesheet'])[2]/following::div[17]</value>
+      <webElementGuid>9189d14b-1871-4cb7-8a1d-a91a6f57b036</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Fleet Status'])[1]/preceding::div[1]</value>
+      <webElementGuid>d1ba73ac-cf43-48d3-9da9-a17a88e5776d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='I']/parent::*</value>
+      <webElementGuid>411db3f5-b59a-40f0-bfe7-00abf7450e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-toolbar/div[2]/div</value>
+      <webElementGuid>14063f77-e6bc-4d4e-a224-84c2159985c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' I ' or . = ' I ')]</value>
+      <webElementGuid>ffb5b534-21e7-4ff4-85f6-22a039c1ed2c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
