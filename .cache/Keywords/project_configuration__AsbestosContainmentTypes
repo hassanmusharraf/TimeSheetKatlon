@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "AC87512164852AD232FAE5DAD3350CEA",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.AsbestosContainmentTypes",
+      "keywordMethods": [
+        {
+          "name": "add_asbestos_containment_types",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_asbestos_containment_types",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_asbestos_containment_types",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

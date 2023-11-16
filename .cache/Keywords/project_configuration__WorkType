@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "D4C8F3A1814FF4843A089E6B2A1842AE",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.WorkType",
+      "keywordMethods": [
+        {
+          "name": "add_work_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_work_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_work_type",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

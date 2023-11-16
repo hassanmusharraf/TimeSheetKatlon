@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "670E5BDE885B908B11484B7F9A766B73",
+  "keywordClasses": [
+    {
+      "name": "setting_configurations.Organization",
+      "keywordMethods": [
+        {
+          "name": "add_company",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_company",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

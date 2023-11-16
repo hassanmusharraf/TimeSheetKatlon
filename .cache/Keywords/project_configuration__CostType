@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "F40AFE419E81E35D5A04AB5C1CB19876",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.CostType",
+      "keywordMethods": [
+        {
+          "name": "add_cost_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_cost_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_cost_type",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

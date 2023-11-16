@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F3F9BBEB8FE986AE640109B797ABFA6D",
+  "keywordClasses": [
+    {
+      "name": "setting_configurations.AddUserForITAdmin",
+      "keywordMethods": [
+        {
+          "name": "addUser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

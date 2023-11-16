@@ -1,28 +1,18 @@
 {
-  "keywordFileContentHash": "9C4C485B4866071CBA4DDAAD35AEE8AB",
+  "keywordFileContentHash": "AAE53E25FD1656604B99140F8B486ABA",
   "keywordClasses": [
     {
       "name": "com.Components",
       "keywordMethods": [
         {
           "name": "loginIntoApplication",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "logOutFromApplication",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "isElementsPresent",
           "parameters": [
             {
-              "name": "TO",
+              "name": "username",
               "initialExpression": "",
               "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
@@ -31,7 +21,7 @@
               }
             },
             {
-              "name": "value",
+              "name": "password",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -47,10 +37,66 @@
           "javadoc": ""
         },
         {
-          "name": "checkNumberOfRowsPresent",
+          "name": "logOutFromApplication",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getNumberOfRows",
           "parameters": [
             {
-              "name": "To",
+              "name": "TO",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getRowByNameValue",
+          "parameters": [
+            {
+              "name": "TO",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "nameValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getNumberOfColumns",
+          "parameters": [
+            {
+              "name": "TO",
               "initialExpression": "",
               "type": {
                 "fullClassName": "com.kms.katalon.core.testobject.TestObject",

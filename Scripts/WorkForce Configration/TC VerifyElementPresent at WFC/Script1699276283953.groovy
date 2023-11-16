@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://159.203.25.179:4201/auth/login')
-
-WebUI.click(findTestObject('Object Repository/OR VerifyElementPresent WFC/OR VerifyElementPresent WFC/Page_QM Timesheet/button_Sign In'))
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/OR VerifyElementPresent WFC/OR VerifyElementPresent WFC/Page_QM Timesheet/a_settings Settings keyboard_arrow_down'), 
     0)

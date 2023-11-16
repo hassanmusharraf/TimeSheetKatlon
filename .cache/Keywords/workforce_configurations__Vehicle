@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "8549D779671F531BD1B7F0DA856C7628",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.Vehicle",
+      "keywordMethods": [
+        {
+          "name": "add_vehicle",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_vehicle",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_vehicle",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

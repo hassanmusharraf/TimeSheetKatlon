@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "FE0491776FB1D1A816D0C15C49FC3303",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.UnitOfMeasure",
+      "keywordMethods": [
+        {
+          "name": "add_UnitOfMeasure",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_unit_of_measure",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_unit_of_measure",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

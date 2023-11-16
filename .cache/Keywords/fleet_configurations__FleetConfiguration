@@ -1,0 +1,41 @@
+{
+  "keywordFileContentHash": "7F9A5692FD4AA4C359B6AFD886F47A5A",
+  "keywordClasses": [
+    {
+      "name": "fleet_configurations.FleetConfiguration",
+      "keywordMethods": [
+        {
+          "name": "add_equipment",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_category",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_fleet_status",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_equipment",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_category",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_ewuipment",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

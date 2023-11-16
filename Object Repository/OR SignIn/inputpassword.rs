@@ -3,23 +3,18 @@
    <description></description>
    <name>inputpassword</name>
    <tag></tag>
-   <elementGuidId>2fe82e6d-6b6d-4b34-be88-000563e034f0</elementGuidId>
+   <elementGuidId>d80dbf4d-c112-40d0-b279-49f0a94956cc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[5]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>_ngcontent-iim-c146&#xd;
-</value>
+         <value>//input[@type='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input.ng-tns-c166-39.p-autocomplete-input.p-inputtext.p-component.p-autocomplete-dd-input.ng-star-inserted</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,151 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a8d20b56-0c57-4980-bacf-67fcfd0f5fc5</webElementGuid>
+      <webElementGuid>365e5cbc-ba31-415a-817f-47dd75cd606b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-autocomplete</name>
+      <name>formcontrolname</name>
       <type>Main</type>
-      <value>list</value>
-      <webElementGuid>eef6b1c2-de55-4157-a26f-35badd421e71</webElementGuid>
+      <value>password</value>
+      <webElementGuid>bfc8ba10-8d49-4e27-98ff-cfad7bec11fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>searchbox</value>
-      <webElementGuid>49662dda-f817-4930-9dee-6b767e70e173</webElementGuid>
+      <value>Enter your password</value>
+      <webElementGuid>ed732c14-856a-4062-90ae-3430ae5b0097</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-tns-c166-39 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted</value>
-      <webElementGuid>c991e6b1-d547-4a29-8ee0-a8733fbe1f59</webElementGuid>
+      <value>px-4 py-[14px] border-solid border-[#5B5B5B] border rounded-lg w-full outline-primary-dark text-[#5B5B5B] text-sm ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>d7614b3f-b3d8-4151-8c6e-f7c8348ee2d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>0c66c82e-b489-4bfa-b070-c05bffb8932f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>274f05a4-fc44-4114-930c-c81c9da57a14</webElementGuid>
+      <value>password</value>
+      <webElementGuid>b3b83326-d85f-4881-a81c-9151d24ca9a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>_ngcontent-iim-c146&#xd;
-</value>
-      <webElementGuid>73b51a70-3049-444f-bc9b-4022e49cfe72</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>undefined</value>
-      <webElementGuid>ccf74f9b-0bdd-4e17-8a90-0f75d97483fc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>max</name>
-      <type>Main</type>
-      <value>undefined</value>
-      <webElementGuid>c3a97917-0f3f-4ff2-87bd-5430d7d45437</webElementGuid>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-login[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;w-full ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;h-screen w-screen flex justify-start items-center&quot;]/div[@class=&quot;relative w-[35%] flex justify-center items-center bg-white h-full&quot;]/div[@class=&quot;w-[75%]&quot;]/div[@class=&quot;mt-5 mb-2&quot;]/div[@class=&quot;relative&quot;]/input[@class=&quot;px-4 py-[14px] border-solid border-[#5B5B5B] border rounded-lg w-full outline-primary-dark text-[#5B5B5B] text-sm ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>72b9f6c8-e19c-4703-816b-87207cff1cd1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[5]</value>
-      <webElementGuid>74f32284-5813-46ef-9e8f-c97d224a0b85</webElementGuid>
+      <value>//input[@type='password']</value>
+      <webElementGuid>94ccdb59-23cf-4ee9-8189-e67d642ffb97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//qmt-new-autocomplete[2]/div/p-autocomplete/span/input</value>
-      <webElementGuid>8ba11f39-b440-493a-b248-11add1f284d6</webElementGuid>
+      <value>//div[3]/div[2]/input</value>
+      <webElementGuid>e975b69d-9535-437c-9246-35fad99836cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text']</value>
-      <webElementGuid>70ac8cdc-bb9c-4c93-9d0a-cc8cd4546f4d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@type='text'])[4]</value>
-      <webElementGuid>62ed4131-4617-43f6-9efa-bfe7c8e45618</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>f61fd59e-ae7e-4138-a538-271a8323dcd2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@type='date']</value>
-      <webElementGuid>6450cdf9-c018-436d-8153-09931abe427b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//qmt-new-input[5]/div/input</value>
-      <webElementGuid>8478462c-9ca1-4f7c-98cb-5debc40e08f5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'date']</value>
-      <webElementGuid>6f0ac5d9-1c65-46cf-bd19-cf0a053ca1f5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-pay-group-modal/mat-dialog-content/form/div[2]/qmt-new-autocomplete/div/p-autocomplete/span/input</value>
-      <webElementGuid>f72feb45-e7d0-4429-9ce5-255fdfed7123</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//p-autocomplete/span/input</value>
-      <webElementGuid>78439789-d409-4506-b513-7a10ed0c1913</webElementGuid>
+      <value>//input[@placeholder = 'Enter your password' and @type = 'password']</value>
+      <webElementGuid>7406b1da-1d94-4811-881c-4d2ef25022ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

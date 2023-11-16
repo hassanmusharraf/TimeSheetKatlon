@@ -6,16 +6,16 @@
    <elementGuidId>9e1bcf20-b4de-495e-9df8-e33be48cb2ac</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//qmt-new-input[2]/div</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>qmt-new-input:nth-of-type(2) > div.field.w-full</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Last Name*Last Name is required' or . = 'Last Name*Last Name is required')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//qmt-new-input[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

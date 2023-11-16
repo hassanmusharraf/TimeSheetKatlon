@@ -13,40 +13,44 @@
          <key>XPATH</key>
          <value>//div/ng-list-item/div/div/ng-list-item/div/mat-list-item/span/a/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/super-admin/cost-center/individual/division/list</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a202f020-04d8-4adb-96fa-0aba3c7f6256</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>label ng-tns-c125-33</value>
-      <webElementGuid>b1641c8b-3322-4852-b05c-b0981ce706dd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Division</value>
-      <webElementGuid>1bf52902-0c43-48e0-912e-93c4e6c70c28</webElementGuid>
+      <webElementGuid>4f5817cb-798a-4a12-9550-e621edbad0b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label ng-tns-c125-33</value>
+      <webElementGuid>52cf2228-55f1-4133-b37b-5b2083cfcb80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Division</value>
+      <webElementGuid>f8754b43-69cb-41ae-b3ba-c85f24f51a11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-sidenav-fixed ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-21&quot;]/div[@class=&quot;ng-tns-c125-21 ng-trigger ng-trigger-SlideInOut level-2 amml-submenu has-amml-submenu ng-star-inserted&quot;]/ng-list-item[@class=&quot;ng-tns-c125-27 ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-27&quot;]/div[@class=&quot;ng-tns-c125-27 ng-trigger ng-trigger-SlideInOut level-3 amml-submenu has-amml-submenu ng-star-inserted&quot;]/ng-list-item[@class=&quot;ng-tns-c125-33 ng-tns-c125-27 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-33&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-33 amml-item level-3-submenulevel-0 ng-star-inserted&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-33 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-33 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-33&quot;]</value>
-      <webElementGuid>3389512a-f3c1-4477-a4f8-46c0d6b041c7</webElementGuid>
+      <value>/super-admin/cost-center/individual/division/list</value>
+      <webElementGuid>ef54e73b-9480-4dfb-82e2-964d1ba16f07</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ng-list-item/div/div/ng-list-item/div/mat-list-item/span/a/div/span</value>
-      <webElementGuid>285f496c-39f4-43ec-8531-d9d2e95b352d</webElementGuid>
+      <webElementGuid>5c0e0128-6a50-4ad2-ad3f-522d5526ae07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Division' or . = 'Division')]</value>
-      <webElementGuid>ac27518f-dca5-4bc1-a0c8-0faf6239920c</webElementGuid>
+      <webElementGuid>9111b936-0624-4b1c-9e29-62337560ee77</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

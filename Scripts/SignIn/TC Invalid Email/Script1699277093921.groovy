@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://192.168.1.113:4200')
+WebUI.navigateToUrl(GlobalVariable.WEBURL)
 
 WebUI.setText(findTestObject('Object Repository/OR SignIn/inputemail'), 'ismail.mkul@qm.com')
 
-WebUI.click(findTestObject('Object Repository/OR SignIn/button_Sign In'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementPresent(findTestObject('OR SignIn/div_ErrorInvalid Credentials'), 
     1)

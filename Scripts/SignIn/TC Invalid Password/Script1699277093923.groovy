@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://192.168.1.113:4200')
+WebUI.navigateToUrl(GlobalVariable.WEBURL)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OR SignIn/inputpassword'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     '4nvbrPglk7k=')
 
 WebUI.click(findTestObject('null'))

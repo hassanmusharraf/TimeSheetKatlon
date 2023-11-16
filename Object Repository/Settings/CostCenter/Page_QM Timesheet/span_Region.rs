@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//div/ng-list-item/div/div/ng-list-item[2]/div/mat-list-item/span/a/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/super-admin/cost-center/individual/region/list</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>01e86961-6f33-470c-a8b5-951345f3239b</webElementGuid>
+      <webElementGuid>243fb8c3-82d2-4797-a5a4-f1966e86844b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>label ng-tns-c125-34</value>
-      <webElementGuid>e7f547d5-abfb-48b2-a241-d3a0ba234537</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Region</value>
-      <webElementGuid>6847ebb5-4f4e-46bb-9ae6-2cc79bc05702</webElementGuid>
+      <webElementGuid>6104b821-c5df-4daa-b111-1ed3d6fd2c12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Region</value>
+      <webElementGuid>a5c8b329-c78f-458b-a32a-d692019fed84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-sidenav-fixed ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-21&quot;]/div[@class=&quot;ng-tns-c125-21 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-2 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-27 ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-27&quot;]/div[@class=&quot;ng-tns-c125-27 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-3 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-34 ng-tns-c125-27 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-34&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-34 ng-star-inserted amml-item level-3-submenulevel-1&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-34 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-34 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-34&quot;]</value>
-      <webElementGuid>e3b8c98c-439b-464c-9c0f-3c6f8e0ca4d8</webElementGuid>
+      <value>/super-admin/cost-center/individual/region/list</value>
+      <webElementGuid>522c55b9-6134-496d-815e-3422d889cc3c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ng-list-item/div/div/ng-list-item[2]/div/mat-list-item/span/a/div/span</value>
-      <webElementGuid>8e28ad1b-906a-4548-af3b-8231422d935a</webElementGuid>
+      <webElementGuid>a9c9118f-3853-474c-8a03-7225d99526ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Region' or . = 'Region')]</value>
-      <webElementGuid>6eb1f526-40d9-425e-9f44-5f03ed10f6d6</webElementGuid>
+      <webElementGuid>43577267-b55d-4d51-bdc8-d760a3d04d30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

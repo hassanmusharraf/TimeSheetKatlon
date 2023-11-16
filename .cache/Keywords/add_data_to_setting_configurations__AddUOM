@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "44DAC8A2F08AD01BD18D4E9E8AE40283",
+  "keywordClasses": [
+    {
+      "name": "add_data_to_setting_configurations.AddUOM",
+      "keywordMethods": [
+        {
+          "name": "add_UOM",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

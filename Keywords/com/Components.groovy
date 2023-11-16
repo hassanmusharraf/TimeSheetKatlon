@@ -2,12 +2,14 @@ package com
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
@@ -17,62 +19,78 @@ public class Components {
 
 	//login to web application
 	@Keyword
-	def loginIntoApplication() {
+	def loginIntoApplication(String username,String password) {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.WEBURL)
 
-		WebUI.setText(findTestObject('Object Repository/OR SignIn/inputemail'), GlobalVariable.IT_ADMIN)
-		WebUI.setText(findTestObject('Object Repository/OR SignIn/inputpassword'), GlobalVariable.IT_ADMIN_PASS)
-		WebUI.click(findTestObject('Object Repository/OR SignIn/button_Sign In'),GlobalVariable.MED_TIMESLEEP)
+		WebUI.setText(findTestObject('Object Repository/OR SignIn/inputemail'), username)
+		WebUI.setText(findTestObject('Object Repository/OR SignIn/inputpassword'), password)
+
+		WebUI.click(findTestObject('Object Repository/OR SignIn/button_Sign In'))
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 
 	//logout from web application
 	@Keyword
 	def logOutFromApplication() {
-
-		WebUI.click(findTestObject('Object Repository/OR SignIn/button_Sign In'),5)
+		WebUI.click(findTestObject('Object Repository/LogOut/div_I'))
+		WebUI.click(findTestObject('Object Repository/LogOut/button_logoutLogout'))
 		WebUI.closeBrowser()
 	}
 
 	//checking if element is present in a list or not
 	@Keyword
-	def isElementsPresent(TestObject TO,String value) {
-		List<WebElement> element=WebUI.findWebElements(TestObject, GlobalVariable.LOW_TIMESLEEP)
+	def getNumberOfRows(TestObject TO) {
 
-		for(int i=0;i<element.size();i++) {
-			if (element[i].text.equals(value)) {
-				KeywordUtil.markPassed(value+" is present")
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebElement table = WebUiCommonHelper.findWebElement(TO, 30)
+		List<WebElement> rows = table.findElements(By.tagName("tr"))
+		println(rows.size()+" Row present")
+		return rows
+	}
+
+	// get a row by it's value
+	@Keyword
+	def getRowByNameValue(TestObject TO,String nameValue) {
+
+		nameValue=nameValue.trim()
+		List<WebElement> rows = getNumberOfRows(TO)
+
+		for (int i=0;i<rows.size();i++) {
+			List<WebElement> columns = rows.get(i).findElements(By.tagName("td"))
+			if (columns.get(i).getText().trim().equals(nameValue) ) {
+				println(columns.get(i).getText())
+				println(" Row present")
+				return rows.get(i)
 			}
 			else {
-				KeywordUtil.markFailed("element not present")
+				println("row not present")
 			}
 		}
-
-		//		WebElement Table = driver.findElement(By.xpath('/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-company-users[1]/qmt-datagrid[1]/div[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]'))
-		//
-		//		'To locate rows available in the table'
-		//		List<WebElement> rowsInTable = Table.findElements(By.tagName('tr'))
-		//
-		//		int totalRows = rowsInTable.size()
-		//
-		//		println('Rows : ' + totalRows)
 	}
+
 
 	@Keyword
-	def checkNumberOfRowsPresent(TestObject To) {
-
-		List<WebElement> element=WebUI.findWebElements(TestObject, GlobalVariable.LOW_TIMESLEEP)
-		WebUI.println(element.size())
+	def getNumberOfColumns(TestObject TO) {
+		List<WebElement> rows = getNumberOfRows(TO)
+		List<WebElement> columns = rows.get(0).findElements(By.tagName("td"))
+		println(columns.size()+" Columns present")
+		return columns
 	}
 
-
-
-
-
-
-
-
+	//	@Keyword
+	//	def getTotalRows(TestObject TO) {
+	//
+	//		WebDriver driver = DriverFactory.getWebDriver()
+	//		WebElement table = WebUiCommonHelper.findWebElements(TO, 30)
+	//		List<WebElement> rows = table.findElements(By.tagName("tr"))
+	//		WebUI.findWebElement(TO, 0)
+	//		WebUI.click(findTestObject('Object Repository/Settings/OR Users/lastrowbutton'))
+	//
+	//		WebElement rowString=WebUiCommonHelper.findWebElement('Object Repository/Settings/OR Users/spanrows'))
+	//
+	//	}
 
 
 	// generating random email

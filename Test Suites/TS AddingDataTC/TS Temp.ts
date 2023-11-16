@@ -22,7 +22,7 @@
       <guid>ec7f71f2-b65e-4b51-a28f-07a98ebd365b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/CountryOfOperation/TC CountryOfOperation</testCaseId>
+      <testCaseId>Test Cases/Settings/CountryOfOperation/Add CountryOfOperation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -64,7 +64,7 @@
       <guid>76cb9a24-d442-4330-a8a2-a5d6a0840396</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/WorkForce Configration/TC PayGroup-Configration</testCaseId>
+      <testCaseId>Test Cases/WorkForce Configration/Add PayGroup</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

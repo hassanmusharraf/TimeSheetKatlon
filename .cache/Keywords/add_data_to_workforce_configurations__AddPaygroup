@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "A6AC6E9184C251743A819A3EE9652788",
+  "keywordClasses": [
+    {
+      "name": "add_data_to_workforce_configurations.AddPaygroup",
+      "keywordMethods": [
+        {
+          "name": "goto_pay_group",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_pay_group",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_pay_group",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

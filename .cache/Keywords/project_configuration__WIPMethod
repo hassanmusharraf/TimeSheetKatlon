@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "1315C0DB1DD53139311A8CD11110E3DD",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.WIPMethod",
+      "keywordMethods": [
+        {
+          "name": "add_WIP_method",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_WIP_method",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_WIP_method",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

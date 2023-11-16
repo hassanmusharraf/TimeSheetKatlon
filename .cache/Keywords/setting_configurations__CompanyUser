@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C2144951266C74293FA4B8D5F608C947",
+  "keywordClasses": [
+    {
+      "name": "setting_configurations.CompanyUser",
+      "keywordMethods": [
+        {
+          "name": "company_user",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

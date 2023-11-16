@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Showing 1 to 2 of 2 entries110</name>
+   <tag></tag>
+   <elementGuidId>e3595570-2714-4388-abd1-b21893983c9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pr_id_16']/p-paginator/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-paginator-bottom.p-paginator.p-component.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d3e11e9e-791a-484e-9632-c754e73ef333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-paginator-bottom p-paginator p-component ng-star-inserted</value>
+      <webElementGuid>2e9c1dc5-2804-4b25-bbf1-ad4d8698643d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>p-paginator p-component</value>
+      <webElementGuid>18a74441-71f8-4c42-a6e4-aa0223a3c638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Showing 1 to 2 of 2 entries110</value>
+      <webElementGuid>9cfb90b6-871e-48e9-91fd-87538db4d22c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_16&quot;)/p-paginator[@class=&quot;p-element ng-star-inserted&quot;]/div[@class=&quot;p-paginator-bottom p-paginator p-component ng-star-inserted&quot;]</value>
+      <webElementGuid>c44b3022-7bba-49cb-8161-5bbb472a5fbb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pr_id_16']/p-paginator/div</value>
+      <webElementGuid>aff49c9a-255d-41ad-984e-38bba6f16e34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-paginator/div</value>
+      <webElementGuid>6aea13be-ecf6-4719-a380-9ee17903503b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Showing 1 to 2 of 2 entries110' or . = 'Showing 1 to 2 of 2 entries110')]</value>
+      <webElementGuid>2b1c31a6-3d97-41e0-be1c-72ff29e7dd59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

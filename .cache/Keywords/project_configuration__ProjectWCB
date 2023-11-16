@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "9B4ACA59F65EDE022CADC8396A0B5CDB",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.ProjectWCB",
+      "keywordMethods": [
+        {
+          "name": "add_WCB",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_WCB",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_WCB",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

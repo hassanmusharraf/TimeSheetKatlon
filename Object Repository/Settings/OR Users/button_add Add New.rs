@@ -6,16 +6,16 @@
    <elementGuidId>cf5c5d9a-420a-4c26-97a3-81b2b39928eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-global-users-list[1]/qmt-datagrid[1]/div[1]/div[1]/div[2]/button[1]</value>
+         <key>XPATH</key>
+         <value>//div/div[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/div[2]/button</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-global-users-list[1]/qmt-datagrid[1]/div[1]/div[1]/div[2]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

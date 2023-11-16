@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "F57E70B8935159C58FA83612281F9DE7",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.JobStatus",
+      "keywordMethods": [
+        {
+          "name": "add_job_status",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_job_status",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_job_status",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_job_status",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A256FC3AD79CB20DC6F65FD38CE531DB",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.WorkforceConfigurations",
+      "keywordMethods": [
+        {
+          "name": "goto_workforce_configuration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

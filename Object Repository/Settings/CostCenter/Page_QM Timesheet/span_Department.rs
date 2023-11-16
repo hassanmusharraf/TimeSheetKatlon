@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//div/ng-list-item/div/div/ng-list-item[4]/div/mat-list-item/span/a/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/super-admin/cost-center/individual/department/list[count(. | //*[(text() = 'Department' or . = 'Department')]) = count(//*[(text() = 'Department' or . = 'Department')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4aef3ca0-dc48-465b-9daf-06a86a05d848</webElementGuid>
+      <webElementGuid>3078c645-deff-4307-b420-c8e83a529cdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>label ng-tns-c125-36</value>
-      <webElementGuid>8b5a46c0-0608-462d-a6bd-97599a4c1ee4</webElementGuid>
+      <webElementGuid>14446f77-38a4-4cb8-8c1c-705e4c81cd89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +42,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Department</value>
-      <webElementGuid>93eacbca-8088-4125-887e-79c16ce8e3b4</webElementGuid>
+      <webElementGuid>179c3c83-4139-4170-acb9-f9d67758bf2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-sidenav-fixed ng-star-inserted mat-drawer-side mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-21&quot;]/div[@class=&quot;ng-tns-c125-21 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-2 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-27 ng-tns-c125-21 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-27&quot;]/div[@class=&quot;ng-tns-c125-27 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-3 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-36 ng-tns-c125-27 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-36&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-36 ng-star-inserted amml-item level-3-submenulevel-3&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-36 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-36 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-36&quot;]</value>
-      <webElementGuid>d398d503-a967-4f8b-8b63-53300bc4910f</webElementGuid>
+      <value>/super-admin/cost-center/individual/department/list</value>
+      <webElementGuid>d1ed1173-8136-4488-98da-d44607155685</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ng-list-item/div/div/ng-list-item[4]/div/mat-list-item/span/a/div/span</value>
-      <webElementGuid>e183d291-1982-4892-8abc-12710b64fa43</webElementGuid>
+      <webElementGuid>656d15ce-30b5-43fe-bb31-cc5bba7f8469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +66,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Department' or . = 'Department')]</value>
-      <webElementGuid>b82642aa-4eac-498e-a597-af0922b37655</webElementGuid>
+      <webElementGuid>acc997f8-c668-4f50-9114-39a68be48eba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F4C6CED77AC794E0E0D8D14DE3522FD8",
+  "keywordClasses": [
+    {
+      "name": "add_data_to_setting_configurations.AddCountryOfOperation",
+      "keywordMethods": [
+        {
+          "name": "add_country_of_operation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

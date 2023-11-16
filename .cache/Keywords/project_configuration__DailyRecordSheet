@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "113FBB0C332EE4D8AB7F4BD411D18791",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.DailyRecordSheet",
+      "keywordMethods": [
+        {
+          "name": "add_daily_record_sheeet",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_daily_record_sheeet",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_daily_record_sheeet",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>spanrows</name>
+   <tag></tag>
+   <elementGuidId>8907464a-5df2-48b4-9488-0c7631ca4513</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-global-users-list[1]/qmt-datagrid[1]/div[1]/p-table[1]/div[1]/p-paginator[1]/div[1]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-global-users-list[1]/qmt-datagrid[1]/div[1]/p-table[1]/div[1]/p-paginator[1]/div[1]/span[1]</value>
+      <webElementGuid>8585b32c-605f-49b0-b163-82dfb7c249e3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

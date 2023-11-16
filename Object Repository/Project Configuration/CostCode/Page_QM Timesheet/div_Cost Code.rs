@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cost Code</name>
+   <tag></tag>
+   <elementGuidId>d88c5730-d211-464f-8732-846ebca20077</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ng-list-item[2]/div/div/ng-list-item/div/mat-list-item/span/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.anml-data.ng-tns-c177-31.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d489033f-e50c-472d-9370-e68a6d96db4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>anml-data ng-tns-c177-31 ng-star-inserted</value>
+      <webElementGuid>8488a427-d6e3-44b1-8287-dd70594e7e55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+      <webElementGuid>96d5e7a0-aae1-41ec-b6f0-269c836e9fb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+      <webElementGuid>e2b216bc-f8e0-418a-99e1-a7fdd6565bb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cost Code</value>
+      <webElementGuid>f4039d72-7836-4f64-91af-9cfa4d252fc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c183-1 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened mat-sidenav-fixed ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c183-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c183-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c177-20 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c177-20&quot;]/div[@class=&quot;ng-tns-c177-20 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-2 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c177-30 ng-tns-c177-20 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c177-30&quot;]/div[@class=&quot;ng-tns-c177-30 ng-trigger ng-trigger-SlideInOut level-3 amml-submenu has-amml-submenu ng-star-inserted&quot;]/ng-list-item[@class=&quot;ng-tns-c177-31 ng-tns-c177-30 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c177-31&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c177-31 amml-item level-3-submenulevel-0 ng-star-inserted&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c177-31 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c177-31 ng-star-inserted&quot;]</value>
+      <webElementGuid>b6de7eb6-edfd-488c-a8b0-efe64df3ddae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ng-list-item[2]/div/div/ng-list-item/div/mat-list-item/span/a/div</value>
+      <webElementGuid>999d757d-e180-48c5-a213-516dd27b2be8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cost Code' or . = 'Cost Code')]</value>
+      <webElementGuid>c25e0968-5881-478f-9546-3a897defba39</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

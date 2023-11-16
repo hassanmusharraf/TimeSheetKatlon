@@ -6,12 +6,12 @@
    <elementGuidId>7620c720-584e-4a78-80a3-f1ba54ccf877</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.p-inputtext.p-component.p-element</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.p-inputtext.p-component.p-element</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

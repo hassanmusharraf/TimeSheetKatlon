@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E27F33E46D4AB580BD470248D2F9229C",
+  "keywordClasses": [
+    {
+      "name": "delete_data_from_setting_configurations.DeleteCountryOfOperation",
+      "keywordMethods": [
+        {
+          "name": "delete_country_of_operation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

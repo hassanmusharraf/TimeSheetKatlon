@@ -6,16 +6,16 @@
    <elementGuidId>91a84d4e-259c-4409-9820-546fdfce3301</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div/ng-list-item[3]/div/mat-list-item/span/a/div</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.anml-data.ng-tns-c125-29.ng-star-inserted</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Users' or . = 'Users')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div/ng-list-item[3]/div/mat-list-item/span/a/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

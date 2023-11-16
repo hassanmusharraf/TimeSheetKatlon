@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5369530547CAEDD8C3E0A12C2033743C",
+  "keywordClasses": [
+    {
+      "name": "add_data_to_setting_configurations.add_user_for_IT_admin",
+      "keywordMethods": [
+        {
+          "name": "addUser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

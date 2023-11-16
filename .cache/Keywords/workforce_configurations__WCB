@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "C290ACCAC34E6BC1E42E1F3FE36D133E",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.WCB",
+      "keywordMethods": [
+        {
+          "name": "add_WCB",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_WCB",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

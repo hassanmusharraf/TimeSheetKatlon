@@ -17,17 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
 
-WebUI.navigateToUrl('http://192.168.1.113:4200' //use variables
-    )
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('null'))
-
-//WebUI.waitForElementClickable(findTestObject('null'), 0)
-WebUI.delay(1)
+CustomKeywords.'com.Components.logOutFromApplication'()
 
 WebUI.closeBrowser()
 

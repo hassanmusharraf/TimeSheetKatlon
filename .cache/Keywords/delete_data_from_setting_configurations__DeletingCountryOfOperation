@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DFC2B427310CF87C391189AC757EE83D",
+  "keywordClasses": [
+    {
+      "name": "delete_data_from_setting_configurations.DeletingCountryOfOperation",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

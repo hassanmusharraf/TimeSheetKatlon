@@ -6,16 +6,16 @@
    <elementGuidId>70aad7f9-43c4-42c4-a972-96233d9155c6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//qmt-new-input[3]/div</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>qmt-new-input:nth-of-type(3) > div.field.w-full</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Email*Email is required' or . = 'Email*Email is required')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//qmt-new-input[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "AECC2005E24D7B1A5F2189164F1EEBDF",
+  "keywordClasses": [
+    {
+      "name": "setting_configurations.Users",
+      "keywordMethods": [
+        {
+          "name": "addUser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

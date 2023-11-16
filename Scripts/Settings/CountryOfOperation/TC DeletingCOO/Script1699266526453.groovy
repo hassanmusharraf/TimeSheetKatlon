@@ -17,27 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('http://192.168.1.113:4200')
-
-WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/button_Sign In'))
-
-WebUI.delay(1)
-
-WebUI.verifyElementPresent(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/span_Cost Center'), 0)
-
-WebUI.click(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/div_room_preferences Cost Center'))
-
-WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/span_Country of Operations'))
-
-WebUI.click(findTestObject('Settings/OR CountryOfOperations/OR DeletingCOO/div_India_flex justify-start items-center h-full w-full gap-2 ng-star-inserted'))
-
-WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/OR DeletingCOO/span_Delete'))
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
 
 WebUI.delay(2)
+
+CustomKeywords.'delete_data_from_setting_configurations.DeleteCountryOfOperation.delete_country_of_operation'()
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "F7549B07465DC0B234967E507959F2B3",
+  "keywordClasses": [
+    {
+      "name": "add_data_to_setting_configurations.AddCompanyUser",
+      "keywordMethods": [
+        {
+          "name": "company_user",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

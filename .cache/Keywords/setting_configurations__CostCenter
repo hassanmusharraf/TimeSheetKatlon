@@ -1,0 +1,41 @@
+{
+  "keywordFileContentHash": "ED0CD8DFFDCDD536A5BF89FDFA347371",
+  "keywordClasses": [
+    {
+      "name": "setting_configurations.CostCenter",
+      "keywordMethods": [
+        {
+          "name": "add_division",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_region",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_location",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_department",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_division",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_region",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

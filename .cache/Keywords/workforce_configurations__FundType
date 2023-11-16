@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "5492DAC376376D1FA2F1B2E95F10F814",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.FundType",
+      "keywordMethods": [
+        {
+          "name": "add_fund_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_fund_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_fund_type",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

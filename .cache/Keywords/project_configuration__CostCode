@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "19582EE005FA129ED6C8E2BE7B0518EC",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.CostCode",
+      "keywordMethods": [
+        {
+          "name": "add_cost_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_cost_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_cost_code",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

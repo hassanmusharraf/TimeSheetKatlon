@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "815D53FDA5C1F3AADD94B56B07743BBF",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.EmployeeType",
+      "keywordMethods": [
+        {
+          "name": "add_employee_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_employee_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_employee_type",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

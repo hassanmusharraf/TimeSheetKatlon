@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "950F2A190C280DC3C415C9E1F173844C",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.Compensation",
+      "keywordMethods": [
+        {
+          "name": "add_compensation",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_compensation",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_compensation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

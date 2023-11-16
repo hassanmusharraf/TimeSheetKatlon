@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "EBCB4169D27EC6E0F1BD77DC9B7515E8",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.ProjectUnionCode",
+      "keywordMethods": [
+        {
+          "name": "add_union_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_union_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_union_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_union_code",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
