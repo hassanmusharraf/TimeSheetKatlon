@@ -6,15 +6,19 @@
    <elementGuidId>dc4b13f6-1512-4a67-a028-34cceea18cd0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@id='dialog-save']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'dialog-save']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-1']/qmt-delete/mat-dialog-actions/div/button[2]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b3f3966e-b794-41ed-a660-cbd58f5afda0</webElementGuid>
+      <webElementGuid>840b1593-d3ba-45f1-9e4c-1e62c55b3061</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>2205cec7-af1d-4d33-abd4-637f245d15b2</webElementGuid>
+      <webElementGuid>fd33e967-c3c2-4f98-ba8e-92d92adae991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +42,15 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>17f58b57-42b1-4c9c-a7cc-5111b0754d1b</webElementGuid>
+      <webElementGuid>98b8f7ba-98b0-4d73-a079-1b00bb2ba4a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Delete </value>
-      <webElementGuid>96efadfb-860f-4a57-b0d6-9430e9b9a12f</webElementGuid>
+      <webElementGuid>a381bcaa-70d1-4e3e-b927-d7287762ede7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/qmt-delete[@class=&quot;ng-star-inserted&quot;]/mat-dialog-actions[@class=&quot;mat-dialog-actions !mb-0 border-t border-gray-A1 border-solid min-h-fit !py-0&quot;]/div[@class=&quot;flex justify-end items-center px-6 py-4 w-full h-full&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>4ccb1102-e8de-44ea-af8a-208ce426e1bb</webElementGuid>
+      <webElementGuid>68e19894-9830-40e8-82ae-7656b323d2b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dialog-save</value>
+      <webElementGuid>7883ec3a-ca47-4ef9-bc8d-5361e065ef5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/qmt-delete/mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>4d61db83-6b7e-46fa-9b8a-7e10c2221972</webElementGuid>
+      <webElementGuid>a38f8e50-20ed-4518-8732-dff7fb403b44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>4d472f2d-dff6-4012-9aca-c5bb3f3f5b13</webElementGuid>
+      <webElementGuid>2aff2e35-08bd-4acb-81ab-f066d481564b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Delete ' or . = ' Delete ')]</value>
-      <webElementGuid>7e267335-e7c3-46fc-a0bf-a5691ae64459</webElementGuid>
+      <webElementGuid>6db77870-7043-474e-aace-a109d53f0ddc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

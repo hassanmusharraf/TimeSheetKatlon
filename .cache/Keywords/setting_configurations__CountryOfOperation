@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "489876FD31E99C19C43C383834259F63",
+  "keywordFileContentHash": "4054228CC0F536A9B16490DDFABBEE11",
   "keywordClasses": [
     {
       "name": "setting_configurations.CountryOfOperation",
@@ -11,6 +11,11 @@
         },
         {
           "name": "delete_country_of_operation",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_country_of_operation",
           "parameters": [],
           "javadoc": ""
         }

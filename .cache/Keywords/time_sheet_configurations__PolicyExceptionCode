@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "46817A98D74179816E947D318591F201",
+  "keywordClasses": [
+    {
+      "name": "time_sheet_configurations.PolicyExceptionCode",
+      "keywordMethods": [
+        {
+          "name": "add_policy_exception_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_policy_exception_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_policy_exception_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_policy_exception_code",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

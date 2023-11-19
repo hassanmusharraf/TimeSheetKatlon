@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Holiday List    Search upload Bulk Uplo_cbbb27</name>
+   <tag></tag>
+   <elementGuidId>c774e447-a8bd-429b-9579-729ec163da14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//qmt-province-calendar-form/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mt-16</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6df6117d-8b6a-496b-8d36-cecb5bcd278d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-16</value>
+      <webElementGuid>6e54c80c-94c3-4b2f-9157-1951d40a563b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Holiday List    Search upload Bulk Upload download Download Excel Format add Add New  Name  Date  Day  Action  Holiday  2023-11-08  Wednesday  Diwali  2023-11-12  Sunday Showing 1 to 2 of 2 entries110</value>
+      <webElementGuid>bb4dcea7-d915-45f8-81dc-54fa24caa866</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-province-calendar-form[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mt-16&quot;]</value>
+      <webElementGuid>d1c47120-0dd0-4502-b7b5-ed6200aaa1d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-province-calendar-form/div[2]</value>
+      <webElementGuid>7708da6a-3c98-4f84-8de1-17cd23babbdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Holiday List    Search upload Bulk Upload download Download Excel Format add Add New  Name  Date  Day  Action  Holiday  2023-11-08  Wednesday  Diwali  2023-11-12  Sunday Showing 1 to 2 of 2 entries110' or . = ' Holiday List    Search upload Bulk Upload download Download Excel Format add Add New  Name  Date  Day  Action  Holiday  2023-11-08  Wednesday  Diwali  2023-11-12  Sunday Showing 1 to 2 of 2 entries110')]</value>
+      <webElementGuid>e16ccda6-5ddc-4965-a635-a1b16c3ca44f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

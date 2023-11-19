@@ -23,18 +23,18 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.WEBURL)
 
-not_run: WebUI.clearText(findTestObject('OR SignIn/inputemail'))
+not_run: WebUI.clearText(findTestObject('OR Component/OR SignIn/inputemail'))
 
 not_run: WebUI.clearText(findTestObject('null'))
 
-WebUI.sendKeys(findTestObject('Object Repository/OR SignIn/inputemail'), 'invalidemail')
+WebUI.sendKeys(findTestObject('Object Repository/OR Component/OR SignIn/inputemail'), 'invalidemail')
 
 WebUI.sendKeys(findTestObject('null'), 
     'invalidpassword')
 
 WebUI.click(findTestObject('null'))
 
-WebUI.waitForElementPresent(findTestObject('OR SignIn/div_ErrorInvalid Credentials'), 
+WebUI.waitForElementPresent(findTestObject('OR Component/OR SignIn/div_ErrorInvalid Credentials'), 
     1)
 
 WebUI.closeBrowser()

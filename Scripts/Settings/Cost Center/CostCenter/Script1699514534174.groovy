@@ -17,113 +17,120 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
+CustomKeywords.'setting_configurations.CostCenter.goto_division'()
 
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/span_Division'))
+CustomKeywords.'com.Components.verify_element_present'()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/div_All division'), 0)
+not_run: CustomKeywords.'setting_configurations.CostCenter.add_division'()
 
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_add Add division'))
+not_run: CustomKeywords.'setting_configurations.CostCenter.delete_division'()
 
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'division name')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-not_run: WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/divisionorganization'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
-
-WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/span_Region'))
-
-WebUI.verifyElementPresent(findTestObject('Settings/CostCenter/Page_QM Timesheet/div_All region'), 0)
-
-WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/button_add Add region'))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'region name')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
-
-WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/span_Location'))
-
-WebUI.verifyElementPresent(findTestObject('Settings/CostCenter/Page_QM Timesheet/div_All location'), 0)
-
-WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/button_add Add location'))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'location name')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
-
-WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/span_Department'))
-
-WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/button_add Add department'))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'department name')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
-
-WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
-
-CustomKeywords.'com.Components.logOutFromApplication'()
-
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/span_Division'))
+//
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/div_All division'), 0)
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/Add new button'))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'division name')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//not_run: WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/set organization'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
+//
+//WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/span_Region'))
+//
+//WebUI.verifyElementPresent(findTestObject('Settings/CostCenter/Page_QM Timesheet/div_All region'), 0)
+//
+//WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/button_add Add region'))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'region name')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
+//
+//WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/span_Location'))
+//
+//WebUI.verifyElementPresent(findTestObject('Settings/CostCenter/Page_QM Timesheet/div_All location'), 0)
+//
+//WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/button_add Add location'))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'location name')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
+//
+//WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/span_Department'))
+//
+//WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/button_add Add department'))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/idivisionname'), 'department name')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/Page_QM Timesheet/divisioncodee'), '111')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
+//
+//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_company 1'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
+//
+//WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
+//
+//CustomKeywords.'com.Components.logOutFromApplication'()
 WebUI.closeBrowser()
+

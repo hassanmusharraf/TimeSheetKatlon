@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "2191D61C070339D12D712E1DC636BC8D",
+  "keywordClasses": [
+    {
+      "name": "time_sheet_configurations.TimeSheetType",
+      "keywordMethods": [
+        {
+          "name": "add_timeSheet_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_timeSheet_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_timeSheet_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_timeSheet_type",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

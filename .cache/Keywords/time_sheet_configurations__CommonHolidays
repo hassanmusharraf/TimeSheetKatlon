@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "277926DEDA262B3A999C74C90E31D2F8",
+  "keywordClasses": [
+    {
+      "name": "time_sheet_configurations.CommonHolidays",
+      "keywordMethods": [
+        {
+          "name": "add_common_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_common_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_common_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_common_holiday",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

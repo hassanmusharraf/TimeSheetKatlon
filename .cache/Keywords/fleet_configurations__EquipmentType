@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "9D6D7D2707B48D3D6E55B2235CE4E941",
+  "keywordClasses": [
+    {
+      "name": "fleet_configurations.EquipmentType",
+      "keywordMethods": [
+        {
+          "name": "add_equipment_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_equipment_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_equipment_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_equipment_type",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

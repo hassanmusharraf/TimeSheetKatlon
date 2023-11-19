@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
 CustomKeywords.'workforce_configurations.WCB.add_WCB'()
+
+CustomKeywords.'workforce_configurations.WCB.update_WCB'()
 
 CustomKeywords.'workforce_configurations.WCB.delete_WCB'()
 

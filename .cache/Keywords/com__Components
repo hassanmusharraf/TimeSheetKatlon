@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "AAE53E25FD1656604B99140F8B486ABA",
+  "keywordFileContentHash": "9F536C6B2C06DCF80412535CF0F4DAA9",
   "keywordClasses": [
     {
       "name": "com.Components",
@@ -39,6 +39,25 @@
         {
           "name": "logOutFromApplication",
           "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "search_element",
+          "parameters": [
+            {
+              "name": "str",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
           "javadoc": ""
         },
         {
@@ -90,6 +109,11 @@
               }
             }
           ],
+          "javadoc": ""
+        },
+        {
+          "name": "verify_element_present",
+          "parameters": [],
           "javadoc": ""
         },
         {

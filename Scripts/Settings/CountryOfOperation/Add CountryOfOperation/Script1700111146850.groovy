@@ -19,15 +19,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
 CustomKeywords.'setting_configurations.CountryOfOperation.add_country_of_operation'()
 
-//WebUI.verifyElementPresent(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/span_Cost Center'), 0)
+CustomKeywords.'setting_configurations.CountryOfOperation.delete_country_of_operation'()
+
+//WebUI.verifyElementPresent(findTestObject('null'), 0)
 //
-//WebUI.click(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/div_room_preferences Cost Center'))
+//WebUI.click(findTestObject('null'))
 //
-//WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/span_Country of Operations'))
+//WebUI.click(findTestObject('null'))
 //
 //WebUI.verifyElementPresent(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/div_All Countries of Operations'), 
 //    0)
@@ -49,7 +51,7 @@ CustomKeywords.'setting_configurations.CountryOfOperation.add_country_of_operati
 //
 //WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/span_add Add New'))
 //
-//WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/input_ng-tns-c166-43 p-autocomplete-input p_14c7d6'))
+//WebUI.click(findTestObject('null'))
 //
 //WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/li_Albania'))
 //

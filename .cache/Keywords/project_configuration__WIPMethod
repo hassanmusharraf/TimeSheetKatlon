@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1315C0DB1DD53139311A8CD11110E3DD",
+  "keywordFileContentHash": "0CA0FA8E5F2DFB489E9C22795692D927",
   "keywordClasses": [
     {
       "name": "project_configuration.WIPMethod",
@@ -16,6 +16,11 @@
         },
         {
           "name": "delete_WIP_method",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_WIP_method",
           "parameters": [],
           "javadoc": ""
         }

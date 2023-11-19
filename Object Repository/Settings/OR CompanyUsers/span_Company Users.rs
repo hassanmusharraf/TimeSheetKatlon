@@ -6,16 +6,16 @@
    <elementGuidId>0b7d0357-2afd-4eea-bf61-3ce7aeb542f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.label.ng-tns-c125-29</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div/ng-list-item[2]/div/mat-list-item/span/a/div/span</value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav[1]/div[1]/ng-material-multilevel-menu[1]/div[1]/mat-list[1]/ng-list-item[2]/div[1]/div[1]/ng-list-item[2]/div[1]/mat-list-item[1]/span[1]/a[1]/div[1]/span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Company Users' or . = 'Company Users')]</value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav[1]/div[1]/ng-material-multilevel-menu[1]/div[1]/mat-list[1]/ng-list-item[2]/div[1]/div[1]/ng-list-item[2]/div[1]/mat-list-item[1]/span[1]/a[1]/div[1]/span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.label.ng-tns-c125-29</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>84bdee8f-04ec-4c5d-aebd-4c48ec66ce32</webElementGuid>
+      <webElementGuid>c2cf88ee-09d6-4c27-a5ff-92c491ca8cb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,23 +34,31 @@
       <name>class</name>
       <type>Main</type>
       <value>label ng-tns-c125-29</value>
-      <webElementGuid>02371d01-bb2c-4491-9556-46fe7de76e45</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Company Users</value>
-      <webElementGuid>5d626afe-9dec-47a7-a78d-b415f9f23d21</webElementGuid>
+      <webElementGuid>7ffa40b9-10b6-4e95-81f1-467f3049dffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Company Users</value>
+      <webElementGuid>2a6a2859-7236-425e-a50c-3f08ea8e9e25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c131-1 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened mat-sidenav-fixed ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c131-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c131-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c125-22 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-22&quot;]/div[@class=&quot;ng-tns-c125-22 ng-trigger ng-trigger-SlideInOut ng-star-inserted level-2 amml-submenu has-amml-submenu&quot;]/ng-list-item[@class=&quot;ng-tns-c125-29 ng-tns-c125-22 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c125-29&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c125-29 ng-star-inserted amml-item level-2-submenulevel-1&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c125-29 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c125-29 ng-star-inserted&quot;]/span[@class=&quot;label ng-tns-c125-29&quot;]</value>
-      <webElementGuid>f1dab144-aedc-42f6-af5b-9b889dbec858</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav[1]/div[1]/ng-material-multilevel-menu[1]/div[1]/mat-list[1]/ng-list-item[2]/div[1]/div[1]/ng-list-item[2]/div[1]/mat-list-item[1]/span[1]/a[1]/div[1]/span[1]</value>
+      <webElementGuid>23f209c5-c697-4c47-ab09-3944b0369e25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Company User</value>
+      <webElementGuid>897e5db1-35c2-43bd-9bdf-1669211e9519</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ng-list-item[2]/div/mat-list-item/span/a/div/span</value>
-      <webElementGuid>866560e6-b4d1-4d6a-baab-7562a0bd2661</webElementGuid>
+      <webElementGuid>44b36720-cc16-4ebf-882a-2d60b09d4a17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Company Users' or . = 'Company Users')]</value>
-      <webElementGuid>9f227b2c-292f-4098-92aa-7e80274d44fb</webElementGuid>
+      <webElementGuid>210d2ecc-8a89-48e0-920b-44e52dd0da55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

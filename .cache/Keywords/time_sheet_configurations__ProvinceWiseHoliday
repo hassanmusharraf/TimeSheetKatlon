@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "ADB1462761FADD29F4E0086131A36332",
+  "keywordClasses": [
+    {
+      "name": "time_sheet_configurations.ProvinceWiseHoliday",
+      "keywordMethods": [
+        {
+          "name": "add_province_for_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_province_for_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_province_for_holiday",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

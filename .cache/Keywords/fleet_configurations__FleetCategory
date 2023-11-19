@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "652558DEF3347C1DC3D284BC8B6FA0F1",
+  "keywordClasses": [
+    {
+      "name": "fleet_configurations.FleetCategory",
+      "keywordMethods": [
+        {
+          "name": "add_fleet_category",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_fleet_category",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_fleet_category",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_fleet_category",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "8D0D6952FED09D7AC59A1DF346F0821D",
+  "keywordClasses": [
+    {
+      "name": "fleet_configurations.FleetStatus",
+      "keywordMethods": [
+        {
+          "name": "add_fleet_status",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_fleet_status",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_fleet_status",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_fleet_status",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

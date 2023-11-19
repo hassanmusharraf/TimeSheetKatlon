@@ -24,11 +24,20 @@ public class CompanyUser {
 
 	@Keyword
 	def company_user() {
-		WebUI.verifyElementPresent(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/span_Cost Center'), 0)
 
-		WebUI.click(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/div_room_preferences Cost Center'))
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.click(findTestObject('Object Repository/Settings/OR CompanyUsers/span_Company Users'))
+//		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/all-users-info/admin-list')
+		WebUI.navigateToUrl('http://localhost:4200/super-admin/cost-center/list')
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Settings/OR CompanyUsers/span_Company Users'), 0)
+		
+		WebUI.click(findTestObject('Object Repository/Settings/OR CompanyUsers/span_Company Users'),0)
+		
+				
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/OR CompanyUsers/qmt-page-heading_All Admins'), 0)
 
@@ -39,10 +48,10 @@ public class CompanyUser {
 
 		WebUI.waitForElementPresent(findTestObject('Settings/OR CompanyUsers/table'), 0)
 
-		'com.Components.getNumberOfRows'(findTestObject('Settings/OR CompanyUsers/table'))
+		'com.Components.getNumberOfRows'(findTestObject('Settings/OR CompanyUsers/table'),0)
 
 		'com.Components.getRowByNameValue'(findTestObject('Settings/OR CompanyUsers/table'), 'first name')
 
-		'com.Components.getNumberOfColumns'(findTestObject('Settings/OR CompanyUsers/table'))
+		'com.Components.getNumberOfColumns'(findTestObject('Settings/OR CompanyUsers/table'),0)
 	}
 }

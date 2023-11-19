@@ -15,12 +15,12 @@ public class FleetConfiguration {
 
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
 
-		WebUI.click(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/button_add Add Equipment Type'))
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/button_add Add Equipment Type'))
 
-		WebUI.setText(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/input__p-inputtext p-component p-element w-_728c40'),
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/input__p-inputtext p-component p-element w-_728c40'),
 				GlobalVariable.TEXT)
 
-		WebUI.click(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/button_Add'))
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/button_Add'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
@@ -28,7 +28,7 @@ public class FleetConfiguration {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.setText(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/input_All Equipment Types_p-inputtext p-com_db1966'),
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/input_All Equipment Types_p-inputtext p-com_db1966'),
 				'new')
 
 		WebUI.delay(3)
@@ -40,14 +40,14 @@ public class FleetConfiguration {
 
 		WebUI.delay(3)
 
-		WebUI.click(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/button_add Add Category'))
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/button_add Add Category'))
 
-		WebUI.setText(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/input__p-inputtext p-component p-element w-_728c40'),
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/input__p-inputtext p-component p-element w-_728c40'),
 				GlobalVariable.TEXT)
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.click(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/button_Add'))
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/button_Add'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
@@ -62,12 +62,12 @@ public class FleetConfiguration {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.click(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/button_add Add Fleet Status'))
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/button_add Add Fleet Status'))
 
-		WebUI.setText(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/input__p-inputtext p-component p-element w-_728c40'),
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/input__p-inputtext p-component p-element w-_728c40'),
 				GlobalVariable.TEXT)
 
-		WebUI.click(findTestObject('Object Repository/Fleet Config OR/Page_QM Timesheet/button_Add'))
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/Page_QM Timesheet/button_Add'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}

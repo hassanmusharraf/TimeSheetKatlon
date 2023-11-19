@@ -1,0 +1,27 @@
+{
+  "keywordFileContentHash": "D98182FC8CE416B40BBF82DD7E02FAB3",
+  "keywordClasses": [
+    {
+      "name": "time_sheet_configurations.TypesOfHours",
+      "keywordMethods": [
+        {
+          "name": "add_type_of_hours",
+          "parameters": []
+        },
+        {
+          "name": "update_type_of_hours",
+          "parameters": []
+        },
+        {
+          "name": "delete_type_of_hours",
+          "parameters": []
+        },
+        {
+          "name": "goto_type_of_hours",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

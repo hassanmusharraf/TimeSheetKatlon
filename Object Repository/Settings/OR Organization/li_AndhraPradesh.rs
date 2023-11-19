@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_AndhraPradesh</name>
+   <tag></tag>
+   <elementGuidId>68fe9fd7-a62d-4273-b138-9e3c4b262310</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[2]/ul[1]/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/ul[1]/li[2]</value>
+      <webElementGuid>e848500a-6838-401f-b101-f15eda214a8f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

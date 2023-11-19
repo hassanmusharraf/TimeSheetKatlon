@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DC3F21EC2D32FAABCDF3AC978509CC6B",
+  "keywordClasses": [
+    {
+      "name": "fleet_configurations.Category",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -6,12 +6,16 @@
    <elementGuidId>3c6eb06a-6f17-420c-be42-5143a1b38c87</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.p-ripple.p-element.p-autocomplete-item.ng-tns-c166-29.ng-star-inserted</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Afghanistan' or . = 'Afghanistan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.p-ripple.p-element.p-autocomplete-item.ng-tns-c166-29.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>5a662885-8521-452b-80f4-29d32922ee04</webElementGuid>
+      <webElementGuid>4dbf2c11-7fdc-4596-8c3e-e4cfb2e87202</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>4ed781dd-699c-42d9-b396-918f7b436e2e</webElementGuid>
+      <webElementGuid>2e1aec93-4b56-4320-9502-d78047ce1fe8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-ripple p-element p-autocomplete-item ng-tns-c166-29 ng-star-inserted</value>
-      <webElementGuid>7ae13753-410e-4a8e-921c-7509f801c733</webElementGuid>
+      <webElementGuid>a47500e1-f114-4e09-874e-1910e48b977e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Afghanistan</value>
-      <webElementGuid>b8f33798-52a1-424b-95fe-286571ba532e</webElementGuid>
+      <webElementGuid>8bd4e666-41a5-4fee-b758-16b10d0bef1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pr_id_4_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c166-29 ng-star-inserted&quot;]</value>
-      <webElementGuid>6ca9bb01-6c50-4766-b9ba-8c18533cab25</webElementGuid>
+      <webElementGuid>d67f66a7-a4ed-416a-b365-b2eb79c4e912</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='']</value>
-      <webElementGuid>bda862ba-40bc-40bc-887d-bf547290a5e3</webElementGuid>
+      <webElementGuid>cd49f5b3-43e0-4a98-a475-eaa3a3bc3bbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pr_id_4_list']/li</value>
-      <webElementGuid>f9f50664-df46-4bca-ba02-33b77f37dbf1</webElementGuid>
+      <webElementGuid>86978926-7eb0-46d5-8eff-05d774dca5a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li</value>
-      <webElementGuid>71776600-397c-4ea8-a84a-9345a86130c7</webElementGuid>
+      <webElementGuid>139ab9e9-f509-4df6-bbd0-be93ae0db65f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Afghanistan' or . = 'Afghanistan')]</value>
-      <webElementGuid>d60a7a73-ee8f-4264-a4ab-9e8d68e37b15</webElementGuid>
+      <webElementGuid>9284c15a-dece-4858-bddf-1a8984ff2722</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

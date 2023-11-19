@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_India</name>
+   <tag></tag>
+   <elementGuidId>385256fe-c7ff-4fcc-b6ca-97d80f8ce940</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>&quot;India&quot;</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>&quot;India&quot;</value>
+      <webElementGuid>ec11dc1f-10f5-45bd-807f-4656b5589dce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -23,11 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.WEBURL)
 
-WebUI.setText(findTestObject('Object Repository/OR SignIn/inputemail'), 'ismail.mkul@qm.com')
+WebUI.setText(findTestObject('Object Repository/OR Component/OR SignIn/inputemail'), 'ismail.mkul@qm.com')
 
 WebUI.click(findTestObject('null'))
 
-WebUI.waitForElementPresent(findTestObject('OR SignIn/div_ErrorInvalid Credentials'), 
+WebUI.waitForElementPresent(findTestObject('OR Component/OR SignIn/div_ErrorInvalid Credentials'), 
     1)
 
 WebUI.closeBrowser()
