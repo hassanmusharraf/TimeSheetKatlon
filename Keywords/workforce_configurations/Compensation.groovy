@@ -11,13 +11,15 @@ public class Compensation {
 
 	@Keyword
 	def add_compensation() {
-
-		WebUI.waitForElementPresent(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'),0)
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'))
-
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_engineering Workforce Configuration'))
-
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_noise_control_off Compensation'))
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/compensation/list")
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+//		WebUI.waitForElementPresent(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'),0)
+//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'))
+//
+//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_engineering Workforce Configuration'))
+//
+//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_noise_control_off Compensation'))
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/button_add Add Compensation'))
 

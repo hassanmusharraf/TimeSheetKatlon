@@ -25,11 +25,11 @@ public class UOM {
 	@Keyword
 	def add_UOM() {
 
-		WebUI.verifyElementPresent(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/span_Cost Center'), 0)
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.click(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/div_room_preferences Cost Center'))
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/base-uom/list')
 
-		WebUI.click(findTestObject('Object Repository/Settings/UOM/span_UOM'))
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/UOM/div_All Base UOM'), 0)
 
@@ -53,6 +53,39 @@ public class UOM {
 
 		WebUI.click(findTestObject('Settings/UOM/button_Add'))
 
-		WebUI.delay(2)
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
+
+	@Keyword
+	def update_UOM() {
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
+
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
+
+		WebUI.setText(findTestObject('Object Repository/Settings/UOM/input_p-inputtext p-component p-element w-f_006ace'), 'Testing uom 123')
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
+
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
+
+	@Keyword
+	def delete_UOM() {
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/row-delete'), 0)
+
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-delete'), 0)
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm delete'), 0)
+
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm delete'), 0)
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 }

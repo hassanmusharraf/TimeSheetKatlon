@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-CustomKeywords.'setting_configurations.CostCenter.goto_division'()
+not_run: CustomKeywords.'setting_configurations.CostCenter.goto_division'()
 
-CustomKeywords.'com.Components.verify_element_present'()
+not_run: CustomKeywords.'com.Components.verify_element_present'()
 
-not_run: CustomKeywords.'setting_configurations.CostCenter.add_division'()
+CustomKeywords.'setting_configurations.CostCenter.add_division'()
 
-not_run: CustomKeywords.'setting_configurations.CostCenter.delete_division'()
+CustomKeywords.'setting_configurations.CostCenter.delete_division'()
 
 //WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/span_Division'))
 //

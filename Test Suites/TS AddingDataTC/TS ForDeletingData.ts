@@ -22,7 +22,7 @@
       <guid>7cdbeaf5-d3f9-492f-8a8c-bd9fd2478c0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Users/TC Users</testCaseId>
+      <testCaseId>Test Cases/Settings/Users/Users</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

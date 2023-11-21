@@ -15,14 +15,14 @@
       <guid>8ef81033-503a-44f6-a009-a2b0f08a079f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Users/TC Users</testCaseId>
+      <testCaseId>Test Cases/Settings/Users/Users</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6b3a1e87-6a88-48ed-a41c-e0ad0d5862e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/UOM/TC AddNewUOM</testCaseId>
+      <testCaseId>Test Cases/Settings/UOM/AddNewUOM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

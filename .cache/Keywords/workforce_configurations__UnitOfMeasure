@@ -1,26 +1,23 @@
 {
-  "keywordFileContentHash": "FE0491776FB1D1A816D0C15C49FC3303",
+  "keywordFileContentHash": "8A87E0E4E2805279DC98CA2E2B60BF13",
   "keywordClasses": [
     {
       "name": "workforce_configurations.UnitOfMeasure",
       "keywordMethods": [
         {
           "name": "add_UnitOfMeasure",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "delete_unit_of_measure",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "goto_unit_of_measure",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

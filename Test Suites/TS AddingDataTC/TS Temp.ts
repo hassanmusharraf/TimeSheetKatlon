@@ -15,7 +15,7 @@
       <guid>d9a80391-32ec-4613-9f11-7b38ec878ef4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/CompanyUsers/TC CompanyUsers</testCaseId>
+      <testCaseId>Test Cases/Settings/CompanyUsers/CompanyUsers</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -29,14 +29,14 @@
       <guid>997da1d8-3ee2-469b-9035-d2de2141da3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/UOM/TC AddNewUOM</testCaseId>
+      <testCaseId>Test Cases/Settings/UOM/AddNewUOM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>92ba2982-f2e7-4b03-8242-dcd5fcd532a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Users/TC Users</testCaseId>
+      <testCaseId>Test Cases/Settings/Users/Users</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

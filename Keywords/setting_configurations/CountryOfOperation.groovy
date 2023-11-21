@@ -18,11 +18,11 @@ public class CountryOfOperation {
 	@Keyword
 	def add_country_of_operation() {
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/country-of-operations/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.verifyElementPresent(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/div_All Countries of Operations'),
 				0)
 
@@ -33,7 +33,8 @@ public class CountryOfOperation {
 		WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/li_Albania'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/OR CountryOfOperations/Page_QM Timesheet/span_Add'))
-
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 
 
@@ -45,13 +46,16 @@ public class CountryOfOperation {
 
 		WebUI.click(findTestObject('Settings/OR CountryOfOperations/Page_QM Timesheet/span_Delete'))
 
-		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def goto_country_of_operation() {
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/country-of-operations/list')
 		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 }

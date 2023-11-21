@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textareaNote 2</name>
+   <tag></tag>
+   <elementGuidId>0462c8e7-ed76-4017-958c-1e380bf79aff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='Note 2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>4a1d4461-3ce1-4ac4-b0b8-8011a53bfb4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-input-element mat-form-field-autofill-control text-sm text-[#91919180] font-medium ng-tns-c99-35 ng-untouched ng-valid cdk-text-field-autofill-monitored ng-dirty</value>
+      <webElementGuid>abd11473-ca5d-4b37-8fa6-b12ee148a416</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-id</name>
+      <type>Main</type>
+      <value>Note 2</value>
+      <webElementGuid>f190069f-f783-40d2-a3dd-8357eccac620</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-model</name>
+      <type>Main</type>
+      <value>n</value>
+      <webElementGuid>5da2bfd8-10dc-42ab-a6f1-7adeef5d244d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-required</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>a8efac01-5968-44f9-8cf3-c3dd434322e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Note 2</value>
+      <webElementGuid>5b326e6c-6027-4043-a06e-962f7b0f569f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>52f04e00-ecd9-47b0-8c7a-1406085e3b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>8472bfad-8ab4-4183-9be7-3adf26ae66a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-union-code-form[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;mt-16&quot;]/div[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;mt-5 ng-star-inserted&quot;]/div[@class=&quot;mt-[4em]&quot;]/div[@class=&quot;grid grid-cols-3 gap-8 mt-5&quot;]/qmt-textarea-input[@class=&quot;ng-valid ng-touched ng-dirty&quot;]/div[@class=&quot;w-full&quot;]/mat-form-field[@class=&quot;mat-form-field example-full-width !mt-0 ng-tns-c99-35 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float ng-untouched ng-valid ng-star-inserted mat-form-field-should-float mat-focused ng-dirty&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c99-35&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c99-35&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c99-35&quot;]/textarea[@id=&quot;Note 2&quot;]</value>
+      <webElementGuid>aa2ed30c-ee9c-4e14-8170-096f6aa8267b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@id='Note 2']</value>
+      <webElementGuid>1e039b71-8b2e-4227-ae4f-a406f8073409</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-textarea-input[2]/div/mat-form-field/div/div/div[3]/textarea</value>
+      <webElementGuid>74b9095d-0d08-48b8-9b31-178d12778164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'Note 2']</value>
+      <webElementGuid>47fcc898-34db-43f6-8930-ff7dae3030a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

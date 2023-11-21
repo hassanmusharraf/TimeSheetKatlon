@@ -26,9 +26,9 @@ public class WCB {
 	def add_WCB() {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/wcb/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/WCB/Page_QM Timesheet/button_add Add WCB'))
@@ -48,9 +48,8 @@ public class WCB {
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/WCB/Page_QM Timesheet/button_Add'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
-	
+
 	@Keyword
 	def update_WCB() {
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/WCB/Page_QM Timesheet/row_update'))
@@ -66,7 +65,7 @@ public class WCB {
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/WCB/Page_QM Timesheet/button_'))
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/WCB/Page_QM Timesheet/li_Andhra Pradesh'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/WCB/Page_QM Timesheet/button_Update'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
@@ -80,14 +79,13 @@ public class WCB {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
-	@Keyword 
+
+	@Keyword
 	def goto_WCB() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/wcb/add')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
 }

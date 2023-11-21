@@ -1,0 +1,56 @@
+{
+  "keywordFileContentHash": "FDB4FB287204AFF50E16C6B2CDA3FC8C",
+  "keywordClasses": [
+    {
+      "name": "workforce_configurations.UnionCode",
+      "keywordMethods": [
+        {
+          "name": "add_accident_fund",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_pension_fund",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_industry_fund",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_welfare_fund",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_training_fund",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_vacation",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_other",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_RRSP_fund",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_WCB_fund",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

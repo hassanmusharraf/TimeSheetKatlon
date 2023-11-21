@@ -16,11 +16,11 @@ public class Organization {
 	def add_company() {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/company/list')
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-	
+
 		WebUI.click(findTestObject('Object Repository/Settings/OR Organization/button_add Add Company'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/OR Organization/div_Add Company'))
@@ -75,17 +75,17 @@ public class Organization {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 
-	@Keyword 
+	@Keyword
 	def update_company() {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
-		
+
 		WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
-		
+
 		WebUI.setText(findTestObject('Settings/OR Organization/input_p-inputtext p-component p-element w-f_006ace_1'), 'Testing type 1')
 
 		WebUI.setText(findTestObject('Settings/OR Organization/input_p-inputtext p-component p-element w-f_006ace_1_2'), '2')
@@ -125,11 +125,11 @@ public class Organization {
 		WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
 		WebUI.sendKeys(findTestObject('Settings/OR Organization/PostalCode'), '8523')
-		
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 	@Keyword

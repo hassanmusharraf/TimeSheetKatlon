@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
 CustomKeywords.'workforce_configurations.PayGroup.add_pay_group'()
 
 not_run: CustomKeywords.'workforce_configurations.PayGroup.goto_pay_group'()
 
-not_run: CustomKeywords.'workforce_configurations.PayGroup.delete_pay_group'()
+CustomKeywords.'workforce_configurations.PayGroup.delete_pay_group'()
 
 WebUI.closeBrowser()
 

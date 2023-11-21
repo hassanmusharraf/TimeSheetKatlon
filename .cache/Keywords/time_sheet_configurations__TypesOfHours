@@ -6,22 +6,26 @@
       "keywordMethods": [
         {
           "name": "add_type_of_hours",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "update_type_of_hours",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "delete_type_of_hours",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "goto_type_of_hours",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
