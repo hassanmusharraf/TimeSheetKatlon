@@ -17,30 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-CustomKeywords.'workforce_configurations.WorkforceConfigurations.goto_workforce_configuration'()
+CustomKeywords.'workforce_configurations.FundType.add_fund_type'()
 
-WebUI.waitForElementPresent(findTestObject('OR WorkForce Configuration/OR FundType/Page_QM Timesheet/div_noise_control_off Fund Type Reference'), 
-    0)
+CustomKeywords.'workforce_configurations.FundType.update_fund_type'()
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/div_noise_control_off Fund Type Reference'))
+CustomKeywords.'workforce_configurations.FundType.delete_fund_type'()
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_add Add Fund Type'))
-
-WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/inputFund Type Name'), 
-    'Accident Fund')
-
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_6f7d9e'))
-
-WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/inputFund Type Name'), 
-    'Accident Fund 1')
-
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_Update'))
-
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
-
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_Delete'))
+WebUI.closeBrowser()
 

@@ -80,9 +80,7 @@ public class Organization {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
-
-		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'))
 
 		WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB))
 
@@ -126,9 +124,7 @@ public class Organization {
 
 		WebUI.sendKeys(findTestObject('Settings/OR Organization/PostalCode'), '8523')
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
-
-		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}

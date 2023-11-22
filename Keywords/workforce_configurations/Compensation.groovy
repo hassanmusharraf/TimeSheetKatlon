@@ -14,12 +14,12 @@ public class Compensation {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/compensation/list")
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-//		WebUI.waitForElementPresent(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'),0)
-//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'))
-//
-//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_engineering Workforce Configuration'))
-//
-//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_noise_control_off Compensation'))
+		//		WebUI.waitForElementPresent(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'),0)
+		//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/mat-icon_keyboard_arrow_down'))
+		//
+		//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_engineering Workforce Configuration'))
+		//
+		//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/div_noise_control_off Compensation'))
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/button_add Add Compensation'))
 
@@ -43,11 +43,38 @@ public class Compensation {
 	}
 
 	@Keyword
+	def update_compensation() {
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/row-update'))
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/inputCompensation Name'),
+				'compensation name 1')
+
+		WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/inputEr Rate'),
+				'10')
+
+		WebUI.click(findTestObject('OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/inputCountry'))
+
+		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/li_India'))
+
+		WebUI.click(findTestObject('OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/inputProvision'))
+
+		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/li_Andhra Pradesh'))
+
+
+		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/confirm update'))
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
+
+	@Keyword
 	def delete_compensation() {
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
-
-		//		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Compensation/Page_QM Timesheet/button_Delete'))
 

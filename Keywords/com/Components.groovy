@@ -61,24 +61,23 @@ public class Components {
 	//checking if element is present in a list or not
 	@Keyword
 	def getNumberOfRows(TestObject TO) {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement table = WebUiCommonHelper.findWebElement(TO, 30)
 		List<WebElement> rows = table.findElements(By.tagName("tr"))
 		println(rows.size()+" Row present")
 		return rows
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
 
 	// get a row by it's value
 	@Keyword
 	def getRowByNameValue(TestObject TO,String nameValue) {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		nameValue=nameValue.trim()
 		List<WebElement> rows = getNumberOfRows(TO)
 
@@ -88,7 +87,7 @@ public class Components {
 				println(columns.get(i).getText())
 				println(" Row present")
 				WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-				
+
 				return rows.get(i)
 			}
 			else {
@@ -96,9 +95,6 @@ public class Components {
 				println("row not present")
 			}
 		}
-		
-
-		
 	}
 
 	@Keyword
@@ -119,15 +115,13 @@ public class Components {
 	@Keyword
 	def getNumberOfColumns(TestObject TO) {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		List<WebElement> rows = getNumberOfRows(TO)
 		List<WebElement> columns = rows.get(0).findElements(By.tagName("td"))
 		println(columns.size()+" Columns present")
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		return columns
-		
-		
 	}
 
 	//	@Keyword

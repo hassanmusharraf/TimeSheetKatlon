@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "815D53FDA5C1F3AADD94B56B07743BBF",
+  "keywordFileContentHash": "8AACEC0AEC973E7EB920AF4868EB1384",
   "keywordClasses": [
     {
       "name": "workforce_configurations.EmployeeType",
@@ -16,6 +16,11 @@
         },
         {
           "name": "delete_employee_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_employee_type",
           "parameters": [],
           "javadoc": ""
         }

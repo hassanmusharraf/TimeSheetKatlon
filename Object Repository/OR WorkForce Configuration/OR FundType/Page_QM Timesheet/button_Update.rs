@@ -6,6 +6,10 @@
    <elementGuidId>d156fa97-555d-405c-ace4-08c55f8000dd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'dialog-save']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6085de51-8e60-46f7-bade-4b539365a04c</webElementGuid>
+      <webElementGuid>e8e71ba6-cc76-4089-9b09-00bf7dd5a94b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>2633a7ec-3bde-4cbf-b6ac-90afe7dc2ec6</webElementGuid>
+      <webElementGuid>e8179365-1ba5-40f0-849c-11a4d9fa7df4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>05fad8cf-afb3-42c8-af0a-7fe90d73a3a3</webElementGuid>
+      <webElementGuid>12006b21-33a5-4959-8f15-017e319d4547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +50,15 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>d7d7087e-8979-4f92-9632-30fe29c82607</webElementGuid>
+      <webElementGuid>c8ae0e82-1a63-4f9d-9d35-262c96a29acd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Update </value>
-      <webElementGuid>ba841a2f-10bb-4816-ac83-a68460868151</webElementGuid>
+      <webElementGuid>12e3a2bc-6e32-4dce-a42d-571a3da59087</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-1&quot;)/qmt-fund-type-reference-modal[@class=&quot;ng-star-inserted&quot;]/mat-dialog-content[@class=&quot;mat-dialog-content !m-0&quot;]/form[@class=&quot;ng-valid ng-dirty ng-touched&quot;]/mat-dialog-actions[@class=&quot;mat-dialog-actions !mb-0 border-t border-gray-A1 border-solid min-h-fit !py-0&quot;]/div[@class=&quot;flex justify-end items-center px-6 py-4 w-full h-full&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>3eb6896a-0776-44eb-9739-4f02d10cf7b3</webElementGuid>
+      <webElementGuid>9fc0ff63-7da5-4507-9725-3414f956b3ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dialog-save</value>
+      <webElementGuid>0a44a6b5-2500-41f9-9482-4da2dd627ac7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>114eca6d-6696-412f-a8d3-7d78e8c9283f</webElementGuid>
+      <webElementGuid>56ef9008-3736-4866-8888-d9f9eb94e3dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/qmt-fund-type-reference-modal/mat-dialog-content/form/mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>38909f3f-602a-44ec-9079-ca7caff76430</webElementGuid>
+      <webElementGuid>ccea85e3-a6a6-43f8-92c4-688d741db2b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>2a2428e2-7201-49f8-8e90-f3b7e5ff0b9b</webElementGuid>
+      <webElementGuid>2a0e7516-e216-4564-b16e-d3cfd9bdc318</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = ' Update ' or . = ' Update ')]</value>
-      <webElementGuid>b46f2a02-b5b0-4bfe-b073-a9a05afc838a</webElementGuid>
+      <webElementGuid>f11faa20-d9ae-4ef4-b0c1-6a8b7f59403f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

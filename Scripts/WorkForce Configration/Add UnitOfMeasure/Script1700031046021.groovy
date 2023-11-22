@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN,GlobalVariable.IT_ADMIN_PASS)
+CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
 CustomKeywords.'workforce_configurations.UnitOfMeasure.add_UnitOfMeasure'()
+
+CustomKeywords.'workforce_configurations.UnitOfMeasure.update_unit_of_measure'()
 
 CustomKeywords.'workforce_configurations.UnitOfMeasure.delete_unit_of_measure'()
 

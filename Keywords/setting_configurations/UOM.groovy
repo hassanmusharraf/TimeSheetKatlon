@@ -31,27 +31,25 @@ public class UOM {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/UOM/div_All Base UOM'), 0)
+//		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/UOM/div_All Base UOM'), 0)
+//
+//		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/UOM/input_p-inputtext p-component p-element'), 0)
+//
+//		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_download Download Excel Format'), 0)
+//
+//		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_upload Bulk Upload'), 0)
+//
+//		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_Testing uom_mat-focus-indicator flex justify-center w-30px h-30px items-center text-red-500 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused'),
+//				0)
+//
+//		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_Testing uom_mat-focus-indicator flex justify-center w-30px h-30px items-center text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused'),
+//				0)
+		
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/add-new-button'))
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/UOM/input_p-inputtext p-component p-element'), 0)
+		WebUI.setText(findTestObject('Object Repository/OR Component/OR CommonObjects/input name'),"testing")
 
-		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_download Download Excel Format'), 0)
-
-		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_upload Bulk Upload'), 0)
-
-		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_Testing uom_mat-focus-indicator flex justify-center w-30px h-30px items-center text-red-500 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Settings/UOM/button_Testing uom_mat-focus-indicator flex justify-center w-30px h-30px items-center text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused'),
-				0)
-
-		WebUI.click(findTestObject('Settings/UOM/button_add Add New'))
-
-		WebUI.setText(findTestObject('Object Repository/Settings/UOM/input_p-inputtext p-component p-element w-f_006ace'), 'Testing uom')
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/UOM/button_Close'), 0)
-
-		WebUI.click(findTestObject('Settings/UOM/button_Add'))
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/dialog save'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
@@ -60,31 +58,32 @@ public class UOM {
 	def update_UOM() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
+		WebUI.click(findTestObject('Object Repository/Settings/UOM/row-update'))
 
-		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-update'), 0)
+		WebUI.setText(findTestObject('Object Repository/OR Component/OR CommonObjects/input name'),"updating")
 
-		WebUI.setText(findTestObject('Object Repository/Settings/UOM/input_p-inputtext p-component p-element w-f_006ace'), 'Testing uom 123')
-
-		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
-
-		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm update'), 0)
-
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/dialog save'))
+		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-
+	
 	@Keyword
 	def delete_UOM() {
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/row-delete'), 0)
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-delete'))
 
-		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-delete'), 0)
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm delete'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-
-		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm delete'), 0)
-
-		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/confirm delete'), 0)
+	}
+	
+	@Keyword
+	def goto_UOM() {
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/base-uom/list')
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}

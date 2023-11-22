@@ -32,10 +32,6 @@ public class EquipmentType {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.refresh()
-
-		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-
 		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/div_All Equipment Types'),
 				0)
 
@@ -61,7 +57,7 @@ public class EquipmentType {
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/buttonrow-update'))
 
-		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/inputEquipment Type Name'), 'Equipment type 1')
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/inputEquipment Type Name'), 'Equipment type testing')
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/button_Update'))
 

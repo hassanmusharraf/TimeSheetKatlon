@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.p-ripple.p-element.p-autocomplete-item.ng-tns-c168-47.ng-star-inserted</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='']</value>
+         <value>(//li[@id=''])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>00f4f4c3-bb2e-4ef9-959b-b97a85b3a20a</webElementGuid>
+      <webElementGuid>92a22778-860a-42f8-9d20-607f60ca6592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>7b9b1ba9-bf62-4274-99ce-ba21cf926db7</webElementGuid>
+      <webElementGuid>e717e55e-d9c5-4c23-9034-aeac9372ccc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-ripple p-element p-autocomplete-item ng-tns-c168-47 ng-star-inserted</value>
-      <webElementGuid>3d0d0393-2073-4e47-9871-82b9a1e8c733</webElementGuid>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-33 ng-star-inserted</value>
+      <webElementGuid>debe9f4f-5fb5-465f-b477-2f459ec829e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,18 +46,58 @@
       <name>text</name>
       <type>Main</type>
       <value>Month</value>
-      <webElementGuid>89a3668e-4b71-4b16-9b63-baf49d788dbe</webElementGuid>
+      <webElementGuid>d775ed74-e277-4eb7-8f71-c8772d2ce461</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_6_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c168-47 ng-star-inserted&quot;]</value>
-      <webElementGuid>8be4a1e6-90c5-43d4-a7e2-97b847ce2c57</webElementGuid>
+      <value>id(&quot;pr_id_6_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-33 ng-star-inserted&quot;]</value>
+      <webElementGuid>7a61c55b-ec6d-4cf3-bd70-6c97a7fe461a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>5abceb10-67d7-4e05-8e7c-4f0b25559dbb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//li[@id=''])[2]</value>
+      <webElementGuid>736dea25-823e-48e3-8e88-61e8d59ec71c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_6_list']/li[2]</value>
+      <webElementGuid>4a43bd81-5c95-4c4e-bce5-8fd3458488f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]</value>
+      <webElementGuid>d1370c13-0418-481d-81b3-8b1025c237b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Month' or . = 'Month')]</value>
+      <webElementGuid>0c57ea1d-c7d7-44e8-9a6e-05aad238bf60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -79,13 +119,5 @@
       <type>Main</type>
       <value>//ul/li</value>
       <webElementGuid>26b627bd-151a-4068-bfec-3f4d7e00114a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//li[(text() = 'Month' or . = 'Month')]</value>
-      <webElementGuid>9e4e154e-df98-4b30-85f7-c2939c979c24</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

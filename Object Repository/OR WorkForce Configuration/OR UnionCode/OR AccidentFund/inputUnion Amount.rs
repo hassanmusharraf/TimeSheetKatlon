@@ -6,16 +6,15 @@
    <elementGuidId>54b8e7ed-4477-4ef4-9146-c482ec3b6119</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='Union Amount']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[${GlobalVariable.VARIABLE}]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a4a0d6b1-357d-4af9-8565-9f06840d7e08</webElementGuid>
+      <webElementGuid>c39dc4d8-4687-4f60-a2b9-63328b1fbc6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-valid p-filled</value>
-      <webElementGuid>1a86b2d2-6642-4bb1-ae62-869b2a670ee8</webElementGuid>
+      <webElementGuid>fab6cb39-15ae-491f-b95c-723a88d9d4ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Union Amount</value>
-      <webElementGuid>3aa37903-9dfe-4389-a0f2-7fa0d1789745</webElementGuid>
+      <webElementGuid>259b6f20-d6c7-48e5-9c84-3d0d959d57b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>a50f4556-081a-440c-917c-5d46e3c7719c</webElementGuid>
+      <webElementGuid>f1218266-5086-4a70-b8ff-d6308a606068</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>eff24428-2b6e-4977-ad2f-abe44f2d1880</webElementGuid>
+      <webElementGuid>423c77f2-a1b6-4275-a23a-4b58506a45d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>min</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>33e3a5a2-0dfa-403a-904e-69adde36bcf5</webElementGuid>
+      <webElementGuid>c527f78b-a839-4831-aaa6-cf2d63950edc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,15 +73,15 @@
       <name>max</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>0d3d7de7-352c-4a23-b9d2-4cb4e6c83b1d</webElementGuid>
+      <webElementGuid>5e9b9a27-4b9c-447a-be62-457878c28ff2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
-      <webElementGuid>8788f08f-4f8d-442e-af7b-f28754993790</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[${GlobalVariable.VARIABLE}]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
+      <webElementGuid>9c6e54e5-002c-4dd8-b93f-2952317b292d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Union Amount']</value>
-      <webElementGuid>e4ec8f5f-36ca-4ae3-9540-0b942574bc88</webElementGuid>
+      <webElementGuid>a9bdf6e9-64a6-4b2d-bb8d-f86dd51c7a36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/qmt-new-input/div/input</value>
-      <webElementGuid>fefd8883-4ae4-4835-8a31-e263e94f35f9</webElementGuid>
+      <webElementGuid>6176df99-4671-43dc-88bd-9cbe2dbff752</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'Union Amount' and @type = 'number']</value>
-      <webElementGuid>1ac6af37-57c2-43b9-839b-a61d1a88ab70</webElementGuid>
+      <webElementGuid>a98eebf9-0964-4c4c-9ee6-1b10ab93036d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

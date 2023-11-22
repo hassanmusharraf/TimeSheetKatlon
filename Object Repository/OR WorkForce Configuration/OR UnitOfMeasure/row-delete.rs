@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>row-delete</name>
+   <tag></tag>
+   <elementGuidId>aa4ae9aa-e2f7-4e33-b12e-074935c77e99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'row-delete']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_4-table']/tbody/tr/td[5]/div/div/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e25273b7-2800-4417-89b4-a9b11bec115d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-red-500 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>70f98f5a-fe3f-456c-ab5c-8fa137fb14d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_4-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;!border-b-gray-A1 !flex-1 !p-4 text-gray-A3 truncate ng-star-inserted&quot;]/div[1]/div[@class=&quot;flex justify-start items-center h-full w-full gap-2 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-red-500 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>4b414180-51c1-4117-966d-920e07af8ef3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>row-delete</value>
+      <webElementGuid>55328640-dd1c-453c-a382-74b52e3d9aa0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='pr_id_4-table']/tbody/tr/td[5]/div/div/button[2]</value>
+      <webElementGuid>cf99224c-7928-402f-90c1-a8a560e48804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>d49baef4-1d9e-47d8-a2f0-64782a082d60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

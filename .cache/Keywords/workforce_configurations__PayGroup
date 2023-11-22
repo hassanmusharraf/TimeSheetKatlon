@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "175A0D42B4FFBA9886EE10F8D68DCE26",
+  "keywordFileContentHash": "BF7D1A86B5FA72F2E7DE4902A68F6F29",
   "keywordClasses": [
     {
       "name": "workforce_configurations.PayGroup",
       "keywordMethods": [
         {
           "name": "add_pay_group",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_pay_group",
           "parameters": [],
           "javadoc": ""
         },

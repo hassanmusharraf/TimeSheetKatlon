@@ -6,16 +6,16 @@
    <elementGuidId>fa83f22a-2dc4-46b5-81ec-506a7576cb96</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>input.ng-tns-c329-40.p-autocomplete-input.p-inputtext.p-component.p-autocomplete-dd-input.ng-star-inserted</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input.ng-tns-c329-40.p-autocomplete-input.p-inputtext.p-component.p-autocomplete-dd-input.ng-star-inserted</value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[${GlobalVariable.VARIABLE}]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e857c70c-6bea-4de9-9256-47aab4a4792a</webElementGuid>
+      <webElementGuid>5430fd7a-bead-4b0c-ab87-6ffb5d203dd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>6fefc55c-1134-4a29-949e-866a4ab6d28b</webElementGuid>
+      <webElementGuid>8742ea92-4412-48e2-96c4-075f0a3fc6b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>searchbox</value>
-      <webElementGuid>5b0d41ae-2340-493f-8b33-6d679cd4c2d0</webElementGuid>
+      <webElementGuid>37654256-f32b-431c-8899-f157e879c891</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c329-40 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted</value>
-      <webElementGuid>c6931ed8-2366-4fef-8d78-0b2eec631f37</webElementGuid>
+      <webElementGuid>f91b9c1a-c34a-41f4-9158-8c5ad5f76c1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>4c4ccb01-ac5d-4638-a0fa-f6b449fa954c</webElementGuid>
+      <webElementGuid>d1fa0504-7b93-41ed-baee-74d428359e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>249a40f1-a7b1-43ef-8355-f5cbffc0c8c8</webElementGuid>
+      <webElementGuid>437b6108-0ace-4022-abbb-883f94c7a1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,15 +74,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fbc6e075-e66a-41d8-90da-347d9b3c3e57</webElementGuid>
+      <webElementGuid>41defadf-db56-4c2a-b6c3-5816900477dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
-      <webElementGuid>42fc2645-d9c2-4dbe-a22e-ab786aba082f</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[${GlobalVariable.VARIABLE}]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
+      <webElementGuid>3c25af3d-5be8-4ac4-a291-46c3bec28838</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[2]</value>
-      <webElementGuid>30766c8b-4083-4918-94bc-8cca02315d6f</webElementGuid>
+      <webElementGuid>ca67c192-500a-444c-bcd1-43905ecbbcbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//p-autocomplete[@id='Amount Type']/span/input</value>
-      <webElementGuid>f8ec680d-212a-4ce4-b30e-e18aa11c3a69</webElementGuid>
+      <webElementGuid>4125385d-333b-412b-9ac8-6f79ed140f81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
-      <webElementGuid>5ff216a5-8d4c-4f2c-93ed-76e7c587536a</webElementGuid>
+      <webElementGuid>edbe87b4-ca24-49bc-92da-df4e75fd7e84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>fcce0d4c-d210-4ef2-9cd2-8c1a5a558153</webElementGuid>
+      <webElementGuid>793980ad-4cd4-4731-8236-f0f625e3f158</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

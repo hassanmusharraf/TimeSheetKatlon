@@ -21,6 +21,8 @@ CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, Gl
 
 CustomKeywords.'setting_configurations.UOM.add_UOM'()
 
+not_run: CustomKeywords.'setting_configurations.UOM.goto_UOM'()
+
 CustomKeywords.'setting_configurations.UOM.update_UOM'()
 
 CustomKeywords.'setting_configurations.UOM.delete_UOM'()

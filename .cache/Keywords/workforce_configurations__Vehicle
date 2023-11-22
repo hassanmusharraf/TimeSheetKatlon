@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "8549D779671F531BD1B7F0DA856C7628",
+  "keywordFileContentHash": "14FCD64A9655C6BCDA89922A8753BEF8",
   "keywordClasses": [
     {
       "name": "workforce_configurations.Vehicle",
@@ -16,6 +16,11 @@
         },
         {
           "name": "delete_vehicle",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_vehicle",
           "parameters": [],
           "javadoc": ""
         }

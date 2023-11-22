@@ -6,8 +6,11 @@
    <elementGuidId>d5a28c04-3ca7-48e3-b33d-00b04262db30</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Canada' or . = 'Canada')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>3eb4606d-812a-4735-9f84-e36d554e3997</webElementGuid>
+      <webElementGuid>57e9a3dc-c9e4-41fb-896d-fab35d9daa0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>fcb4e372-ab92-4114-a56e-393bcaab2c2f</webElementGuid>
+      <webElementGuid>683bb1a8-642a-4c03-8274-11d3690de62d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-ripple p-element p-autocomplete-item ng-tns-c168-46 ng-star-inserted</value>
-      <webElementGuid>f9388d0b-5400-4d28-a609-4564db780bee</webElementGuid>
+      <webElementGuid>cd6a18e1-4bd6-4bc5-b30e-1f2657a15575</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Canada</value>
-      <webElementGuid>78e0dec5-bbb5-4b71-a6d6-d0c96e8ef1f1</webElementGuid>
+      <webElementGuid>c2e8ecee-c49f-4ba6-9f47-2985d75fd02d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pr_id_6_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c168-46 ng-star-inserted&quot;]</value>
-      <webElementGuid>5934d823-b4f5-48be-a701-788900dca7e8</webElementGuid>
+      <webElementGuid>e51c2438-8b75-4533-9a6d-ed269080a39c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//li[@id=''])[2]</value>
-      <webElementGuid>4d3339fe-1257-4ebe-a177-4f51320ed6f6</webElementGuid>
+      <webElementGuid>c61b02c7-8b83-4cff-9288-5b59147d4005</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pr_id_6_list']/li[2]</value>
-      <webElementGuid>8cf81d5f-5d1c-440b-ade3-db2a07b2b1df</webElementGuid>
+      <webElementGuid>50d829ab-ff1b-4643-b028-2f51cf30dd82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/li[2]</value>
-      <webElementGuid>38250308-2833-40fc-b76e-0f94c8518fb1</webElementGuid>
+      <webElementGuid>6908d4b8-a064-465a-8836-2b44e2b72e53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Canada' or . = 'Canada')]</value>
-      <webElementGuid>2ce47f4e-fbda-4bf5-a0a7-31eb56561cb0</webElementGuid>
+      <webElementGuid>0fe1aaba-4731-4684-bf27-883cd69db63c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

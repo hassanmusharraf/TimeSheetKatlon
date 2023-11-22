@@ -74,4 +74,9 @@
       <initValue>'http://localhost:4200/'</initValue>
       <name>BASE_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0'</initValue>
+      <name>VARIABLE</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

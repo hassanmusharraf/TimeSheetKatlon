@@ -25,10 +25,11 @@ public class FundType {
 	@Keyword
 	def add_fund_type() {
 
-		WebUI.waitForElementPresent(findTestObject('OR WorkForce Configuration/OR FundType/Page_QM Timesheet/div_noise_control_off Fund Type Reference'),
-				0)
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/fund-type/list")
 
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/div_noise_control_off Fund Type Reference'))
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_add Add Fund Type'))
 
@@ -56,11 +57,23 @@ public class FundType {
 	@Keyword
 	def delete_fund_type() {
 
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/row-delete'))
 
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR FundType/Page_QM Timesheet/button_Delete'))
-
+		WebUI.click(findTestObject('Object Repository/OR Component/OR CommonObjects/dialog save'))
+				
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
+	
+	@Keyword
+	def goto_fund_type() {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/fund-type/list")
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
 	}
 }

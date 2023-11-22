@@ -1,9 +1,24 @@
 {
-  "keywordFileContentHash": "FDB4FB287204AFF50E16C6B2CDA3FC8C",
+  "keywordFileContentHash": "A4122B50051176E8CD2FBC34709C5EAD",
   "keywordClasses": [
     {
       "name": "workforce_configurations.UnionCode",
       "keywordMethods": [
+        {
+          "name": "add_union_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_union_code",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_union",
+          "parameters": [],
+          "javadoc": ""
+        },
         {
           "name": "add_accident_fund",
           "parameters": [],
@@ -46,6 +61,11 @@
         },
         {
           "name": "add_WCB_fund",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_subhead",
           "parameters": [],
           "javadoc": ""
         }

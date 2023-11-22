@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//li[@id=''])[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[3]/ul[1]/li[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>5d9aa1a2-63c7-4f56-853f-8b8dbb1cd244</webElementGuid>
+      <webElementGuid>efbf1446-f415-496e-9cb9-48b104b0ccd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>fdb7bd42-f353-4f95-a377-6ba882ce2dd4</webElementGuid>
+      <webElementGuid>9cc6437f-5f4c-4405-ba2d-905707b67e46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +41,23 @@
       <name>class</name>
       <type>Main</type>
       <value>p-ripple p-element p-autocomplete-item ng-tns-c166-39 ng-star-inserted</value>
-      <webElementGuid>19ab6aa4-b12b-4499-8cde-a042f2a4d226</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>company 1</value>
-      <webElementGuid>79185804-537a-48e0-beac-546c44bd8b1a</webElementGuid>
+      <webElementGuid>a0807d1a-d9dd-4fc0-b60d-7945b4a42c68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>company 1</value>
+      <webElementGuid>99ca905e-68ca-4ff5-911c-64d69eb6c355</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_6_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c166-39 ng-star-inserted&quot;]</value>
-      <webElementGuid>5b14a1b3-12b4-4c20-a96c-131e4dbf9faf</webElementGuid>
+      <value>/html[1]/body[1]/div[3]/ul[1]/li[1]</value>
+      <webElementGuid>081ce773-8c5a-4ffb-95e4-6d8729a78ca8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//li[@id=''])[2]</value>
-      <webElementGuid>caa045d4-4adb-4ca4-8e1f-25f31431f830</webElementGuid>
+      <webElementGuid>ff9768e1-9c02-4f21-bb6f-0fb361c0c4b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='pr_id_6_list']/li[2]</value>
-      <webElementGuid>4daa3ea5-ed94-4f1d-a6d7-5ff72b78f8ae</webElementGuid>
+      <webElementGuid>f68e62f1-fddc-4c0e-8afa-ce019b0537a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]</value>
-      <webElementGuid>d9fd9a7d-12a1-48ed-a621-fae3a79764bb</webElementGuid>
+      <webElementGuid>d0660df7-fd1f-4bfb-ba74-56e949bddbc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'company 1' or . = 'company 1')]</value>
-      <webElementGuid>08b52760-eac3-4e5d-a2fc-6c7b00e241bc</webElementGuid>
+      <webElementGuid>0a9a2903-5b42-45f0-b87c-d7e5c8730cec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

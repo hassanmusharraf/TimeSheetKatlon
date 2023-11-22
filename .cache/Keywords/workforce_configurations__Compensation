@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "185F2B8B7DBAE916A57E2AEF7968F838",
+  "keywordFileContentHash": "33612179E26504EA0580B79EDC1C8CF3",
   "keywordClasses": [
     {
       "name": "workforce_configurations.Compensation",
       "keywordMethods": [
         {
           "name": "add_compensation",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_compensation",
           "parameters": [],
           "javadoc": ""
         },

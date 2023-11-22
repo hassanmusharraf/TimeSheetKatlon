@@ -21,7 +21,7 @@ CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, Gl
 
 CustomKeywords.'workforce_configurations.PayGroup.add_pay_group'()
 
-not_run: CustomKeywords.'workforce_configurations.PayGroup.goto_pay_group'()
+CustomKeywords.'workforce_configurations.PayGroup.update_pay_group'()
 
 CustomKeywords.'workforce_configurations.PayGroup.delete_pay_group'()
 

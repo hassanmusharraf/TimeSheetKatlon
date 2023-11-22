@@ -6,16 +6,15 @@
    <elementGuidId>e0187d32-a25d-40ef-ad14-24a240bbe2a4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//textarea[@id='Note 2']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-textarea-input[2]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/textarea[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-textarea-input[2]/div[${GlobalVariable.VARIABLE}]/mat-form-field[1]/div[1]/div[1]/div[3]/textarea[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>665d35f7-889a-4faf-80d3-8da2b599b110</webElementGuid>
+      <webElementGuid>41653508-535b-4c53-9b27-d0640531a2eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control text-sm text-[#91919180] font-medium ng-tns-c99-43 ng-untouched ng-valid cdk-text-field-autofill-monitored ng-dirty</value>
-      <webElementGuid>e4bc1ddf-b435-43b2-ae4b-c5bde780c348</webElementGuid>
+      <webElementGuid>8ab3b6e8-7fb5-4a7a-9c19-52fd0b3a674c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +41,7 @@
       <name>ng-reflect-id</name>
       <type>Main</type>
       <value>Note 2</value>
-      <webElementGuid>ad7f42ce-2e24-41a6-91f4-83e1b35b031e</webElementGuid>
+      <webElementGuid>d0178292-c80e-475c-9cc8-d6ef622357ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +49,7 @@
       <name>ng-reflect-model</name>
       <type>Main</type>
       <value>N</value>
-      <webElementGuid>8f5b1a0c-d48c-4611-8972-acfaaaac2a86</webElementGuid>
+      <webElementGuid>14c58443-0164-46ef-9214-3cf1ed5bbf67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>ng-reflect-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9454d868-51cf-4d38-a16c-30ac2050a47f</webElementGuid>
+      <webElementGuid>a88f58c6-ad1a-4f2c-bcfc-f1a3c1fb8271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Note 2</value>
-      <webElementGuid>db4a4d92-a988-4c24-96c1-2e804d2bc684</webElementGuid>
+      <webElementGuid>1cede55a-ac73-4006-ae1f-8ffd8c162cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e8d02a57-7103-4065-86f3-25232c790db4</webElementGuid>
+      <webElementGuid>5a5d247b-beef-42d4-b2cf-64cd5c29a07b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,15 +81,15 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c2ced03f-60cf-40b4-838d-8eb5768595d6</webElementGuid>
+      <webElementGuid>be4de483-d10c-4e60-8ccd-7f2a028930fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-textarea-input[2]/div[1]/mat-form-field[1]/div[1]/div[1]/div[3]/textarea[1]</value>
-      <webElementGuid>2c2b6d74-c315-451e-b98e-bb557e40bc62</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-textarea-input[2]/div[${GlobalVariable.VARIABLE}]/mat-form-field[1]/div[1]/div[1]/div[3]/textarea[1]</value>
+      <webElementGuid>bd71d863-ac81-4ae9-a1e8-72214ed842b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='Note 2']</value>
-      <webElementGuid>fbdaeb17-49f8-4b39-8f54-21dd79781985</webElementGuid>
+      <webElementGuid>aeaeabaa-7a4e-4a92-a87f-2b256fb60625</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//qmt-textarea-input[2]/div/mat-form-field/div/div/div[3]/textarea</value>
-      <webElementGuid>6fa0c937-d09b-4338-a14e-b1d2e83173e7</webElementGuid>
+      <webElementGuid>263b504a-8fb5-4c7c-8a9d-ad30e05de5a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'Note 2']</value>
-      <webElementGuid>9609d606-30ba-44bd-a17d-e9beef905718</webElementGuid>
+      <webElementGuid>42e1bef8-9404-414c-8f26-1d0fe5e13c35</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

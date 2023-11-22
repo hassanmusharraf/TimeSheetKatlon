@@ -6,16 +6,16 @@
    <elementGuidId>9858f89a-205e-4ee2-9480-bbcb7129e2af</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#mat-checkbox-3 > label.mat-checkbox-layout > span.mat-checkbox-inner-container</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-checkbox[@id='mat-checkbox-3']/label/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/mat-checkbox[2]/label[1]/span[2]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#mat-checkbox-3 > label.mat-checkbox-layout > span.mat-checkbox-inner-container</value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[${GlobalVariable.VARIABLE}]/div[1]/div[1]/mat-checkbox[2]/label[1]/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2a068472-c154-4dd6-9a8f-351519946ea3</webElementGuid>
+      <webElementGuid>85f942da-ffa1-4f29-a000-87f319e5c787</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container</value>
-      <webElementGuid>c60458a4-2126-4386-b0df-231f53be3c8c</webElementGuid>
+      <webElementGuid>007e4d77-1f57-4b54-9dfe-4310e24b934c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/mat-checkbox[2]/label[1]/span[2]</value>
-      <webElementGuid>8f288030-3818-45c3-9739-96a6f2affa80</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[${GlobalVariable.VARIABLE}]/div[1]/div[1]/mat-checkbox[2]/label[1]/span[2]</value>
+      <webElementGuid>0f834343-6c89-493c-a3df-fc148b2d90ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-3']/label/span</value>
-      <webElementGuid>3fd89f21-6b22-4e7a-b5d5-dbbe43eca07d</webElementGuid>
+      <webElementGuid>a020a0b2-5e1e-40f7-877a-50345f4fc6e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,6 +58,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-checkbox[2]/label/span</value>
-      <webElementGuid>f1efcc9e-386a-47b2-a266-745e7ea217d2</webElementGuid>
+      <webElementGuid>276adf2f-8562-44a7-a8b5-f90a6658205d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

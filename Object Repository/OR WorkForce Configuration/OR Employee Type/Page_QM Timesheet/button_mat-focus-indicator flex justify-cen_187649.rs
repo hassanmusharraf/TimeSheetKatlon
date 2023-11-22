@@ -6,15 +6,18 @@
    <elementGuidId>4cb795bb-89f9-4528-a6c6-1c6e2a3f80ac</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'row-delete']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='pr_id_4-table']/tbody/tr/td[3]/div/div/button[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>da6683f6-e3e1-4751-8ecd-73f1c3cffa6e</webElementGuid>
+      <webElementGuid>4843b65f-7d3e-4fa9-b9ba-4dcad53eaa88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +33,23 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-red-500 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>0f5f3d35-1398-41f1-8590-0746794dc8a8</webElementGuid>
+      <webElementGuid>6cb54547-36b2-4c85-a3bf-d8bc9680fec1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pr_id_4-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;!border-b-gray-A1 !flex-1 !p-4 text-gray-A3 truncate ng-star-inserted&quot;]/div[1]/div[@class=&quot;flex justify-start items-center h-full w-full gap-2 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-red-500 mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>03bb88e9-5f5f-4a83-bba2-cf3bc0c4e75e</webElementGuid>
+      <webElementGuid>99662e15-25e6-43f5-bac3-d258ed2f46b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>row-delete</value>
+      <webElementGuid>f3d0f1da-2e12-4975-8cd4-b0a8da041c7c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='pr_id_4-table']/tbody/tr/td[3]/div/div/button[2]</value>
-      <webElementGuid>c0c27859-68e6-43aa-87be-0fa08ded4d7e</webElementGuid>
+      <webElementGuid>55076695-873e-4d75-894c-be485b9a364a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>de58fec6-5ec4-4fdf-939c-1e3136d4d8e7</webElementGuid>
+      <webElementGuid>80e8ab25-8465-400a-9053-a050c263b4a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

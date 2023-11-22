@@ -1,23 +1,31 @@
 {
-  "keywordFileContentHash": "2F7C23520761E59DFAF4931D1529D14F",
+  "keywordFileContentHash": "F3E20C65ABD708FFC8DB4100CCEB6B41",
   "keywordClasses": [
     {
       "name": "setting_configurations.UOM",
       "keywordMethods": [
         {
           "name": "add_UOM",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "update_UOM",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "delete_UOM",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_UOM",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

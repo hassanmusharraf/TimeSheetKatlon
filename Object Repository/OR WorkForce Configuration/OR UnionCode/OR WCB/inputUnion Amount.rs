@@ -6,12 +6,12 @@
    <elementGuidId>5ad667b9-8a2b-4bb4-bc5a-5bec8c352557</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Union Amount']</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[8]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[9]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
+         <key>XPATH</key>
+         <value>//input[@id='Union Amount']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2d328d4f-8caa-443f-b741-03cadee65aed</webElementGuid>
+      <webElementGuid>b68012e6-d3a3-4808-8fbd-20e49327cbb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-valid p-filled</value>
-      <webElementGuid>e0682777-7a95-4553-a8bb-f2d2c274d61b</webElementGuid>
+      <webElementGuid>fd4ed51a-a8cf-44a5-b8de-a05b71c82538</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Union Amount</value>
-      <webElementGuid>c35ec65d-791a-432c-b5d8-a114375f7e5d</webElementGuid>
+      <webElementGuid>46dcf390-2283-45ec-a9f0-8947e77ad257</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>e7c5769f-d4ee-4d5b-9f60-b7906956794f</webElementGuid>
+      <webElementGuid>32d2bc21-33e2-48aa-b54b-f04e7655e7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>c41eb2ab-b821-405c-9728-4343cd8d989a</webElementGuid>
+      <webElementGuid>034dc871-ef7c-460c-b4d5-3fdd0503ff04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>min</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>582d3630-eb25-403c-8948-b9e4ab5bbd79</webElementGuid>
+      <webElementGuid>efcbd084-b7d9-49f6-b01e-69c1e3be8af4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,15 +73,15 @@
       <name>max</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>94e1ecfb-1c02-43ca-98f0-bd08e9ac587e</webElementGuid>
+      <webElementGuid>e5d19017-9e66-49a6-be0b-6055d2b09703</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[9]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
-      <webElementGuid>38967573-5dcc-4dc6-a96b-582def91122a</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[8]/div[1]/div[1]/qmt-new-input[1]/div[1]/input[1]</value>
+      <webElementGuid>012b85ee-ffb2-40f2-a818-b6f7443c2220</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Union Amount']</value>
-      <webElementGuid>9abf5b5e-6816-46cc-9199-29ffff002d8e</webElementGuid>
+      <webElementGuid>9b227699-dc49-47bd-9702-e2124efdd731</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/qmt-new-input/div/input</value>
-      <webElementGuid>271b25c4-6857-4bdb-92a5-d15e09b9ab33</webElementGuid>
+      <webElementGuid>611e2ddc-1549-495e-aac5-ac3d93b61f14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'Union Amount' and @type = 'number']</value>
-      <webElementGuid>a739c646-cf25-467b-8b40-0a1ac8183e29</webElementGuid>
+      <webElementGuid>fece0f42-2422-490e-b526-5e57428c6317</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

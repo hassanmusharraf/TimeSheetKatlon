@@ -13,12 +13,12 @@ public class EmployeeType {
 
 	@Keyword
 	def add_employee_type() {
-
-		WorkforceConfigurations.goto_workforce_configuration()
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/employee-type/list")
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Employee Type/Page_QM Timesheet/div_noise_control_off Employee Type'))
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Employee Type/Page_QM Timesheet/button_add Add Employee Type'))
 
@@ -59,5 +59,15 @@ public class EmployeeType {
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Employee Type/Page_QM Timesheet/button_Delete'))
 
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
+	}
+	
+	@Keyword
+	def goto_employee_type() {
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/employee-type/list")
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 }

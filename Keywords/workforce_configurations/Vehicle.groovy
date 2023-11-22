@@ -24,9 +24,12 @@ public class Vehicle {
 
 	@Keyword
 	def add_vehicle() {
-		WorkforceConfigurations.goto_workforce_configuration()
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/vehicle/list")
 
-		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Vehicle/Page_QM Timesheet/div_noise_control_off Vehicle'))
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Vehicle/Page_QM Timesheet/button_add Add Vehicle'))
 
@@ -63,6 +66,16 @@ public class Vehicle {
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Vehicle/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_187649'))
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR Vehicle/Page_QM Timesheet/button_Delete'))
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
+	
+	@Keyword
+	def goto_vehicle() {
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/vehicle/list")
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}

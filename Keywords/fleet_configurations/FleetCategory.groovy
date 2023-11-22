@@ -24,59 +24,55 @@ public class FleetCategory {
 	@Keyword
 	def add_fleet_category() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
-		WebUI.navigateToUrl('http://localhost:4200/super-admin/category/list')
-		println(GlobalVariable.BASE_URL + 'super-admin/category/list')
-		
-		
+
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/category/list')
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/div_All Categories'),
-			0)
-		
+				0)
+
 		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_upload Bulk Upload'),
-			0)
-		
+				0)
+
 		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_download Download Excel Format'),
-			0)
-		
+				0)
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_add Add Category'))
-		
-		
-		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/inputFleet Category Name'), 'Category 1')
-		
+
+
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/inputFleet Category Name'), 'Adding Category')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 	@Keyword
 	def update_fleet_category() {
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/buttonrow-update'))
-		
-		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/inputFleet Category Name'), 'Category 2')
-		
+
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/inputFleet Category Name'), 'Updating Category')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_Update'))
-				
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
 	@Keyword
 	def delete_fleet_category() {
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/buttonrow-delete'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_Delete'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
 	@Keyword
 	def goto_fleet_category() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/category/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 }

@@ -6,12 +6,12 @@
    <elementGuidId>3e17519d-96d3-4427-9831-c8527682df94</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[8]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[9]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>48f89cfa-830c-4cab-8b35-39af89cb38e0</webElementGuid>
+      <webElementGuid>2a48e4ef-588a-47f3-8ec9-a6b2a7744c93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>54098062-5c6a-4a74-91a0-990a23b47de6</webElementGuid>
+      <webElementGuid>a03507b4-6f76-40fd-99e1-b7af9696bdeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>searchbox</value>
-      <webElementGuid>8da235d1-0062-4f79-a2ec-1d97d36eb460</webElementGuid>
+      <webElementGuid>4a2644e7-4e3e-4585-9a27-1316c38bfa3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c329-40 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted</value>
-      <webElementGuid>302641bd-3869-4699-a458-ec31920a9b3e</webElementGuid>
+      <webElementGuid>59c1b64f-4d5a-44e0-bf29-0d371d9175a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>b4c959a2-8c34-4f3f-8edb-756522d954b9</webElementGuid>
+      <webElementGuid>d1365ece-5f96-4da5-aba1-4f0e421248aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>ed53707b-a9de-4d71-95be-6a9d0d8813dc</webElementGuid>
+      <webElementGuid>ef4e9026-00c1-4913-8d8c-9d5c88206158</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,15 +74,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>befc82d1-6aca-4d0c-a780-ba96c8a1eb6b</webElementGuid>
+      <webElementGuid>65e52540-087a-41f1-81ee-92c62c2fc932</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[9]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
-      <webElementGuid>72aec2b9-f227-4faa-aea1-73bdc538de8d</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-form[1]/form[1]/div[1]/div[2]/div[8]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
+      <webElementGuid>ac7f012e-0763-4733-91d0-c36a3e353d5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[2]</value>
-      <webElementGuid>31ae9165-6d5f-49c7-840f-ca15b0396770</webElementGuid>
+      <webElementGuid>e7b43051-8945-4b70-9fce-2b4742de9abf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//p-autocomplete[@id='Amount Type']/span/input</value>
-      <webElementGuid>c21a1dc1-cf34-4df6-a884-a13a6b2dd363</webElementGuid>
+      <webElementGuid>43780c00-1f4a-448b-9f9d-4f9504af7ece</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
-      <webElementGuid>dcf04096-e9a4-408c-ac40-8cc0e9fef073</webElementGuid>
+      <webElementGuid>b533aba4-2bc2-4089-899e-bbbfee0f0df3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>78a8843f-f48c-4fd9-ad8b-72db6b73c099</webElementGuid>
+      <webElementGuid>aed7e8ae-fb3e-4f81-b9be-f8edef6c451f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
