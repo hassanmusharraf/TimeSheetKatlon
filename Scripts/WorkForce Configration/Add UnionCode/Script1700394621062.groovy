@@ -28,90 +28,92 @@ CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, Gl
 // taking number of div present
 //				add_subhead()
 //				add_subhead()
+
 not_run: CustomKeywords.'workforce_configurations.UnionCode.delete_union'()
 
-not_run: WebUI.closeBrowser()
 
-def update_union_code() {
-    WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-    WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/union-code/list')
+WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/union-code/list')
 
-    WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-    WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/button_Action_mat-focus-indicator flex justify-center w-30px h-30px items-center text-primary-dark mat-icon-button mat-button-base'))
+WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/button_Action_mat-focus-indicator flex justify-center w-30px h-30px items-center text-primary-dark mat-icon-button mat-button-base'))
 
-    WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-    WebDriver driver = DriverFactory.getWebDriver()
+WebDriver driver = DriverFactory.getWebDriver()
 
-    List<WebElement> table = driver.findElements(By.xpath('/html/body/qm-root/qmt-layout/qmt-navigation/mat-sidenav-container/mat-sidenav-content/div/div/qmt-union-code-form/form/div/div[2]/div'))
+List<WebElement> table = driver.findElements(By.xpath('/html/body/qm-root/qmt-layout/qmt-navigation/mat-sidenav-container/mat-sidenav-content/div/div/qmt-union-code-form/form/div/div[2]/div'))
 
-    println(table.size())
+println(table.size())
 
-    int size_of_table = table.size()
+int size_of_table = table.size()
 
-    for (int i = 1; i < (size_of_table + 1); i++) {
-        int half = size_of_table / 2
+for (int i = 1; i < (size_of_table + 1); i++) {
+    int half = size_of_table / 2
 
-        if (i <= half) {
-            println('into if')
+    if (i <= half) {
+        println('into if')
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/Input amount type'), 
-                'AMOUNT')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/Input amount type'), 
+            'AMOUNT')
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/inputUnion Amount'), 
-                '50000')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/inputUnion Amount'), 
+            '50000')
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/select unit'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/select unit'))
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/li_Hours Earned'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/li_Hours Earned'))
 
-            WebUI.delay(0.5)
+        WebUI.delay(0.5)
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/consider 2'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/consider 2'))
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/consider_1.5'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/consider_1.5'))
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 1'), 
-                'Note 1')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 1'), 
+            'Note 1')
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 2'), 
-                'Note 2')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 2'), 
+            'Note 2')
 
-            if (i == 1) {
-            }
-        } else {
-            println('into else')
+        if (i == 1) {
+        }
+    } else {
+        println('into else')
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/Input amount type'), 
-                'PERCENTAGE')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/Input amount type'), 
+            'PERCENTAGE')
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/inputUnion Amount'), 
-                '50.5')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/inputUnion Amount'), 
+            '50.5')
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/select unit'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/select unit'))
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/li_Hours Worked'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/li_Hours Worked'))
 
-            WebUI.delay(0.5)
+        WebUI.delay(0.5)
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/provincial_tax'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/provincial_tax'))
 
-            WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/consider_1.5'))
+        WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/consider_1.5'))
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 1'), 
-                'Note 1')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 1'), 
+            'Note 1')
 
-            WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 2'), 
-                'Note 2')
+        WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 2'), 
+            'Note 2')
 
-            if (i == 1) {
-                println('into subhead')
-            }
+        if (i == 1) {
+            println('into subhead')
         }
     }
-    
-    WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/button_Update'))
 }
+
+WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/button_Update'))
+
+
+WebUI.closeBrowser()
+
 

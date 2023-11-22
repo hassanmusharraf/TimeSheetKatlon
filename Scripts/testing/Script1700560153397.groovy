@@ -21,25 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:4200/auth/login')
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/div_WelcomeEmail Password visibility Rememb_695f6e'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/span_Has Subhead'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/inputName'), 'testing name')
+WebUI.setText(findTestObject('null'), 'testing name')
 
-WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/click_amount_type'), 
+WebUI.setText(findTestObject('null'), 
     '')
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/click_amount_type'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/li_AMOUNT'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/inputAmount'), '256314')
+WebUI.setText(findTestObject('null'), '256314')
 
-WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/click_amount_type'), 
+WebUI.setText(findTestObject('null'), 
     '')
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/click_amount_type'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/li_Hours Earned'))
+WebUI.click(findTestObject('null'))
 
