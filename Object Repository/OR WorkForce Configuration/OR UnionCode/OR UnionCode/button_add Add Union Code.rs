@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@href=&quot;/super-admin/union-code/add&quot;]</value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-union-code-list[1]/qmt-datagrid[1]/div[1]/div[1]/div[2]/a[1]/button[1]/span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d054cb65-b582-433c-a437-58685eafc52d</webElementGuid>
+      <webElementGuid>c8865212-da21-4162-b5e9-d995ee2afe7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>e6509d91-76a9-4c9d-8500-81bf5d58911a</webElementGuid>
+      <webElementGuid>edfbe049-2f06-4bda-9ab7-c8d6b4bd6d09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>a2cbc29d-2a9f-43c9-bb20-70e8fcec8084</webElementGuid>
+      <webElementGuid>fc7f1726-a457-4632-b538-ded0e89aef27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>5b909b5f-b8d2-422a-beef-138f0ef59ac3</webElementGuid>
+      <webElementGuid>0a7fa365-a131-46fe-be73-5da28e37ec44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>add Add Union Code </value>
-      <webElementGuid>fff83795-8d0c-4ab0-b888-733cc69a0f5a</webElementGuid>
+      <webElementGuid>5df5ab08-57b9-482b-a41e-7901870bdd2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//a[@href=&quot;/super-admin/union-code/add&quot;]</value>
-      <webElementGuid>752524dd-5ad7-413e-9bdf-2cb318b69507</webElementGuid>
+      <webElementGuid>3c629aae-5fe7-4733-8ac2-4e60fed6c16d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/button</value>
-      <webElementGuid>e978b1c9-b65c-4a35-b61c-aa67646ba45c</webElementGuid>
+      <webElementGuid>a7092ebf-b0e1-45b9-b859-d2db2346eae3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'add Add Union Code ' or . = 'add Add Union Code ')]</value>
-      <webElementGuid>f80ebbf7-ba95-4bfd-b27a-084af0e7454e</webElementGuid>
+      <webElementGuid>1c38fc2f-afc6-4a58-9c61-c0db9eb87c74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

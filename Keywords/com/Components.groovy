@@ -68,9 +68,28 @@ public class Components {
 		WebElement table = WebUiCommonHelper.findWebElement(TO, 30)
 		List<WebElement> rows = table.findElements(By.tagName("tr"))
 		println(rows.size()+" Row present")
+		
+		
+		
+		
+		
+		
 		return rows
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
+	
+	
+	@Keyword
+	def getNumberOfRowsByXpath(String str) {
+		
+		WebDriver driver = DriverFactory.getWebDriver()
+		
+		List<WebElement> table =  driver.findElements(By.xpath(str))
+			
+		println(table.size())
+		
+		return table
 	}
 
 	// get a row by it's value
@@ -110,6 +129,7 @@ public class Components {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Search Button'),GlobalVariable.LOW_TIMESLEEP)
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Search Button'),GlobalVariable.LOW_TIMESLEEP)
 		WebUI.verifyElementClickable(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Search Button'),GlobalVariable.LOW_TIMESLEEP)
+		
 	}
 
 	@Keyword
@@ -124,19 +144,7 @@ public class Components {
 		return columns
 	}
 
-	//	@Keyword
-	//	def getTotalRows(TestObject TO) {
-	//
-	//		WebDriver driver = DriverFactory.getWebDriver()
-	//		WebElement table = WebUiCommonHelper.findWebElements(TO, 30)
-	//		List<WebElement> rows = table.findElements(By.tagName("tr"))
-	//		WebUI.findWebElement(TO, 0)
-	//		WebUI.click(findTestObject('Object Repository/Settings/OR Users/lastrowbutton'))
-	//
-	//		WebElement rowString=WebUiCommonHelper.findWebElement('Object Repository/Settings/OR Users/spanrows'))
-	//
-	//	}
-
+	
 
 	// generating random email
 	@Keyword

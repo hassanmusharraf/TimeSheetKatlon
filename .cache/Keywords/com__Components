@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "9F536C6B2C06DCF80412535CF0F4DAA9",
+  "keywordFileContentHash": "F4A7960F69AE8D3CC9442A3E59462589",
   "keywordClasses": [
     {
       "name": "com.Components",
@@ -69,6 +69,25 @@
               "type": {
                 "fullClassName": "com.kms.katalon.core.testobject.TestObject",
                 "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getNumberOfRowsByXpath",
+          "parameters": [
+            {
+              "name": "str",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
