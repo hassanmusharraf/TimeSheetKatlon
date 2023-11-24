@@ -19,7 +19,7 @@ public class Components {
 
 	//login to web application
 	@Keyword
-	def loginIntoApplication(String username,String password) {
+	def static loginIntoApplication(String username,String password) {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.WEBURL)
@@ -33,7 +33,7 @@ public class Components {
 
 	//logout from web application
 	@Keyword
-	def logOutFromApplication() {
+	def static logOutFromApplication() {
 		WebUI.click(findTestObject('Object Repository/OR Component/OR LogOut/div_I'))
 		WebUI.click(findTestObject('Object Repository/OR Component/OR LogOut/button_logoutLogout'))
 		WebUI.closeBrowser()
@@ -42,7 +42,7 @@ public class Components {
 
 	// search element
 	@Keyword
-	def search_element(String str) {
+	def static search_element(String str) {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/input_p-inputtext p-component p-element'),
@@ -55,69 +55,51 @@ public class Components {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-
-
-
-	//checking if element is present in a list or not
-	@Keyword
-	def getNumberOfRows(TestObject TO) {
-
-		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-
-		WebDriver driver = DriverFactory.getWebDriver()
-		WebElement table = WebUiCommonHelper.findWebElement(TO, 30)
-		List<WebElement> rows = table.findElements(By.tagName("tr"))
-		println(rows.size()+" Row present")
-		
-		
-		
-		
-		
-		
-		return rows
-
-		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-	}
-	
 	
 	@Keyword
-	def getNumberOfRowsByXpath(String str) {
-		
+	def static getNumberOfRowsByXpath(String str) {
+
 		WebDriver driver = DriverFactory.getWebDriver()
-		
+
 		List<WebElement> table =  driver.findElements(By.xpath(str))
-			
-		println(table.size())
-		
+
+		println("Rows Present " + table.size())
+
 		return table
 	}
 
 	// get a row by it's value
 	@Keyword
-	def getRowByNameValue(TestObject TO,String nameValue) {
+	def static getRowByNameValue(String xpath,String nameValue) {
+		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		nameValue=nameValue.trim()
-		List<WebElement> rows = getNumberOfRows(TO)
-
+		
+		List<WebElement> rows = getNumberOfRowsByXpath(xpath)
+		
 		for (int i=0;i<rows.size();i++) {
+			
 			List<WebElement> columns = rows.get(i).findElements(By.tagName("td"))
-			if (columns.get(i).getText().trim().equals(nameValue) ) {
-				println(columns.get(i).getText())
-				println(" Row present")
-				WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-
-				return rows.get(i)
+			
+			println("Columns Present "+columns.size())
+			
+			for (int j=0; j<columns.size();j++) {
+				
+				if (columns.get(j).getText().trim().equals(nameValue) ) {
+									
+					println(columns.get(j).getText()+" Row present")
+									
+					return rows.get(j)
+				
+				}
 			}
-			else {
-				WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-				println("row not present")
-			}
+				
 		}
 	}
 
 	@Keyword
-	def verify_element_present() {
+	def static verify_element_present() {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Bulk Upload Button'),GlobalVariable.LOW_TIMESLEEP)
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Bulk Upload Button'),GlobalVariable.LOW_TIMESLEEP)
 		WebUI.verifyElementClickable(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Bulk Upload Button'),GlobalVariable.LOW_TIMESLEEP)
@@ -129,11 +111,10 @@ public class Components {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Search Button'),GlobalVariable.LOW_TIMESLEEP)
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Search Button'),GlobalVariable.LOW_TIMESLEEP)
 		WebUI.verifyElementClickable(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Search Button'),GlobalVariable.LOW_TIMESLEEP)
-		
 	}
 
 	@Keyword
-	def getNumberOfColumns(TestObject TO) {
+	def static getNumberOfColumns(TestObject TO) {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		List<WebElement> rows = getNumberOfRows(TO)
@@ -144,7 +125,7 @@ public class Components {
 		return columns
 	}
 
-	
+
 
 	// generating random email
 	@Keyword

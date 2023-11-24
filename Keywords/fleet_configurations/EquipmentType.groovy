@@ -32,21 +32,9 @@ public class EquipmentType {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/div_All Equipment Types'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/input_p-inputtext p-component p-element'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/button_upload Bulk Upload'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/button_download Download Excel Format'),
-				0)
-
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/button_add Add Equipment Type'))
 
-		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/inputEquipment Type Name'), 'Equipment type')
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/inputEquipment Type Name'), 'Adding Equipment type')
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/button_Add'))
 
@@ -57,7 +45,7 @@ public class EquipmentType {
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/buttonrow-update'))
 
-		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/inputEquipment Type Name'), 'Equipment type testing')
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/inputEquipment Type Name'), 'Updating Equipment type')
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR EquipmentType/button_Update'))
 

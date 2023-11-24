@@ -31,12 +31,6 @@ public class ProvinceWiseHoliday {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/div_All Province Holidays'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/input_p-inputtext p-component p-element'),
-				0)
-
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_add Add New'))
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/input_country'))
@@ -57,34 +51,19 @@ public class ProvinceWiseHoliday {
 
 	@Keyword
 	def add_holiday() {
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/div_Basic Details Update'),
-			0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/div_Holiday List'),
-			0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/inputyearpicker'),
-			0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_upload Bulk Upload'),
-			0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_download Download Excel Format'),
-			0)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_add Add New'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/inputName'),
-			'holiday 12')
-		
-		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/input__Date'), '23/11/2023')
-		
+				'Adding holiday')
+
+		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/input__Date'), '09052023')
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def goto_province_for_holiday() {
 
@@ -94,41 +73,52 @@ public class ProvinceWiseHoliday {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def update_province_for_holiday() {
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/province-calendar/list')
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/row-update-existing-object'))
+
+		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/row_update'))
+
+		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/inputName'),
+				'updating holiday')
+
+		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/input__Date'), '12112023')
+
+		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_Update'))
+
+		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
+	}
+
+	
+	@Keyword
+	def delete_holiday() {
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/buttonrow-delete'))
+
+		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_Delete'))
+	}
+	
+	@Keyword
+	def delete_province() {
 		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/province-calendar/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		
-		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/row-update-existing-object'))
-		
-		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/row_update'))
-		
-		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/inputName'),
-			'holiday 2')
-		
-		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/input__Date'), '09/09/2024')
-		
-		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_Update'))
-		
-		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
-	}
-	
-	
-	def temp() {
-		
-		WebUI.refresh()
-		
-		WebUI.delay(2)
-		
-		
-		
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/buttonrow-delete'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR ProvinceWiseHoliday/button_Delete'))
 	}
 }

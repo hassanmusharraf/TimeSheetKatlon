@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "FC2523FC9B09E6A2F13570BB062B2EF5",
+  "keywordClasses": [
+    {
+      "name": "time_sheet_configurations.Shift",
+      "keywordMethods": [
+        {
+          "name": "add_shift",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_shift",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_shift",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_shift",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

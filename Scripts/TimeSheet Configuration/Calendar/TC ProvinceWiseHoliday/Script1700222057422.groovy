@@ -19,13 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-not_run: CustomKeywords.'time_sheet_configurations.ProvinceWiseHoliday.add_province_for_holiday'()
+CustomKeywords.'time_sheet_configurations.ProvinceWiseHoliday.add_province_for_holiday'()
 
-not_run: CustomKeywords.'time_sheet_configurations.ProvinceWiseHoliday.add_holiday'()
+CustomKeywords.'time_sheet_configurations.ProvinceWiseHoliday.add_holiday'()
 
 CustomKeywords.'time_sheet_configurations.ProvinceWiseHoliday.update_province_for_holiday'()
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/province-calendar/list')
+CustomKeywords.'time_sheet_configurations.ProvinceWiseHoliday.delete_holiday'()
 
+CustomKeywords.'time_sheet_configurations.ProvinceWiseHoliday.delete_province'()
+
+//WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/province-calendar/list')
 WebUI.closeBrowser()
 

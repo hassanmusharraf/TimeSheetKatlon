@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-CustomKeywords.'fleet_configurations.FleetConfiguration.add_fleet_status'()
+CustomKeywords.'fleet_configurations.FleetStatus.add_fleet_status'()
 
 CustomKeywords.'fleet_configurations.FleetStatus.update_fleet_status'()
 

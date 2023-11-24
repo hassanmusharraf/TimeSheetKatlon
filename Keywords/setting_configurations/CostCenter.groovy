@@ -2,8 +2,7 @@ package setting_configurations
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import org.openqa.selenium.Keys
-
+import com.Components
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
@@ -23,8 +22,8 @@ public class CostCenter {
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/Add new button'))
 
-		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set name'), 'division name')
-		
+		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set name'), 'Adding division')
+
 		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set code'), '111')
 
 		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
@@ -37,10 +36,12 @@ public class CostCenter {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	//delete cost center
 	@Keyword
 	def delete_division() {
+
+		Components.search_element('111')
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
 
@@ -61,8 +62,6 @@ public class CostCenter {
 
 
 
-
-
 	// Region
 
 	@Keyword
@@ -74,14 +73,14 @@ public class CostCenter {
 
 		WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/Add new button'))
 
-		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set name'), 'region name')
+		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set name'), 'Adding region')
 
-		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/divisioncodee'), '111')
+		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/divisioncodee'), '0001')
 
 		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
 
 		WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/set organization'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_Sample Organization'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Add'))
@@ -91,6 +90,9 @@ public class CostCenter {
 
 	@Keyword
 	def delete_region() {
+
+		Components.search_element('0001')
+
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
@@ -109,7 +111,6 @@ public class CostCenter {
 
 
 
-
 	@Keyword
 	def add_location() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
@@ -118,12 +119,12 @@ public class CostCenter {
 
 		WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/Add new button'))
 
-		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set name'), 'location name')
+		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set name'), 'Adding location')
 
 		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set code'), '111')
 
 		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/set sequence'), '5')
-		
+
 		WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/set organization'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_Sample Organization'))
@@ -136,13 +137,14 @@ public class CostCenter {
 	@Keyword
 	def delete_location() {
 
+		Components.search_element('111')
+
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-
 
 	@Keyword
 	def goto_location() {
@@ -151,10 +153,6 @@ public class CostCenter {
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/cost-center/individual/location/list')
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-
-
-
-
 
 
 
@@ -168,12 +166,12 @@ public class CostCenter {
 
 		WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/Add new button'))
 
-		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/idivisionname'), 'department name')
+		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/idivisionname'), 'Adding department')
 
 		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/divisioncodee'), '111')
 
 		WebUI.setText(findTestObject('Settings/CostCenter/Page_QM Timesheet/sequence'), '5')
-		
+
 		WebUI.click(findTestObject('Settings/CostCenter/Page_QM Timesheet/set organization'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/li_Sample Organization'))
@@ -183,9 +181,11 @@ public class CostCenter {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 
-
 	@Keyword
 	def delete_department() {
+
+		Components.search_element('111')
+
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/row-delete'))
 
 		WebUI.click(findTestObject('Object Repository/Settings/CostCenter/Page_QM Timesheet/button_Delete'))
@@ -199,6 +199,4 @@ public class CostCenter {
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/cost-center/individual/department/list')
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-
-
 }

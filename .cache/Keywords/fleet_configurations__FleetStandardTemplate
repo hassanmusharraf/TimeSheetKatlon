@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "7DF80925A7D9AD86E9C6C97F32804FD0",
+  "keywordClasses": [
+    {
+      "name": "fleet_configurations.FleetStandardTemplate",
+      "keywordMethods": [
+        {
+          "name": "add_fleet_template",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_fleet_template",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_fleet_template",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_fleet_template",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

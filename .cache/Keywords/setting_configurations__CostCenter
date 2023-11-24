@@ -1,71 +1,59 @@
 {
-  "keywordFileContentHash": "A2F46894808AFFEEE1BE57F8080D150E",
+  "keywordFileContentHash": "BF6C31502E76FB318D5D32458A45076D",
   "keywordClasses": [
     {
       "name": "setting_configurations.CostCenter",
       "keywordMethods": [
         {
           "name": "add_division",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "delete_division",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "goto_division",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "add_region",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "delete_region",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "goto_region",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "add_location",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "delete_location",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "goto_location",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "add_department",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "delete_department",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "goto_department",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

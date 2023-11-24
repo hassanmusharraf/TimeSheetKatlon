@@ -6,15 +6,19 @@
    <elementGuidId>49123746-d401-48bb-b140-75e18fefa3e8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a/button</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a/button</value>
+         <key>BASIC</key>
+         <value>//a[@href=&quot;/super-admin/compensation/add&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d3cc4973-bc3d-460b-8dea-8f25b427cf43</webElementGuid>
+      <webElementGuid>cc43f31e-e94c-47eb-ba40-37ffd9da6f56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>384a6bf1-ba74-4adc-87b5-3663a286f361</webElementGuid>
+      <webElementGuid>1afcefb9-c37f-458f-bbc8-203dfcf9b0b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +42,23 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>a9699948-0caf-4633-8fd0-25c1f4c233f2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>add Add Compensation </value>
-      <webElementGuid>73ef74bd-6f9a-49c7-b482-eadd4c5f6b32</webElementGuid>
+      <webElementGuid>160524ea-d05c-4f9c-8cad-2d0c025f70be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add Add Compensation </value>
+      <webElementGuid>77d5b979-b01e-4c56-8d1f-d5b6305f4414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-compensation-list[@class=&quot;ng-star-inserted&quot;]/qmt-datagrid[1]/div[@class=&quot;border border-gray-A1 border-solid my-10 rounded-lg&quot;]/div[@class=&quot;p-5 flex justify-between items-center&quot;]/div[@class=&quot;flex justify-end items-center&quot;]/div[@class=&quot;flex align-middle&quot;]/a[1]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>f59cd017-293e-4680-a5ab-e5bb02e3d959</webElementGuid>
+      <value>//a[@href=&quot;/super-admin/compensation/add&quot;]</value>
+      <webElementGuid>f85501e0-73a0-49df-afa6-a9cc33e43fe3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/button</value>
-      <webElementGuid>460877de-7e16-4b68-bb80-a4f7a2e229ea</webElementGuid>
+      <webElementGuid>36a5146b-bb21-4b47-b8d0-c4a3ac01bd09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'add Add Compensation ' or . = 'add Add Compensation ')]</value>
-      <webElementGuid>294221ba-5079-47c3-83f7-04ea2edc57f5</webElementGuid>
+      <webElementGuid>83969956-7ca1-4269-924f-cbbe31c92d79</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

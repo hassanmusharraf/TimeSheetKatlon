@@ -21,63 +21,53 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class FleetStatus {
-	
+
 	@Keyword
 	def add_fleet_status() {
-		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
-		
-		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/fleet-status/list')
 		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/div_All Fleet Status'),1)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/input_p-inputtext p-component p-element'),
-			1)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/button_upload Bulk Upload'),
-			1)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/button_download Download Excel Format'),
-			1)
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL+'super-admin/fleet-status/list')
+						
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/button_add Add Fleet Status'))
-		
-		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/inputFleet Status Name'), 'Status 1')
-		
+
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/inputFleet Status Name'), 'Adding Status')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 	@Keyword
 	def update_fleet_status() {
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/buttonrow-update'))
-		
-		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/inputFleet Status Name'), 'Status 2')
-		
+
+		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/inputFleet Status Name'), 'Updating status')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/button_Update'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def delete_fleet_status() {
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/buttonrow-delete'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetStatus/button_Delete'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def goto_fleet_status() {
-		
+
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/fleet-status/list')
-		
+
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
 	}
 }

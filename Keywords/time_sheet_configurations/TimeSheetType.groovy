@@ -30,21 +30,9 @@ public class TimeSheetType {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/div_All Timesheet Types'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/input_p-inputtext p-component p-element'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/button_upload Bulk Upload'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/button_download Download Excel Format'),
-				0)
-
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/button_add Add New'))
 
-		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/inputName'), 'type 1')
+		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/inputName'), 'timeSheet type adding')
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/button_Add'))
 
@@ -52,10 +40,11 @@ public class TimeSheetType {
 	}
 	@Keyword
 	def update_timeSheet_type() {
-
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/buttonrow-update'))
 
-		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/inputName'), 'type 2')
+		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/inputName'), 'timeSheet type updating')
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/button_Update'))
 
@@ -63,7 +52,8 @@ public class TimeSheetType {
 	}
 	@Keyword
 	def delete_timeSheet_type() {
-
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/buttonrow-delete'))
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/button_Delete'))

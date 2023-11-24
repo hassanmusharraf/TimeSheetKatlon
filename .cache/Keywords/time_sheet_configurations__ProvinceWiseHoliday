@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "ADB1462761FADD29F4E0086131A36332",
+  "keywordFileContentHash": "BC0D060F3A998218EF6DC6C7EAD8F04D",
   "keywordClasses": [
     {
       "name": "time_sheet_configurations.ProvinceWiseHoliday",
@@ -21,6 +21,16 @@
         },
         {
           "name": "update_province_for_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_holiday",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_province",
           "parameters": [],
           "javadoc": ""
         }

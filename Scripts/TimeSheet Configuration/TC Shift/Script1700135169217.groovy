@@ -19,45 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-WebUI.delay(5)
+CustomKeywords.'time_sheet_configurations.Shift.add_shift'()
 
-WebUI.navigateToUrl('http://localhost:4200/super-admin/shift/list')
+CustomKeywords.'time_sheet_configurations.Shift.update_shift'()
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_add Add New'))
-
-WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/inputName'), 'Name 1')
-
-TestObject startTimeObject=findTestObject('OR TimeSheet Configuration/OR Shift/input__Start Time')
-
-String startTime = "05:09"
-
-WebUI.setText(startTimeObject, startTime)
-
-//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ARROW_DOWN))
-//
-//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ARROW_DOWN))
-//
-//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ARROW_DOWN))
-//
-//WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/buttonrow-update'))
-
-WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/inputName'), 'Name 2')
-
-WebUI.setText(findTestObject('OR TimeSheet Configuration/OR Shift/input__End Time'), '09:05 AM')
-
-WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_Update'))
-
-WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/buttonrow-delete'))
-
-WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_Delete'))
-
-WebUI.delay(5)
+CustomKeywords.'time_sheet_configurations.Shift.delete_shift'()
 
 WebUI.closeBrowser()
 

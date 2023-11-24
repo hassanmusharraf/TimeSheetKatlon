@@ -6,16 +6,15 @@
    <elementGuidId>42877854-d9df-4374-9b9b-1841969823f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@href='/super-admin/job-work-type/f8c042eb-ff56-4751-a1a8-e11c372d7cf1']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>id(&quot;pr_id_10-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;!border-b-gray-A1 !flex-1 !p-4 text-gray-A3 truncate ng-star-inserted&quot;]/div[1]/div[@class=&quot;flex justify-start items-center h-full w-full gap-2 ng-star-inserted&quot;]/a[@id=&quot;row-update&quot;]/button[@class=&quot;mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
+         <value>//*[@id = 'row-update']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>44b37885-c836-4658-91c5-5656ff555174</webElementGuid>
+      <webElementGuid>5982c159-1d54-4a45-95c8-39407b831d60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +33,23 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>46e76dce-b97a-4b00-afca-cb196c4a18fd</webElementGuid>
+      <webElementGuid>14b88840-39a9-4481-be31-c1028eebfcb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//a[@href='/super-admin/job-work-type/f8c042eb-ff56-4751-a1a8-e11c372d7cf1']</value>
-      <webElementGuid>324978f0-9d44-4a68-ab2a-0acce1073a0b</webElementGuid>
+      <webElementGuid>38cdc224-8175-4f7b-a26b-d6289f648858</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>row-update</value>
+      <webElementGuid>1443b373-f925-4d88-9ad2-de881dbedb36</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='row-update']/button</value>
-      <webElementGuid>6b728521-dda7-468b-a5b7-09db60d43d6e</webElementGuid>
+      <webElementGuid>85ec27c5-7cf2-4a2b-bbe1-de066f8d7821</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/div/div/a/button</value>
-      <webElementGuid>9463b8d0-e843-4c00-8b69-19554cdf088b</webElementGuid>
+      <webElementGuid>4a205c3f-9f6b-4d3c-a02f-ba6f89f5810a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

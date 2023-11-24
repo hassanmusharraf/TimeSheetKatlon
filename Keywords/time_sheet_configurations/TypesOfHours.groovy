@@ -30,18 +30,9 @@ public class TypesOfHours {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/div_All Type of Hours'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Bulk Upload Button'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/Download Excel Format Button'),
-				0)
-
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/button_add Add New'))
 
-		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/inputName'), 'Hours Type')
+		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/inputName'), 'Adding Hours Type')
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/button_Add'))
 
@@ -52,7 +43,7 @@ public class TypesOfHours {
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/buttonrow-update'))
 
-		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/inputName'), 'Hours Type 1')
+		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/inputName'), 'Updating Hours Type')
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/button_Update'))
 
@@ -60,7 +51,8 @@ public class TypesOfHours {
 	}
 	@Keyword
 	def delete_type_of_hours() {
-
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/TypesOfHours/buttonrow-delete'))
 

@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
-
+import com.Components
 public class CompanyUser {
 
 	@Keyword
@@ -31,19 +31,7 @@ public class CompanyUser {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/OR CompanyUsers/qmt-page-heading_All Admins'), 0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/OR CompanyUsers/div_All Admins'), 0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/OR CompanyUsers/input_p-inputtext p-component p-element'),
-				0)
-
-		WebUI.waitForElementPresent(findTestObject('Settings/OR CompanyUsers/table'), 0)
-
-//		'com.Components.getNumberOfRows'(findTestObject('Settings/OR CompanyUsers/table'),0)
-
-		'com.Components.getRowByNameValue'(findTestObject('Settings/OR CompanyUsers/table'), 'Shanta')
-
-		'com.Components.getNumberOfColumns'(findTestObject('Settings/OR CompanyUsers/table'),0)
+		Components.getRowByNameValue("/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-company-users[1]/qmt-datagrid[1]/div[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr" ,'Shanta')
+		
 	}
 }

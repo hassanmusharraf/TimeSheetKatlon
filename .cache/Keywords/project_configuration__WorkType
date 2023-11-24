@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "3FDA2D5225EFFE35ADF7698A7D5368B3",
+  "keywordFileContentHash": "A7A1E227F934A2093254D8A27A90D68F",
   "keywordClasses": [
     {
       "name": "project_configuration.WorkType",
@@ -16,6 +16,11 @@
         },
         {
           "name": "delete_work_type",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_work_type",
           "parameters": [],
           "javadoc": ""
         }

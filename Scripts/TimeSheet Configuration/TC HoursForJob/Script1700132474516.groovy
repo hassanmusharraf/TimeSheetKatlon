@@ -17,3 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:4200/auth/login')
+
+WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/button_add Add New'))
+
+WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/inputCode'), 'NC')
+
+WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/inputName'), 'Adding name')
+
+WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/inputStandard Hour'), '25')
+
+WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/input_ng-tns-c329-31 p-autocomplete-input p_2fbdfd'), 
+    '')
+
+WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/input_ng-tns-c329-31 p-autocomplete-input p_2fbdfd'))
+
+WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/li_Over Time'))
+
+WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/OR HoursForJob/button_Add'))
+

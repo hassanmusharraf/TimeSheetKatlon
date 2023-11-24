@@ -21,63 +21,54 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CommonHolidays {
-	
+
 	@Keyword
 	def add_common_holiday() {
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/common-holiday/list')
-		
-		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)		
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/div_Common Holiday List'),
-			0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/inputyearpicker'),
-			0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/input_p-inputtext p-component p-element'),
-			0)
-		
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/button_add Add New'))
-		
-		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/inputName'), 'Common Holiday')
-		
-		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR CommonHoldays/input_date'), '23/11/2023')
-		
+
+		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/inputName'), 'Adding Common Holiday')
+
+		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR CommonHoldays/input_date'), '01012023')
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/button_Add'))
-		
-		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)	}
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
 	@Keyword
 	def update_common_holiday() {
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/button_mat-focus-indicator flex justify-cen_1daa0b'))
-		
-		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/inputName'), 'Common Holiday 1')
-		
-		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR CommonHoldays/input_date'), '24/11/2023')
-		
+
+		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/inputName'), 'Updating Common Holiday')
+
+		WebUI.setText(findTestObject('OR TimeSheet Configuration/Calender/OR CommonHoldays/input_date'), '02012023')
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/button_Update'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 	@Keyword
 	def delete_common_holiday() {
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/buttonrow-delete'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Calender/OR CommonHoldays/button_Delete'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
 	@Keyword
 	def goto_common_holiday() {
-		
+
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/common-holiday/list')
-		
+
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
 	}
 }

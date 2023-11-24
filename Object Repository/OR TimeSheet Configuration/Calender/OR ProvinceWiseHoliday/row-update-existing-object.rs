@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'row-update']</value>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-province-calendar-list[1]/qmt-datagrid[1]/div[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/div[1]/div[1]/a[1]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>66f4706e-46a9-4125-96ba-698d8d35c9a3</webElementGuid>
+      <webElementGuid>d7ef7525-1d1c-49b9-92b6-b8dcc14f1e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,23 +33,23 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>4de8a80e-2761-4835-ad95-659d898bf743</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;pr_id_2-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;!border-b-gray-A1 !flex-1 !p-4 text-gray-A3 truncate ng-star-inserted&quot;]/div[1]/div[@class=&quot;flex justify-start items-center h-full w-full gap-2 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>71c46d55-adc3-44b5-b73f-1545eac85e21</webElementGuid>
+      <webElementGuid>fae710b2-ec65-49d2-8b9f-c64a8945966e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-province-calendar-list[1]/qmt-datagrid[1]/div[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/div[1]/div[1]/a[1]/button[1]</value>
+      <webElementGuid>dae956fd-ea7d-4523-ab33-299810d48b5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>row-update</value>
-      <webElementGuid>1be32b1c-00ae-4583-bc27-32d3e156c467</webElementGuid>
+      <webElementGuid>aecd73e8-8b02-459e-9647-6f0e06425172</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='pr_id_2-table']/tbody/tr[3]/td[4]/div/div/button</value>
-      <webElementGuid>60334846-6bdf-45c2-81f1-68eeb9e75b22</webElementGuid>
+      <webElementGuid>3a0fb899-833f-4998-b024-6a93eb8ce98f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/div/div/button</value>
-      <webElementGuid>90e6264f-a6c8-4ef9-aa8b-912c1e1c9d99</webElementGuid>
+      <webElementGuid>22a41451-86f6-4e57-8282-e8369196565b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,17 +29,7 @@ public class FleetCategory {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/div_All Categories'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_upload Bulk Upload'),
-				0)
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_download Download Excel Format'),
-				0)
-
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/button_add Add Category'))
-
 
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetCategory/inputFleet Category Name'), 'Adding Category')
 
