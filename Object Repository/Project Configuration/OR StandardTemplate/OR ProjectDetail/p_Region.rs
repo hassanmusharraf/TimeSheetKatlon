@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Region</name>
+   <tag></tag>
+   <elementGuidId>59c25e38-ebbf-46b8-b6a5-4ed572accf5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//qmt-new-autocomplete[6]/div/qmt-label/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a54d44fc-ba87-476e-8768-4bc44e7f70b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[#525252] text-base !mb-2</value>
+      <webElementGuid>f01a2085-3124-4e58-8ed5-97a2bd3dfdc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Region</value>
+      <webElementGuid>1b59d80f-80a9-427b-bb47-06d5dea81f75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-job-type-data-form[@class=&quot;ng-star-inserted&quot;]/qmt-job-project-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mt-16&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;grid grid-cols-3 gap-8 mt-5&quot;]/qmt-new-autocomplete[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;field&quot;]/qmt-label[@class=&quot;ng-star-inserted&quot;]/p[@class=&quot;text-[#525252] text-base !mb-2&quot;]</value>
+      <webElementGuid>4b702069-c31f-4c29-ba9b-9f9a78eaebd3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-new-autocomplete[6]/div/qmt-label/p</value>
+      <webElementGuid>0a1fa03c-7ccb-43f6-a7e9-8ab8e43029b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Region' or . = 'Region')]</value>
+      <webElementGuid>4bbc7ae3-0b6d-4196-8ccd-5bd3b5d2757d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

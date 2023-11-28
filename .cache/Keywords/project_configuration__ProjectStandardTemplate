@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "FE20F7794430C229A439116704AE5F2A",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.ProjectStandardTemplate",
+      "keywordMethods": [
+        {
+          "name": "add_standard_template",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

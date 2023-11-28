@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_add_new_task</name>
+   <tag></tag>
+   <elementGuidId>eb8bed68-637c-4708-94bf-eb02fd7197ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/qmt-job-task-modal[1]/mat-dialog-content[1]/form[1]/div[2]/div[1]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/qmt-job-task-modal[1]/mat-dialog-content[1]/form[1]/div[2]/div[1]/button[1]</value>
+      <webElementGuid>711bb9bb-7551-4281-b050-4666da222c22</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_add Add Option</name>
+   <tag></tag>
+   <elementGuidId>0c4e3c81-7a4b-405a-9907-504584044da1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-7']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/qmt-custom-fleet-field-model[1]/mat-dialog-content[1]/form[1]/div[2]/div[1]/div[1]/div[2]/div[1]/mat-icon[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>65dd9cb8-39e2-4063-81f0-5581bbdc4c28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block px-3 py-2 cursor-pointer mb-2 text-[#478BEB] text-sm font-normal bg-[#B6D1F71F] border border-[#0d387547] border-dashed rounded</value>
+      <webElementGuid>0569f5c2-9f3b-4d3d-a640-4e18ffaf4eb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add Add Option </value>
+      <webElementGuid>37180357-db4b-43e5-b605-95dde737a395</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/qmt-custom-fleet-field-model[1]/mat-dialog-content[1]/form[1]/div[2]/div[1]/div[1]/div[2]/div[1]/mat-icon[1]</value>
+      <webElementGuid>4e17b8cf-b861-4003-ba26-eb1382e8ce33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-7']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>1f21c4d6-e9f7-43f3-8345-1b5c1212c0e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div</value>
+      <webElementGuid>4f95ae79-3a72-453c-bb3d-8540427653e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'add Add Option ' or . = 'add Add Option ')]</value>
+      <webElementGuid>60cd1324-b9db-43a3-a00b-174592ab2d56</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_construction</name>
+   <tag></tag>
+   <elementGuidId>95aca7b2-6382-421b-81ca-a5bf87c44c8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-job-resource-list-modal/mat-dialog-content/form/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e9011191-90d3-4c78-8571-2f51bd44a5f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>b2977e2d-29b6-4d7f-8081-cd7d042b312c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>035b4323-140e-415f-881a-aacfa0976e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>construction</value>
+      <webElementGuid>335db7ca-758f-4cfe-85b4-dc7968c02eeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/qmt-job-resource-list-modal[@class=&quot;ng-star-inserted&quot;]/mat-dialog-content[@class=&quot;mat-dialog-content !m-0&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;pb-6 px-5 mt-5&quot;]/div[@class=&quot;flex flex-wrap justify-center gap-x-10 gap-y-4&quot;]/div[@class=&quot;border border-solid border-[#DAE0E6] p-3 flex flex-col justify-around w-[130px] h-[140px] rounded-md cursor-pointer ng-star-inserted&quot;]/div[@class=&quot;p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed&quot;]</value>
+      <webElementGuid>e72c17bd-b521-4918-9791-409f9e54a111</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-job-resource-list-modal/mat-dialog-content/form/div/div/div[2]/div</value>
+      <webElementGuid>235888b2-3a93-406b-9281-c6fdc21f7eed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div[2]/div</value>
+      <webElementGuid>e8f683f1-61ca-4633-8faf-b0b52b62bc2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'construction' or . = 'construction')]</value>
+      <webElementGuid>050a407f-dedf-44f4-8f86-4bb7a32b19cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

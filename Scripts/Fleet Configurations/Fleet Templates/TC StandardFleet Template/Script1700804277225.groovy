@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-CustomKeywords.'fleet_configurations.FleetStandardTemplate.goto_fleet_template'()
+//CustomKeywords.'fleet_configurations.FleetStandardTemplate.goto_fleet_template'()
 
-//CustomKeywords.'fleet_configurations.FleetStandardTemplate.add_fleet_template'()
+CustomKeywords.'fleet_configurations.FleetStandardTemplate.add_fleet_template'()
+
+CustomKeywords.'com.Components.search_element'('ID001')
 
 CustomKeywords.'fleet_configurations.FleetStandardTemplate.update_fleet_template'()
+
+CustomKeywords.'com.Components.search_element'('ID002')
 
 CustomKeywords.'fleet_configurations.FleetStandardTemplate.delete_fleet_template'()
 

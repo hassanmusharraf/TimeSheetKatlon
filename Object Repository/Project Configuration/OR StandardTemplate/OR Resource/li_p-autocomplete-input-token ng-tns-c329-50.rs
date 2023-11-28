@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_p-autocomplete-input-token ng-tns-c329-50</name>
+   <tag></tag>
+   <elementGuidId>64eabc04-4c55-44cf-b23d-5e3427dd4712</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p-autocomplete[@id='Equipments']/span/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.p-autocomplete-input-token.ng-tns-c329-50</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e290bc0a-6340-44f5-af85-79ad4cb4d9ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-autocomplete-input-token ng-tns-c329-50</value>
+      <webElementGuid>9ed03a3a-c359-4246-9477-3849973ff5d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Equipments&quot;)/span[@class=&quot;ng-tns-c329-50 p-autocomplete p-component p-autocomplete-dd p-autocomplete-multiple&quot;]/ul[@class=&quot;p-autocomplete-multiple-container p-component p-inputtext ng-tns-c329-50 ng-star-inserted&quot;]/li[@class=&quot;p-autocomplete-input-token ng-tns-c329-50&quot;]</value>
+      <webElementGuid>44fd862c-23ef-49f2-85d8-0e1dc0e6a23d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p-autocomplete[@id='Equipments']/span/ul/li</value>
+      <webElementGuid>112de9af-f85d-4eff-9f98-e29d81e86623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/ul/li</value>
+      <webElementGuid>dd81c87e-13aa-4b09-8795-d13e4ecd5ca1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -79,4 +79,14 @@
       <initValue>'0'</initValue>
       <name>VARIABLE</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>TODAYS_DATE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>DATE</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

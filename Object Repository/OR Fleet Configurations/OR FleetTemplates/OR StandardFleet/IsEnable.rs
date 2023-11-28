@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IsEnable</name>
+   <tag></tag>
+   <elementGuidId>3b06c83f-ad40-4877-be86-243b227d1eb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-fleet-type-data-form[1]/form[1]/div[1]/div[1]/div[2]/mat-checkbox[1]/label[1]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-checkbox-2</value>
+      <webElementGuid>676a7b60-da58-40c6-8d98-fab9c2fb51c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-fleet-type-data-form[1]/form[1]/div[1]/div[1]/div[2]/mat-checkbox[1]/label[1]/span[1]</value>
+      <webElementGuid>b0d2500c-d184-438a-90aa-0deb4309ed75</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

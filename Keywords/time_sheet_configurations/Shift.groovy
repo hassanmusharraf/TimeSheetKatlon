@@ -21,65 +21,65 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class Shift {
-	
-	
+
+
 	@Keyword
 	def add_shift() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl('http://localhost:4200/super-admin/shift/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_add Add New'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/inputName'), 'Adding name')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR Shift/input__Start Time'), '0904A')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR Shift/input__End Time'), '1205P')
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def update_shift() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/buttonrow-update'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/inputName'), 'Updating name')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR Shift/input__Start Time'), '1205P')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR TimeSheet Configuration/OR Shift/input__End Time'), '0905A')
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_Update'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def delete_shift() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/buttonrow-delete'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR TimeSheet Configuration/Page_QM Timesheet/button_Delete'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def goto_shift() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl('http://localhost:4200/super-admin/shift/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 }

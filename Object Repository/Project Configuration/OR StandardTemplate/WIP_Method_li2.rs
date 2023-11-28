@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>WIP_Method_li2</name>
+   <tag></tag>
+   <elementGuidId>806b7f05-4f78-43e0-8a4f-3c19719321e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/ul/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/ul/li[2]</value>
+      <webElementGuid>5fcfc4f2-8a0d-4c4f-b44a-2f1bab319ea4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

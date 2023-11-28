@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Save Template' or . = 'Save Template')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>500a4808-a17f-41df-9ac9-4097003b8385</webElementGuid>
+      <webElementGuid>40466b47-1c58-4727-86f5-4bd7f82291e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>7d592bb5-8261-4f5d-9819-9e6b1923e9b0</webElementGuid>
+      <webElementGuid>68f4dee9-ad7a-439e-8657-b262ceb18f04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>adcc03c6-21a9-4857-8c5e-7a9bc61a3663</webElementGuid>
+      <webElementGuid>d5de7221-d96d-421d-8a01-ee7f3ccaf069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>ef21637a-1d8c-4633-b074-8ff6b22bf23a</webElementGuid>
+      <webElementGuid>fe0a0620-7d79-4ca7-a3af-b469270d4743</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>7280445a-b8bc-4ecc-86da-59c0387a6169</webElementGuid>
+      <webElementGuid>64414235-4c96-4143-9ff1-f7ada8da6445</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +66,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Save Template</value>
-      <webElementGuid>9488e6d1-bc9a-46d5-814f-9d3340c489a4</webElementGuid>
+      <webElementGuid>4ada254d-725e-4eb0-ad34-925cec0a35f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-new-fleet-template[@class=&quot;ng-star-inserted&quot;]/qmt-page-heading[1]/div[@class=&quot;w-full flex items-center justify-between gap-3&quot;]/div[@class=&quot;flex gap-4 justify-end items-center w-[60%]&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>7d1b9d2e-be87-4c2c-9d49-3b8004c5f3b4</webElementGuid>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-new-fleet-template[1]/qmt-page-heading[1]/div[1]/div[2]/button[3]/span[2]</value>
+      <webElementGuid>47642e74-5fab-43ca-8982-4041f5933bbe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>1ca66087-92ca-4912-a779-d0f71126cfaf</webElementGuid>
+      <webElementGuid>9070cfbd-2424-4db7-9363-dba5f76eba79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>37a5dec5-f0a4-41a5-865a-076b84147046</webElementGuid>
+      <webElementGuid>ebc4c595-b130-4c6b-a2f5-dbf0152438b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Save Template' or . = 'Save Template')]</value>
-      <webElementGuid>bd133109-609f-4f46-9f9c-ad3fcb037981</webElementGuid>
+      <webElementGuid>925216e1-2a8c-4a72-91ba-6e01fe87cc43</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

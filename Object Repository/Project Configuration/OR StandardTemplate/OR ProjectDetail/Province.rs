@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Province</name>
+   <tag></tag>
+   <elementGuidId>92266781-3ceb-4a63-b0e9-4d21a6e0451f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p-autocomplete[@id='Province']/span/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-ripple.p-autocomplete-dropdown.ng-tns-c329-62.p-button.p-component.p-button-icon-only.ng-star-inserted > span.p-button-icon.pi.pi-chevron-down</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'Province']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>49531dd4-d930-4442-8e25-9ee445135080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-chevron-down</value>
+      <webElementGuid>466c99a7-baf3-4c91-9a16-434d3bf4bc01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6d513e92-8fc5-4da4-98a7-0ec590fe8a06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Province&quot;)/span[@class=&quot;ng-tns-c329-62 p-autocomplete p-component p-autocomplete-dd&quot;]/button[@class=&quot;p-element p-ripple p-autocomplete-dropdown ng-tns-c329-62 p-button p-component p-button-icon-only ng-star-inserted&quot;]/span[@class=&quot;p-button-icon pi pi-chevron-down&quot;]</value>
+      <webElementGuid>bd8343cf-1ba0-49a9-861d-1bc001cdc2e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Province</value>
+      <webElementGuid>32599c82-3f1d-46f0-ae00-54dc752c3a8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p-autocomplete[@id='Province']/span/button/span</value>
+      <webElementGuid>cccfd4ea-893b-45e7-9fd2-dc631a354c9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/qmt-new-autocomplete[2]/div/p-autocomplete/span/button/span</value>
+      <webElementGuid>80b121a2-94d6-44ea-acd5-e83c1601c98b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -19,16 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-WebUI.navigateToUrl(GlobalVariable.BASE_URL+"super-admin/fleet/template/list")
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_custom_fleet'()
 
-WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputTemplate Name'), 
-    'Adding Custom Fleet Temp')
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_text_field'()
 
-WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputTemplate Code'), 
-    'T001')
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_number_field'()
 
-WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/textareaTemplate Description'), 
-    'Desc')
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_amount_field'()
 
-WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Save Template'))
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_checkBox_field'()
+
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_date_field'()
+
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_dateAndTime_field'()
+
+CustomKeywords.'fleet_configurations.FleetCustomTemp.add_selectionBox_field'()
+
+CustomKeywords.'fleet_configurations.FleetCustomTemp.save_template'()
+
+WebUI.closeBrowser()
+
 

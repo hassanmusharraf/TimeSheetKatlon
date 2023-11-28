@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "DAA16F95FD959F7599561131BAD70AD8",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.StandardTemplate",
+      "keywordMethods": [
+        {
+          "name": "add_project_detail",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_project_detail",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_task",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_add_standard_template",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

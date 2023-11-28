@@ -1,0 +1,61 @@
+{
+  "keywordFileContentHash": "EAEDDDE6F0039DB86DFF5297A7E8C5CB",
+  "keywordClasses": [
+    {
+      "name": "fleet_configurations.FleetCustomTemp",
+      "keywordMethods": [
+        {
+          "name": "add_custom_fleet",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_text_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_number_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_amount_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_checkBox_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_date_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_dateAndTime_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_selectionBox_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "save_template",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_add_custom_template",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -6,54 +6,66 @@
       "keywordMethods": [
         {
           "name": "add_division",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "delete_division",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "goto_division",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "add_region",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "delete_region",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "goto_region",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "add_location",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "delete_location",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "goto_location",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "add_department",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "delete_department",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "goto_department",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

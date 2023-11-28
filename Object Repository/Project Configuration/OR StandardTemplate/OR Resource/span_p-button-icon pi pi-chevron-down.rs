@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_p-button-icon pi pi-chevron-down</name>
+   <tag></tag>
+   <elementGuidId>d748ec11-25d4-4ddd-b830-65aab3d3cecd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p-autocomplete[@id='Equipments']/span/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-ripple.p-autocomplete-dropdown.ng-tns-c329-50.p-button.p-component.p-button-icon-only.ng-star-inserted > span.p-button-icon.pi.pi-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>53934d99-52ff-4d25-8bfd-6ec0620f4200</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-button-icon pi pi-chevron-down</value>
+      <webElementGuid>8a7dec36-4420-476e-b964-2e33953925ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e3c1f6dc-510b-43b3-88f5-57dbb1bc450f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Equipments&quot;)/span[@class=&quot;ng-tns-c329-50 p-autocomplete p-component p-autocomplete-dd p-autocomplete-multiple&quot;]/button[@class=&quot;p-element p-ripple p-autocomplete-dropdown ng-tns-c329-50 p-button p-component p-button-icon-only ng-star-inserted&quot;]/span[@class=&quot;p-button-icon pi pi-chevron-down&quot;]</value>
+      <webElementGuid>ceec0219-ebcb-418f-9562-81d48687d83d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p-autocomplete[@id='Equipments']/span/button/span</value>
+      <webElementGuid>d51b6d69-b5ef-49ad-b780-b10c4ffa647f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/qmt-new-autocomplete/div/p-autocomplete/span/button/span</value>
+      <webElementGuid>b0e2c873-0e6f-4705-bfe3-327edd312c28</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

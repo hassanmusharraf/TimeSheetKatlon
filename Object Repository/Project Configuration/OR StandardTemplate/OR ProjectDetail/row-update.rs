@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>row-update</name>
+   <tag></tag>
+   <elementGuidId>1593b76f-fab4-46e8-82ce-9b94c28a50c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='row-update']/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6bf6b264-bac7-4783-be4d-595c791502a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base</value>
+      <webElementGuid>08d9a431-3eaa-45bb-b34c-fae7d29b45f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_4-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;!border-b-gray-A1 !flex-1 !p-4 text-gray-A3 truncate ng-star-inserted&quot;]/div[1]/div[@class=&quot;flex justify-start items-center h-full w-[200px] gap-2 ng-star-inserted&quot;]/a[@id=&quot;row-update&quot;]/button[@class=&quot;mat-focus-indicator flex justify-center w-[30px] h-[30px] items-center !text-primary-dark mat-icon-button mat-button-base&quot;]</value>
+      <webElementGuid>4aee7309-1f63-43d5-835e-4247343c46d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='row-update']/button</value>
+      <webElementGuid>a54d3ca8-c9c9-4601-9fe4-1a1a02494836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/div/a/button</value>
+      <webElementGuid>70305ad2-b054-40e8-9e1e-607d2f763d8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

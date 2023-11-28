@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_addCreate New Field</name>
+   <tag></tag>
+   <elementGuidId>9cd9e05d-43d1-45a8-913f-761bcf8ca785</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e6dddeb9-5cc5-486b-bbae-b7b2ff1ca91e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>8063cbbf-90ff-474c-abab-544ed935bc0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator !flex !justify-center !border-dashed !border !border-[#0d387547] !bg-[#B6D1F71F] !text-[#478BEB] !p-3 mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>83d52565-1b09-41ea-b8f8-19c116d1056f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>a70b4724-4653-44cb-8d3b-51be1b3973e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>addCreate New Field </value>
+      <webElementGuid>cbc057ee-fd4c-4099-8d77-5bb0ac032bac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container mat-drawer-transition mat-drawer-container-has-open&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-new-fleet-template[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex gap-5 mt-5 ng-star-inserted&quot;]/div[@class=&quot;flex-shrink-0 flex-grow-0 basis-[397px] p-[18px] border-solid !border !border-[#DAE0E6]&quot;]/section[@class=&quot;mb-6&quot;]/div[@class=&quot;flex flex-col px-3&quot;]/button[@class=&quot;mat-focus-indicator !flex !justify-center !border-dashed !border !border-[#0d387547] !bg-[#B6D1F71F] !text-[#478BEB] !p-3 mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>38aa5a08-885e-428c-b1a0-6ec8830a2fda</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>4290eefa-7166-4afc-ae6f-7248fdbb7ebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'addCreate New Field ' or . = 'addCreate New Field ')]</value>
+      <webElementGuid>d6d26fb0-8bc1-4b7f-aad9-2d1e396ead42</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Emp 1  emp1gmail.com</name>
+   <tag></tag>
+   <elementGuidId>6d655499-49a0-4237-ad94-6ca626ef2537</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='pr_id_8_list']/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ng-tns-c329-39.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ad3bf7ff-580c-4e5a-a4a5-5519d5e2f4e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c329-39 ng-star-inserted</value>
+      <webElementGuid>ed5e0479-2061-4b15-b20b-fa76c7895950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Emp 1 | emp1@gmail.com</value>
+      <webElementGuid>17f494fd-802f-478d-b33e-df74c8971313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_8_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-39 ng-star-inserted&quot;]/span[@class=&quot;ng-tns-c329-39 ng-star-inserted&quot;]</value>
+      <webElementGuid>5958bb31-f041-4eb4-9c10-212c93ed9591</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_8_list']/li/span</value>
+      <webElementGuid>29915a1c-20f0-4d38-8254-9da5e6508805</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>b4d5b53a-dfe2-45d9-a133-4573d2d57656</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Emp 1 | emp1@gmail.com' or . = 'Emp 1 | emp1@gmail.com')]</value>
+      <webElementGuid>98f69eee-7dfc-4c03-8fa3-16af66ae2126</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

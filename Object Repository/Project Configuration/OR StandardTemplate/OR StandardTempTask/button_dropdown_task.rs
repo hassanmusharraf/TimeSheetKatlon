@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_dropdown_task</name>
+   <tag></tag>
+   <elementGuidId>5172db2d-6441-4324-91fb-27771565226b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'Task']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/qmt-job-task-modal[1]/mat-dialog-content[1]/form[1]/div[2]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/button[1]</value>
+      <webElementGuid>4a2db92a-4a6d-42d2-8a6e-28561a2e9995</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Task</value>
+      <webElementGuid>23b781b3-9454-4268-ada5-070723b15fb9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>second_element_of_dropdown</name>
+   <tag></tag>
+   <elementGuidId>0b6d1a24-8383-4fa9-bff7-0e1364b97480</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[2]/ul[1]/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/ul[1]/li[2]</value>
+      <webElementGuid>40a08ca8-9462-4d46-815c-eeae244d7c40</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
