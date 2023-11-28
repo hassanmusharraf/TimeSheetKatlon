@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add</name>
+   <name>input_ng-tns-c329-69 p-autocomplete-input p_752813</name>
    <tag></tag>
-   <elementGuidId>c8f0dd4c-dbd8-4cb5-a6af-3b58ae7fe15b</elementGuidId>
+   <elementGuidId>84a2bd63-3ec4-43f0-9a45-44785f2bc7c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#dialog-save</value>
+         <value>input.ng-tns-c329-69.p-autocomplete-input.p-inputtext.p-component.p-autocomplete-dd-input.ng-star-inserted</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='dialog-save']</value>
+         <value>(//input[@type='text'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9b2a262e-0c96-40bf-a785-6aadd3ae5937</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>dialog-save</value>
-      <webElementGuid>f5a1504a-dd8c-4cb1-8c0e-45a602555ae7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>8cef6014-2ab0-4130-adf4-f3776d943e96</webElementGuid>
+      <value>input</value>
+      <webElementGuid>273b169b-9beb-4b82-aea6-0faa91eecbe8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>color</name>
+      <name>aria-autocomplete</name>
       <type>Main</type>
-      <value>primary</value>
-      <webElementGuid>b8d59d37-b0f9-4728-a83c-b7dbaa867b84</webElementGuid>
+      <value>list</value>
+      <webElementGuid>15fb39e9-60ad-4267-8d1b-227d5438073a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>searchbox</value>
+      <webElementGuid>4a8b7cc3-63df-4585-bd60-db8cc453ddfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>98e362d0-c138-42ce-bfaf-2ba0bfb3c8f0</webElementGuid>
+      <value>ng-tns-c329-69 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted</value>
+      <webElementGuid>c1786552-c201-40a8-b526-f536cc4701ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-color</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>primary</value>
-      <webElementGuid>755617d2-6f9a-40ef-81e9-d3ce10618d1c</webElementGuid>
+      <value>off</value>
+      <webElementGuid>3d3e68e4-6885-4e9d-898d-4727360d9622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>610fb5d1-d15f-4a57-bdcc-cebf93c33e8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value> Add </value>
-      <webElementGuid>b3f246eb-0882-4b37-985d-c345b8861799</webElementGuid>
+      <value>text</value>
+      <webElementGuid>704ace6d-827a-4bab-944b-02fd0a9a0fe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dialog-save&quot;)</value>
-      <webElementGuid>ce433541-c646-4d80-acae-448f7c7acabc</webElementGuid>
+      <value>id(&quot;Shifts&quot;)/span[@class=&quot;ng-tns-c329-69 p-autocomplete p-component p-autocomplete-dd&quot;]/input[@class=&quot;ng-tns-c329-69 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted&quot;]</value>
+      <webElementGuid>33081c16-c460-438a-99ac-a23bac126bae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='dialog-save']</value>
-      <webElementGuid>b422e4dd-3cfa-4314-9c34-6873ad10e36e</webElementGuid>
+      <value>(//input[@type='text'])[7]</value>
+      <webElementGuid>65edc370-59cb-409c-b051-d87296cb0a1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-job-resource-list-modal/mat-dialog-content/form/mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>a41fdbce-dba9-47f4-b477-ba46c95a6211</webElementGuid>
+      <value>//p-autocomplete[@id='Shifts']/span/input</value>
+      <webElementGuid>d0705820-8160-414d-b50b-129de563337a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>04ef8976-0c5e-4dad-b75e-9c01e4c88d56</webElementGuid>
+      <value>//p-autocomplete/span/input</value>
+      <webElementGuid>db5a4317-1805-4b82-8ef0-062352b1c507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'dialog-save' and @type = 'submit' and (text() = ' Add ' or . = ' Add ')]</value>
-      <webElementGuid>6782a794-a20e-41c1-b871-64e03db33b24</webElementGuid>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>af835c1f-f2b3-40e9-ad02-793b66883e54</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

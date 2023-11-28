@@ -102,6 +102,7 @@ public class StandardTemplate {
 
 	@Keyword
 	def update_project_detail() {
+		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR ProjectDetail/row-update'))
@@ -202,97 +203,240 @@ public class StandardTemplate {
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR ProjectDetail/second_element_of_dropdown'))
 
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR ProjectDetail/button_Save'))
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
 	}
 
 
-	
+
 	@Keyword
 	def add_task() {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
-		Components.search_element('Adding name')
-		
-		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
-		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR ProjectDetail/row-update'))
-		
-		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/a_Tasks'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/button_add Add New'))
-		
+
 		WebUI.delay(2)
-		
+
 		//WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/button_add_new_subtask'))
 		//
 		//WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/inputName'),
 		//    'Adding sub job')
 		//
 		//WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/button_Add'))
-		
+
 		//WebUI.delay(2)
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/button_'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/li_Adding sub job'))
-		
+
 		//WebUI.click(findTestObject('Project Configuration/OR StandardTemplate/OR StandardTempTask/button_add_new_task'))
-		
+
 		//WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/inputName'),
 		//    'Adding task')
 		//
 		//WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/button_Add'))
-		
+
 		WebUI.click(findTestObject('Project Configuration/OR StandardTemplate/OR StandardTempTask/button_dropdown_task'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/li_Adding task'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/inputName_1'),
-			'Adding name')
-		
+				'Adding name')
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/Cost Code'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/li_code1'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/Cost Code 1'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/li_code 1.1'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/Cost Type'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/li_Cost Type2'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/Base UOM'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/li_Testing UOM'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/inputQuantity'),
-			'150')
-		
+				'150')
+
 		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/inputUOM Unit Price'),
-			'160')
-		
+				'160')
+
 		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/inputPlanned Cost'),
-			'128')
-		
+				'128')
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/span_mat-checkbox-inner-container mat-check_af9337'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/input_ng-tns-c329-52 p-autocomplete-input p_d51a47'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/li_Testing Status'))
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR StandardTempTask/button_Add_1'))
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+	}
+
+
+
+	@Keyword
+	def add_settings() {
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/a_Settings'))
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		// adding shift
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/a_Settings'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/button_add Add New'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/input_ng-tns-c329-69 p-autocomplete-input p_752813'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/li_Afternoon'))
+
+		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/start_time'),'1150A')
+
+		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/end_time'),'0750P')
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/button_Add'))
+
+
+
+		// adding overtime
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/button_add_new_overtime'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/Hours for Job'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/li_Travel Time'))
+
+		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/inputApplicable Hours'),
+				'12')
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/button_Add'))
+
+
+
+		// adding wordays
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/monday'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/tuesday'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/wednesday'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/thursday'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/friday'))
+
+
+		// adding Asbestos Containment
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/button_add Add'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/input_ng-tns-c329-69 p-autocomplete-input p_752813'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/li_Testing Asbestos'))
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/button_Add'))
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Settings/button_save Save Changes'))
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 	
 	
 	
 	@Keyword
-	def goto_add_standard_template() {
+	def add_resource() {
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		// add users
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/a_Resources'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/button_add Add New'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/div_group'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Button Job Title'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_Project Manager  Sample Organization'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Users'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_Shanta Paul'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/button_Add'))
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		
+		// add fleet
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/button_add Add New'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/div_construction'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Fleet Template'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_Standard Fleet'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Equipments'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_eqp 1234  equipment name 1'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Job Title'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_Project Manager  Sample Organization'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Operator'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_Shanta Paul'))
+		
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/button_Add'))
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+	}
+
+	
+	
+	@Keyword
+	def goto_standard_template() {
+		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/job/job-data/ca9bdc17-79d2-4c11-9d0e-1a151a81d9ba/list?id=ca9bdc17-79d2-4c11-9d0e-1a151a81d9ba&name=Standard%20Project')
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+	}
+
+	
+
+	@Keyword
+	def goto_project() {
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/job/job-data/ca9bdc17-79d2-4c11-9d0e-1a151a81d9ba/list?id=ca9bdc17-79d2-4c11-9d0e-1a151a81d9ba&name=Standard%20Project')
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		Components.search_element('Adding name')
+
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR ProjectDetail/row-update'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}

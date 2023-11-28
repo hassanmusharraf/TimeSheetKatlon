@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardT
 
 WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_Standard Fleet'))
 
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/button_'))
+WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Button Job Title'))
 
 WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_test  test name2'))
 

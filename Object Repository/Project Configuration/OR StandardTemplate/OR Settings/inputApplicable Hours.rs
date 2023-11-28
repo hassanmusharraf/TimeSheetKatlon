@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add</name>
+   <name>inputApplicable Hours</name>
    <tag></tag>
-   <elementGuidId>c8f0dd4c-dbd8-4cb5-a6af-3b58ae7fe15b</elementGuidId>
+   <elementGuidId>1571bdd7-51f4-4aed-b4db-6dd6d3bc0ff2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#dialog-save</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='dialog-save']</value>
+         <value>//input[@id='Applicable Hours']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9b2a262e-0c96-40bf-a785-6aadd3ae5937</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>dialog-save</value>
-      <webElementGuid>f5a1504a-dd8c-4cb1-8c0e-45a602555ae7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>8cef6014-2ab0-4130-adf4-f3776d943e96</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>color</name>
-      <type>Main</type>
-      <value>primary</value>
-      <webElementGuid>b8d59d37-b0f9-4728-a83c-b7dbaa867b84</webElementGuid>
+      <value>input</value>
+      <webElementGuid>2af6e45d-66b3-44d8-93b2-6b1ee2a2d171</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>98e362d0-c138-42ce-bfaf-2ba0bfb3c8f0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-color</name>
-      <type>Main</type>
-      <value>primary</value>
-      <webElementGuid>755617d2-6f9a-40ef-81e9-d3ce10618d1c</webElementGuid>
+      <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched p-filled ng-valid</value>
+      <webElementGuid>39a2efb8-9c9b-4502-a63d-c8e06a726c16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value> Add </value>
-      <webElementGuid>b3f246eb-0882-4b37-985d-c345b8861799</webElementGuid>
+      <value>Applicable Hours</value>
+      <webElementGuid>2b063dcf-ebab-4e8e-9999-d892cf0e4948</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>07d0896a-abbb-45fe-95ff-1e6ec037ae49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>38c15865-a36a-4bcf-b00f-e27b187524b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>1e2beefa-4fa1-44f1-bc2f-260d29720108</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>c099604b-e1fc-4659-9bda-0e9070aa95f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dialog-save&quot;)</value>
-      <webElementGuid>ce433541-c646-4d80-acae-448f7c7acabc</webElementGuid>
+      <value>id(&quot;Applicable Hours&quot;)</value>
+      <webElementGuid>590baba8-649a-47ea-80c3-551fff760b46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='dialog-save']</value>
-      <webElementGuid>b422e4dd-3cfa-4314-9c34-6873ad10e36e</webElementGuid>
+      <value>//input[@id='Applicable Hours']</value>
+      <webElementGuid>07dfa196-7d97-4fd6-bba6-f2a0d9963d48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-job-resource-list-modal/mat-dialog-content/form/mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>a41fdbce-dba9-47f4-b477-ba46c95a6211</webElementGuid>
+      <value>//mat-dialog-container[@id='mat-dialog-2']/qmt-job-overtime-rules-modal/mat-dialog-content/form/div[2]/qmt-new-input/div/input</value>
+      <webElementGuid>08b9f819-0c6b-4c95-9d30-d56c2e01b679</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>04ef8976-0c5e-4dad-b75e-9c01e4c88d56</webElementGuid>
+      <value>//qmt-new-input/div/input</value>
+      <webElementGuid>f7312521-153e-467c-9861-0ca554db6f81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'dialog-save' and @type = 'submit' and (text() = ' Add ' or . = ' Add ')]</value>
-      <webElementGuid>6782a794-a20e-41c1-b871-64e03db33b24</webElementGuid>
+      <value>//input[@id = 'Applicable Hours' and @type = 'number']</value>
+      <webElementGuid>9b61672e-d6fc-491a-bdac-fbb2debe7fde</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

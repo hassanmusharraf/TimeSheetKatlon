@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add</name>
+   <name>button_add Add</name>
    <tag></tag>
-   <elementGuidId>c8f0dd4c-dbd8-4cb5-a6af-3b58ae7fe15b</elementGuidId>
+   <elementGuidId>aabc5e01-5a42-4c3b-afb7-c21dd1f61d97</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#dialog-save</value>
+         <value>#open-asbestos-dialog</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='dialog-save']</value>
+         <value>//button[@id='open-asbestos-dialog']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9b2a262e-0c96-40bf-a785-6aadd3ae5937</webElementGuid>
+      <webElementGuid>0baeafe4-9fc4-48ba-ab00-1916d9bcbab2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>dialog-save</value>
-      <webElementGuid>f5a1504a-dd8c-4cb1-8c0e-45a602555ae7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>8cef6014-2ab0-4130-adf4-f3776d943e96</webElementGuid>
+      <value>open-asbestos-dialog</value>
+      <webElementGuid>fada8aad-7e3b-4782-9d72-f926f2eda2e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +38,15 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>b8d59d37-b0f9-4728-a83c-b7dbaa867b84</webElementGuid>
+      <webElementGuid>e29d3320-fab1-4cf0-9b97-4c6ed5fbaba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>98e362d0-c138-42ce-bfaf-2ba0bfb3c8f0</webElementGuid>
+      <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>206869aa-6d1b-4bbc-90fe-36ed508e15da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,54 +54,46 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>755617d2-6f9a-40ef-81e9-d3ce10618d1c</webElementGuid>
+      <webElementGuid>3c60f5f0-aa24-4ffd-a568-e07850f9212f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Add </value>
-      <webElementGuid>b3f246eb-0882-4b37-985d-c345b8861799</webElementGuid>
+      <value>add Add </value>
+      <webElementGuid>23855c67-fc56-4aff-8615-cdfd10853cff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dialog-save&quot;)</value>
-      <webElementGuid>ce433541-c646-4d80-acae-448f7c7acabc</webElementGuid>
+      <value>id(&quot;open-asbestos-dialog&quot;)</value>
+      <webElementGuid>a67b1b35-85bd-4ea1-8777-4acebcc45e36</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='dialog-save']</value>
-      <webElementGuid>b422e4dd-3cfa-4314-9c34-6873ad10e36e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-job-resource-list-modal/mat-dialog-content/form/mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>a41fdbce-dba9-47f4-b477-ba46c95a6211</webElementGuid>
+      <value>//button[@id='open-asbestos-dialog']</value>
+      <webElementGuid>1013cf07-77e6-481e-9905-e1aacd2061d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-dialog-actions/div/button[2]</value>
-      <webElementGuid>04ef8976-0c5e-4dad-b75e-9c01e4c88d56</webElementGuid>
+      <value>//qmt-job-asbestos/qmt-datagrid/div/div/div[2]/button</value>
+      <webElementGuid>ffc41aa4-e339-4151-aed6-346071e693b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'dialog-save' and @type = 'submit' and (text() = ' Add ' or . = ' Add ')]</value>
-      <webElementGuid>6782a794-a20e-41c1-b871-64e03db33b24</webElementGuid>
+      <value>//button[@id = 'open-asbestos-dialog' and (text() = 'add Add ' or . = 'add Add ')]</value>
+      <webElementGuid>e2ace49c-c82e-4570-a197-1d629549faa5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

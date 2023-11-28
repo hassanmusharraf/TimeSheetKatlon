@@ -3,7 +3,7 @@
    <description></description>
    <name>button_add Add New</name>
    <tag></tag>
-   <elementGuidId>9895e7a9-af67-40a2-b9d6-8100d3671fc5</elementGuidId>
+   <elementGuidId>48e53627-487b-4c05-9047-5fda61427d44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>24dce116-7650-40d8-908e-4e25f56ef1d7</webElementGuid>
+      <webElementGuid>54ba28c3-3b79-4c79-bc13-61aa18cf2dae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>6c818059-634c-4f5f-ac55-0c9d8c76e765</webElementGuid>
+      <webElementGuid>0fb06cb7-9571-4a10-829f-0390b915a367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>add-new-button</value>
-      <webElementGuid>9faad213-fa94-4fdd-b255-be89ae7f7a2e</webElementGuid>
+      <webElementGuid>d1934eb0-4bc2-4d1d-bdc5-9ac5517f13a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator !pl-2 mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>87453f02-d469-4894-b4c9-01ecf90eb754</webElementGuid>
+      <webElementGuid>918cf581-29bd-480a-aeb1-9a587bfa3548</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>348d9f0d-3384-4fa0-8dee-94742ff211cc</webElementGuid>
+      <webElementGuid>a7692670-b064-4a8c-af7a-4d8fa358aa0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>text</name>
       <type>Main</type>
       <value>add Add New </value>
-      <webElementGuid>f29353ee-96bc-4d4d-9cd9-860f705e48cc</webElementGuid>
+      <webElementGuid>765c06ae-5815-4674-95b9-6cb73acf6d39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-new-button&quot;)</value>
-      <webElementGuid>db8032c0-98aa-4846-917d-f3c2d6c58d23</webElementGuid>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-job-type-data-form[@class=&quot;ng-star-inserted&quot;]/qmt-job-settings-details[@class=&quot;ng-star-inserted&quot;]/div[2]/qmt-job-shifts[1]/qmt-datagrid[1]/div[@class=&quot;border border-gray-A1 border-solid my-10 rounded-lg&quot;]/div[@class=&quot;p-5 flex justify-between items-center&quot;]/div[@class=&quot;flex justify-end items-center&quot;]/button[@id=&quot;add-new-button&quot;]</value>
+      <webElementGuid>473c2a0f-8efb-4159-b6a3-f41060b91b16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='add-new-button']</value>
-      <webElementGuid>74c732f6-0982-48ae-9d90-6bce0e441b4e</webElementGuid>
+      <webElementGuid>f9590432-8edd-4693-95c2-fd6f85d96275</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[2]/button</value>
-      <webElementGuid>d17b43fb-5864-430e-b858-d9ca3c11bb99</webElementGuid>
+      <webElementGuid>f0835c39-0654-40f9-8021-2d84539a82bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'add-new-button' and (text() = 'add Add New ' or . = 'add Add New ')]</value>
-      <webElementGuid>dea99419-7392-49c6-9cce-0a6c69626bc9</webElementGuid>
+      <webElementGuid>288209b6-ab9e-4e3f-a1db-5d5a72d659ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

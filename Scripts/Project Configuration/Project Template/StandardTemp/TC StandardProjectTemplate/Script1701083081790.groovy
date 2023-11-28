@@ -20,8 +20,6 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-CustomKeywords.'project_configuration.StandardTemplate.goto_add_standard_template'()
-
 def todays_date = new Date()
 
 GlobalVariable.TODAYS_DATE = new SimpleDateFormat('ddMMyyyy')
@@ -47,7 +45,15 @@ GlobalVariable.DATE = new SimpleDateFormat('ddMMyyyy')
 
 println(GlobalVariable.DATE.format(updating_end_date))
 
+not_run: CustomKeywords.'com.Components.search_element'('')
+
+CustomKeywords.'project_configuration.StandardTemplate.goto_project'()
+
+CustomKeywords.'project_configuration.StandardTemplate.add_settings'()
+
 CustomKeywords.'project_configuration.StandardTemplate.add_task'()
+
+CustomKeywords.'project_configuration.StandardTemplate.add_resource'()
 
 //CustomKeywords.'project_configuration.StandardTemplate.update_standard_template'()
 //WebUI.delay(GlobalVariable.LOW_TIMESLEEP)

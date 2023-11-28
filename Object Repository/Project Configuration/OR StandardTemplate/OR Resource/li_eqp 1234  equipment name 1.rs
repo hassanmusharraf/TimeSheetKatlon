@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Standard Fleet</name>
+   <name>li_eqp 1234  equipment name 1</name>
    <tag></tag>
-   <elementGuidId>b64a09cd-a012-4b21-a7e4-df61f062665c</elementGuidId>
+   <elementGuidId>caf33e2c-4d85-46b2-af8b-db4f6e202063</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.p-ripple.p-element.p-autocomplete-item.ng-tns-c329-49.ng-star-inserted</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='']</value>
+         <value>(//li[@id=''])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>4602f822-dd7b-4245-b95e-9d60303b73de</webElementGuid>
+      <webElementGuid>00c79f17-9d6c-4bbf-b93a-9b973da753d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>695d21e0-8778-4424-a1cb-ef6c652951bc</webElementGuid>
+      <webElementGuid>72dab9b4-c030-4051-9454-7f19b470edee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-49 ng-star-inserted</value>
-      <webElementGuid>cf37767f-616f-4046-b9d6-5ef1645eeadd</webElementGuid>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-60 ng-star-inserted</value>
+      <webElementGuid>59eb23fc-fe39-42c2-91cd-5b41649a9d28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,62 +46,54 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>9e9c850b-204f-4e3c-a1ac-69151ab5a20c</webElementGuid>
+      <webElementGuid>460d0487-b3cd-430f-a421-bd76c291f07f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Standard Fleet</value>
-      <webElementGuid>ece706d2-484b-4da0-a19a-c334d5af0493</webElementGuid>
+      <value>eqp 1234 | equipment name 1 </value>
+      <webElementGuid>916d87f9-0805-4b82-b126-44986bc880ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_28_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-49 ng-star-inserted&quot;]</value>
-      <webElementGuid>872b9714-203a-453b-9ce7-257efe2c48c9</webElementGuid>
+      <value>id(&quot;pr_id_37_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-60 ng-star-inserted&quot;]</value>
+      <webElementGuid>407776d2-ffb2-45a5-b46e-cf63ca73b1a8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='']</value>
-      <webElementGuid>3b5c4c39-ac52-4b6d-a187-1183c5aba2f6</webElementGuid>
+      <value>(//li[@id=''])[3]</value>
+      <webElementGuid>abdb133b-6208-4861-93fa-bc6e5c4b986c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pr_id_28_list']/li</value>
-      <webElementGuid>c8a9934b-ffe7-49d1-89f7-2fd66ba574e1</webElementGuid>
+      <value>//ul[@id='pr_id_37_list']/li[3]</value>
+      <webElementGuid>75be3b6f-6350-4c76-9a23-888a5fb7251c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/ul/li</value>
-      <webElementGuid>9dbae9b1-10ba-4fc3-b7fd-a9c43c1264d4</webElementGuid>
+      <value>//div[3]/ul/li[3]</value>
+      <webElementGuid>440164da-1169-4509-a999-ddcb53b9d850</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[(text() = 'Standard Fleet' or . = 'Standard Fleet')]</value>
-      <webElementGuid>15c913ff-a0a7-49d3-9023-67c198a4172e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//ul[@id='pr_id_26_list']/li</value>
-      <webElementGuid>4b43c5cf-586e-4f5f-a457-51f894ab7317</webElementGuid>
+      <value>//li[(text() = 'eqp 1234 | equipment name 1 ' or . = 'eqp 1234 | equipment name 1 ')]</value>
+      <webElementGuid>e3109915-b16e-4e74-a59c-d9a0c0a96b53</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Standard Fleet</name>
+   <name>li_Travel Time</name>
    <tag></tag>
-   <elementGuidId>b64a09cd-a012-4b21-a7e4-df61f062665c</elementGuidId>
+   <elementGuidId>8b47c923-e44b-4d6a-9689-2cbd1ce07790</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.p-ripple.p-element.p-autocomplete-item.ng-tns-c329-49.ng-star-inserted</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='']</value>
+         <value>(//li[@id=''])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>4602f822-dd7b-4245-b95e-9d60303b73de</webElementGuid>
+      <webElementGuid>10498454-5c2a-43f3-af5b-ca3b36c1d106</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>695d21e0-8778-4424-a1cb-ef6c652951bc</webElementGuid>
+      <webElementGuid>212d760c-4686-46a5-91b9-25a030125154</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-49 ng-star-inserted</value>
-      <webElementGuid>cf37767f-616f-4046-b9d6-5ef1645eeadd</webElementGuid>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-71 ng-star-inserted</value>
+      <webElementGuid>7298d28d-32a9-41b6-8fe3-7ca4b3bfa3ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,62 +46,54 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>9e9c850b-204f-4e3c-a1ac-69151ab5a20c</webElementGuid>
+      <webElementGuid>3a219b16-1971-455b-ba12-f84025b3c59d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Standard Fleet</value>
-      <webElementGuid>ece706d2-484b-4da0-a19a-c334d5af0493</webElementGuid>
+      <value>Travel Time</value>
+      <webElementGuid>eb031823-52bf-467d-974c-51a1781091ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_28_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-49 ng-star-inserted&quot;]</value>
-      <webElementGuid>872b9714-203a-453b-9ce7-257efe2c48c9</webElementGuid>
+      <value>id(&quot;pr_id_52_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-71 ng-star-inserted&quot;]</value>
+      <webElementGuid>66c3dbf1-d02c-4793-bb8c-de3fac24ca2f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='']</value>
-      <webElementGuid>3b5c4c39-ac52-4b6d-a187-1183c5aba2f6</webElementGuid>
+      <value>(//li[@id=''])[2]</value>
+      <webElementGuid>3bff8c27-b5f0-4cd5-a76c-5ce4c7a22602</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pr_id_28_list']/li</value>
-      <webElementGuid>c8a9934b-ffe7-49d1-89f7-2fd66ba574e1</webElementGuid>
+      <value>//ul[@id='pr_id_52_list']/li[2]</value>
+      <webElementGuid>9058304a-98e5-4b46-82eb-4c40cea8741b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/ul/li</value>
-      <webElementGuid>9dbae9b1-10ba-4fc3-b7fd-a9c43c1264d4</webElementGuid>
+      <value>//div[3]/ul/li[2]</value>
+      <webElementGuid>de0b5ad2-8e5e-45db-b0d9-8b8c0ad94770</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[(text() = 'Standard Fleet' or . = 'Standard Fleet')]</value>
-      <webElementGuid>15c913ff-a0a7-49d3-9023-67c198a4172e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//ul[@id='pr_id_26_list']/li</value>
-      <webElementGuid>4b43c5cf-586e-4f5f-a457-51f894ab7317</webElementGuid>
+      <value>//li[(text() = 'Travel Time' or . = 'Travel Time')]</value>
+      <webElementGuid>87dd309f-202e-4ac3-b4ea-5f9326f8c1b8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

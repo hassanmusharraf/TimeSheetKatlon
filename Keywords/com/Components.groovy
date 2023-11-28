@@ -55,7 +55,7 @@ public class Components {
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def static getNumberOfRowsByXpath(String str) {
 
@@ -71,30 +71,28 @@ public class Components {
 	// get a row by it's value
 	@Keyword
 	def static getRowByNameValue(String xpath,String nameValue) {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		nameValue=nameValue.trim()
-		
+
 		List<WebElement> rows = getNumberOfRowsByXpath(xpath)
-		
+
 		for (int i=0;i<rows.size();i++) {
-			
+
 			List<WebElement> columns = rows.get(i).findElements(By.tagName("td"))
-			
+
 			println("Columns Present "+columns.size())
-			
+
 			for (int j=0; j<columns.size();j++) {
-				
+
 				if (columns.get(j).getText().trim().equals(nameValue) ) {
-									
+
 					println(columns.get(j).getText()+" Row present")
-									
+
 					return rows.get(j)
-				
 				}
 			}
-				
 		}
 	}
 

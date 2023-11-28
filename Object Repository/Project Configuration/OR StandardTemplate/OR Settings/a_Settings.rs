@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Resources</name>
+   <name>a_Settings</name>
    <tag></tag>
-   <elementGuidId>669099aa-5b0d-458e-933e-2404a3860e42</elementGuidId>
+   <elementGuidId>4f0b9df7-948a-4017-8227-461b1f5705ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[3]/a</value>
+         <value>//li[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f017132f-fc58-4a64-9db1-4aab89b2fd96</webElementGuid>
+      <webElementGuid>105de092-c318-4f14-9c80-40f636ec5617</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>a0276192-5699-4f4d-a7bc-88b163e6c148</webElementGuid>
+      <webElementGuid>b8f34581-7ea0-4cd4-8b6f-9817c060a04c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-ripple p-element p-menuitem-link ng-star-inserted</value>
-      <webElementGuid>d14e04d6-368f-4728-a564-e877ab91f187</webElementGuid>
+      <webElementGuid>d7bebd85-da8b-4db4-a838-f10a671501d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>target</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>29bdf020-981e-4add-b9f3-d0f97fc920be</webElementGuid>
+      <webElementGuid>2f2d5bfc-4891-4e28-9f07-982f832e87b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,38 +54,38 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>ca31022d-082c-4c2b-9832-5594c67d7fcd</webElementGuid>
+      <webElementGuid>3ec7af98-de02-499b-9568-654c762bdba6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Resources</value>
-      <webElementGuid>494d7b42-e243-4b82-8657-c1458be47304</webElementGuid>
+      <value>Settings</value>
+      <webElementGuid>1baea995-997b-4fa4-b9c8-a3bd8886ccc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-job-type-data-form[@class=&quot;ng-star-inserted&quot;]/p-tabmenu[@class=&quot;p-element&quot;]/div[@class=&quot;p-tabmenu p-component&quot;]/div[@class=&quot;p-tabmenu-nav-container&quot;]/div[@class=&quot;p-tabmenu-nav-content&quot;]/ul[@class=&quot;p-tabmenu-nav p-reset&quot;]/li[@class=&quot;p-element p-tabmenuitem ng-star-inserted&quot;]/a[@class=&quot;p-ripple p-element p-menuitem-link ng-star-inserted&quot;]</value>
-      <webElementGuid>6335d5f8-5858-4a8b-9ecb-6f5f63031b90</webElementGuid>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[@class=&quot;overflow-y-auto p-6 min-h-[calc(100%_-_80px)] bg-[#F2F2F2]&quot;]/div[@class=&quot;bg-white rounded-lg py-7 px-9 h-full&quot;]/qmt-job-type-data-form[@class=&quot;ng-star-inserted&quot;]/p-tabmenu[@class=&quot;p-element&quot;]/div[@class=&quot;p-tabmenu p-component&quot;]/div[@class=&quot;p-tabmenu-nav-container&quot;]/div[@class=&quot;p-tabmenu-nav-content&quot;]/ul[@class=&quot;p-tabmenu-nav p-reset&quot;]/li[@class=&quot;p-element ng-star-inserted p-tabmenuitem&quot;]/a[@class=&quot;p-ripple p-element p-menuitem-link ng-star-inserted&quot;]</value>
+      <webElementGuid>54be9c95-c90b-43d6-81fd-21b1c1981a7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
-      <webElementGuid>e9dd2a14-86fb-48c8-8b23-a1fda9c17f34</webElementGuid>
+      <value>//li[5]/a</value>
+      <webElementGuid>1ecc9112-3d4b-4ca0-b5d3-075745563d10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = 'Resources' or . = 'Resources')]</value>
-      <webElementGuid>88043b82-ef9a-4b63-9975-b14f768a9460</webElementGuid>
+      <value>//a[(text() = 'Settings' or . = 'Settings')]</value>
+      <webElementGuid>e69a8a29-e365-477a-b717-b957a97245c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

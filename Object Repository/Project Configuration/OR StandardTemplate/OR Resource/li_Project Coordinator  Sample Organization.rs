@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_</name>
+   <name>li_Project Coordinator  Sample Organization</name>
    <tag></tag>
-   <elementGuidId>43305e50-90b8-4a74-affa-5161714c5997</elementGuidId>
+   <elementGuidId>8791e0d6-66c7-4da7-8954-472d48ccc04e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.p-element.p-ripple.p-autocomplete-dropdown.ng-tns-c329-50.p-button.p-component.p-button-icon-only.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>(//li[@id=''])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>09e23b3d-e3d9-4f1d-9762-3952b123666a</webElementGuid>
+      <value>li</value>
+      <webElementGuid>69172a47-bd0c-4381-813f-21905fe65682</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>role</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6933c8b4-b414-42f6-bb80-ebc63674f782</webElementGuid>
+      <value>option</value>
+      <webElementGuid>194463e7-d1f1-4d49-8111-f4a212ac6328</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-element p-ripple p-autocomplete-dropdown ng-tns-c329-50 p-button p-component p-button-icon-only ng-star-inserted</value>
-      <webElementGuid>4e6d969f-3ffc-4301-a3a9-51ef83ce8a72</webElementGuid>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-44 ng-star-inserted</value>
+      <webElementGuid>db76f252-fc4e-49a0-a635-cd000447c074</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-icon</name>
+      <name>ng-reflect-ng-class</name>
       <type>Main</type>
-      <value>pi pi-chevron-down</value>
-      <webElementGuid>d3464dfc-8190-4f74-98ed-43d7b909d3f7</webElementGuid>
+      <value>[object Object]</value>
+      <webElementGuid>2bfb7ee6-4f53-43e1-b347-e2939b45ee49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> </value>
-      <webElementGuid>5aba156d-1fbd-4fe0-bdfb-1e3bc8e12c85</webElementGuid>
+      <value>Project Coordinator | Sample Organization </value>
+      <webElementGuid>37b5bec6-a258-4cf3-be83-2f8d393963e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Equipments&quot;)/span[@class=&quot;ng-tns-c329-50 p-autocomplete p-component p-autocomplete-dd p-autocomplete-multiple&quot;]/button[@class=&quot;p-element p-ripple p-autocomplete-dropdown ng-tns-c329-50 p-button p-component p-button-icon-only ng-star-inserted&quot;]</value>
-      <webElementGuid>c78f287d-6727-43ab-9d98-0f4e7e50693f</webElementGuid>
+      <value>id(&quot;pr_id_25_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-44 ng-star-inserted&quot;]</value>
+      <webElementGuid>916b8f64-0655-46e4-9434-06e38aa9190a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>7f3545be-c760-478e-9536-391b4dd0edff</webElementGuid>
+      <value>(//li[@id=''])[3]</value>
+      <webElementGuid>3f23bb4f-fd1d-4572-a805-60604db487fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//p-autocomplete[@id='Equipments']/span/button</value>
-      <webElementGuid>a471bef1-dfe7-474b-a93e-03ea31529d55</webElementGuid>
+      <value>//ul[@id='pr_id_25_list']/li[3]</value>
+      <webElementGuid>4f71b2e5-40ab-434f-8b88-4b2772a19d98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/qmt-new-autocomplete/div/p-autocomplete/span/button</value>
-      <webElementGuid>8df09aa4-f1f9-4e17-a236-0571331161e6</webElementGuid>
+      <value>//div[3]/ul/li[3]</value>
+      <webElementGuid>e991f553-cc30-402e-b350-d57ef0b8daa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = ' ' or . = ' ')]</value>
-      <webElementGuid>feea8c9a-cab2-4719-908f-59d9a779c945</webElementGuid>
+      <value>//li[(text() = 'Project Coordinator | Sample Organization ' or . = 'Project Coordinator | Sample Organization ')]</value>
+      <webElementGuid>98879d52-21a3-453c-91f3-2d391f1388bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

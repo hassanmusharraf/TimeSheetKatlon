@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Standard Fleet</name>
+   <name>li_Project Administrator  Sample Organization</name>
    <tag></tag>
-   <elementGuidId>b64a09cd-a012-4b21-a7e4-df61f062665c</elementGuidId>
+   <elementGuidId>2060c624-d297-4cb4-83dd-420610718ded</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.p-ripple.p-element.p-autocomplete-item.ng-tns-c329-49.ng-star-inserted</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='']</value>
+         <value>(//li[@id=''])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>4602f822-dd7b-4245-b95e-9d60303b73de</webElementGuid>
+      <webElementGuid>b9814195-c8c5-4d1c-84a4-cdd53f3e7012</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>695d21e0-8778-4424-a1cb-ef6c652951bc</webElementGuid>
+      <webElementGuid>a5c42147-cc3e-47fd-82e6-0fc970d50318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-49 ng-star-inserted</value>
-      <webElementGuid>cf37767f-616f-4046-b9d6-5ef1645eeadd</webElementGuid>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-44 ng-star-inserted</value>
+      <webElementGuid>43d5baed-4a9c-43ca-bb90-87bc6b4d8b61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,62 +46,54 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>9e9c850b-204f-4e3c-a1ac-69151ab5a20c</webElementGuid>
+      <webElementGuid>d7a7500b-9d4b-4810-904d-0506e3d86681</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Standard Fleet</value>
-      <webElementGuid>ece706d2-484b-4da0-a19a-c334d5af0493</webElementGuid>
+      <value>Project Administrator | Sample Organization </value>
+      <webElementGuid>466a00f6-8290-418b-aed0-5026ac5372cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pr_id_28_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-49 ng-star-inserted&quot;]</value>
-      <webElementGuid>872b9714-203a-453b-9ce7-257efe2c48c9</webElementGuid>
+      <value>id(&quot;pr_id_25_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-44 ng-star-inserted&quot;]</value>
+      <webElementGuid>ee9443a8-f4ca-4abb-86be-50c8d3063547</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='']</value>
-      <webElementGuid>3b5c4c39-ac52-4b6d-a187-1183c5aba2f6</webElementGuid>
+      <value>(//li[@id=''])[2]</value>
+      <webElementGuid>66e200f6-aad8-4286-8e19-d6bcd546d64d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='pr_id_28_list']/li</value>
-      <webElementGuid>c8a9934b-ffe7-49d1-89f7-2fd66ba574e1</webElementGuid>
+      <value>//ul[@id='pr_id_25_list']/li[2]</value>
+      <webElementGuid>84780165-701c-4a02-ae6d-3ed0f19aac75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/ul/li</value>
-      <webElementGuid>9dbae9b1-10ba-4fc3-b7fd-a9c43c1264d4</webElementGuid>
+      <value>//div[3]/ul/li[2]</value>
+      <webElementGuid>a86d012f-94e9-4e19-97d8-0ecb6610f5bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[(text() = 'Standard Fleet' or . = 'Standard Fleet')]</value>
-      <webElementGuid>15c913ff-a0a7-49d3-9023-67c198a4172e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//ul[@id='pr_id_26_list']/li</value>
-      <webElementGuid>4b43c5cf-586e-4f5f-a457-51f894ab7317</webElementGuid>
+      <value>//li[(text() = 'Project Administrator | Sample Organization ' or . = 'Project Administrator | Sample Organization ')]</value>
+      <webElementGuid>a8b159e7-7d10-480b-8dad-8aa519691a4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

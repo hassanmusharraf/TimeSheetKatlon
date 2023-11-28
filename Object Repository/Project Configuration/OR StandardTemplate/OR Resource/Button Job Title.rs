@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Job Title</name>
+   <tag></tag>
+   <elementGuidId>43305e50-90b8-4a74-affa-5161714c5997</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-ripple.p-autocomplete-dropdown.ng-tns-c329-44.p-button.p-component.p-button-icon-only.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'Job Title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>986baac8-5018-4d61-852a-652113715d81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cc194e2a-c09a-4284-9d62-9a52dacbcdde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-ripple p-autocomplete-dropdown ng-tns-c329-44 p-button p-component p-button-icon-only ng-star-inserted</value>
+      <webElementGuid>b72ebd72-34d2-4568-9994-83a73a7cdbd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-icon</name>
+      <type>Main</type>
+      <value>pi pi-chevron-down</value>
+      <webElementGuid>5bebe1b6-669e-4063-9d48-9a1833b0884c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> </value>
+      <webElementGuid>8c4b6c61-0a3e-4ae4-bcde-09ec5bfeb24a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Job Title&quot;)/span[@class=&quot;ng-tns-c329-44 p-autocomplete p-component p-autocomplete-dd&quot;]/button[@class=&quot;p-element p-ripple p-autocomplete-dropdown ng-tns-c329-44 p-button p-component p-button-icon-only ng-star-inserted&quot;]</value>
+      <webElementGuid>5d563e0f-d4a8-4766-ab90-0235e87d6080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Job Title</value>
+      <webElementGuid>df3f608d-7e09-4135-9a83-d84877fa1c22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>15afa2dc-d307-4071-b568-9664a891972b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p-autocomplete[@id='Job Title']/span/button</value>
+      <webElementGuid>bfa44afd-3edc-4955-b785-8cb632b2527c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/qmt-new-autocomplete/div/p-autocomplete/span/button</value>
+      <webElementGuid>4fcab501-95f8-4567-b112-a85bc128da38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' ' or . = ' ')]</value>
+      <webElementGuid>1e4f25a6-aaa9-42fc-b74b-646e9f00aa85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+      <webElementGuid>cffbf608-15f1-4a8b-8a4d-d9fe3bb4f62b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p-autocomplete[@id='Equipments']/span/button</value>
+      <webElementGuid>61a01acd-2302-4943-bdee-4c07455d2009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/qmt-new-autocomplete/div/p-autocomplete/span/button</value>
+      <webElementGuid>5b710595-74ae-4cad-8fb6-aec33564676b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

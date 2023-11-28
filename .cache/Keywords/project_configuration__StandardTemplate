@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "DAA16F95FD959F7599561131BAD70AD8",
+  "keywordFileContentHash": "E33ABE94E3DE26F733F317BF6E4CA3CC",
   "keywordClasses": [
     {
       "name": "project_configuration.StandardTemplate",
@@ -20,7 +20,22 @@
           "javadoc": ""
         },
         {
-          "name": "goto_add_standard_template",
+          "name": "add_settings",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_resource",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_standard_template",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_project",
           "parameters": [],
           "javadoc": ""
         }
