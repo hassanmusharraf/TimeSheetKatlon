@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_first  last name   emp11gmail.com</name>
+   <tag></tag>
+   <elementGuidId>ed2d72ca-aa60-4876-9374-03f5a9b84773</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.p-ripple.p-element.p-autocomplete-item.ng-tns-c329-54.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>0dbb4987-bd6a-4acf-a420-103f18a917b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>c61c8496-b756-42c7-914d-9c87bfd8cafe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-54 ng-star-inserted</value>
+      <webElementGuid>ac8595ea-8b77-452d-91ff-5ffc540458ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>fe7c50bb-f472-4b5e-90ea-65de3d91ff4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>first  last name  | emp11@gmail.com</value>
+      <webElementGuid>a0b5a39d-9f77-4fc1-8837-98e202f5732f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_15_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-54 ng-star-inserted&quot;]</value>
+      <webElementGuid>1c2480e8-2117-4b43-9abc-1b31046e6c24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//li[@id='']</value>
+      <webElementGuid>76030ef4-c372-43f6-9d14-ee5457455daf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_15_list']/li</value>
+      <webElementGuid>f8e17b48-26a2-41ca-8ae3-e0abae77e0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li</value>
+      <webElementGuid>ec4bcdab-2b9e-4b1a-9522-cf7b9c23c53b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'first  last name  | emp11@gmail.com' or . = 'first  last name  | emp11@gmail.com')]</value>
+      <webElementGuid>e65e3e3f-2d8b-434a-bfd6-8fcea0d7409e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

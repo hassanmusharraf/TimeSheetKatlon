@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text</name>
+   <tag></tag>
+   <elementGuidId>a738d667-3052-44f6-b14b-24571abbd7f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c1773956-5b54-432b-98ac-66d9d4328a7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>2eb62c73-2fce-4cee-9d38-f104dcb6d113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>c73fa9ce-734c-4b4c-9b90-590b82beb481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ABC</value>
+      <webElementGuid>707513c0-edac-4286-8d4a-5efe95691f30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/qmt-custom-fleet-field-model[@class=&quot;ng-star-inserted&quot;]/mat-dialog-content[@class=&quot;mat-dialog-content !m-0&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;pb-6 px-5 mt-5&quot;]/div[@class=&quot;flex flex-wrap gap-x-10 gap-y-4&quot;]/div[@class=&quot;border border-solid border-[#DAE0E6] p-3 flex flex-col justify-around w-[130px] h-[140px] rounded-md ng-star-inserted&quot;]/div[@class=&quot;p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed&quot;]</value>
+      <webElementGuid>1b5f56bc-9fb8-48ae-9905-7165a2af18a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>92f9be73-3978-45dd-9940-c1d8f8add85a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div/div</value>
+      <webElementGuid>37a5fa9a-7aca-4a93-8bb6-ce54bde9d13d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div</value>
+      <webElementGuid>4c6f07a9-e78e-4788-b4d5-d4b99d74a463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ABC' or . = 'ABC')]</value>
+      <webElementGuid>c2eaefbb-9d06-4641-9a42-fcc181958afa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,16 +6,16 @@
    <elementGuidId>536bbe8f-ca0e-43a0-bf85-e83c70a3b7d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin</value>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-fleet-type-data-form[1]/form[1]/div[1]/div[1]/div[1]/mat-checkbox[1]/label[1]/span[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-checkbox[@id='mat-checkbox-2']/label/span</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-fleet-type-data-form[1]/form[1]/div[1]/div[1]/div[1]/mat-checkbox[1]/label[1]/span[1]</value>
+         <key>CSS</key>
+         <value>span.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7422e705-557f-4267-89ab-a44c9e88dae3</webElementGuid>
+      <webElementGuid>283f8c51-336f-40de-9c76-07667baa6b52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin</value>
-      <webElementGuid>b3b55c2c-1541-458f-acb9-5ce62da138da</webElementGuid>
+      <webElementGuid>8d9ec3fc-3df3-4822-8521-83f6c7ec52a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +42,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-fleet-type-data-form[1]/form[1]/div[1]/div[1]/div[1]/mat-checkbox[1]/label[1]/span[1]</value>
-      <webElementGuid>afe0b66a-6aba-450a-8bee-10f838f966a1</webElementGuid>
+      <webElementGuid>6f7b5582-5e7b-4e88-9808-0f6508c674aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-checkbox-3</value>
-      <webElementGuid>4bd0f03e-ea0b-41ae-b430-9b09254671dd</webElementGuid>
+      <value>SSR</value>
+      <webElementGuid>d28631a3-bd21-4d68-98e2-1757aa66a77e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-2']/label/span</value>
-      <webElementGuid>4ca82bdd-4d18-4953-b16f-40e34410992d</webElementGuid>
+      <webElementGuid>30df3fa1-2594-492c-af91-1d3220245a27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +66,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/span</value>
-      <webElementGuid>047909f3-4410-45a9-bbee-9f7c49cc9e2a</webElementGuid>
+      <webElementGuid>94b4f236-c988-465a-b976-cd168e49a719</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

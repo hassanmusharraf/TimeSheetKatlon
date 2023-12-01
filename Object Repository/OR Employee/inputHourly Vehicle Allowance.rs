@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputHourly Vehicle Allowance</name>
+   <tag></tag>
+   <elementGuidId>4b4eaa1a-09a0-41fb-b50b-1f3ffbceb5db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='Hourly Vehicle Allowance']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>dabe5883-4346-48a2-bc60-39374d982b9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine ng-valid p-filled</value>
+      <webElementGuid>9e91bbb8-19de-495f-b0bc-f59d0210c971</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Hourly Vehicle Allowance</value>
+      <webElementGuid>f8fec964-51c5-43ca-8197-c4ce5fcc925b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>8f6023c9-bdf3-4fa0-9331-595c014e1f08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>cd6d2f94-effe-422c-8df3-1ec5fda0eaef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>7e643797-1486-4b58-b9a7-6c60af32ffe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>a081af9a-534e-4699-98ef-18c26c467256</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Hourly Vehicle Allowance&quot;)</value>
+      <webElementGuid>85c65b84-9b56-4637-9231-d50d1f0ed95d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='Hourly Vehicle Allowance']</value>
+      <webElementGuid>dfbdb528-b805-4528-8e02-ed3edf2350e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='p-accordiontab-0-content']/div/div/qmt-new-input[6]/div/input</value>
+      <webElementGuid>8b39dc6d-686f-40dc-843e-43bee3f0d14c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/qmt-new-input[6]/div/input</value>
+      <webElementGuid>b0463595-c4fc-467f-bdea-64bdb87a19be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'Hourly Vehicle Allowance' and @type = 'number']</value>
+      <webElementGuid>ea1812b5-2c00-4075-b063-d90f399eae61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

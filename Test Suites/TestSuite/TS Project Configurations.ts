@@ -36,7 +36,7 @@
       <guid>0d4018e1-85bd-4781-ac65-1c3009d3552d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Project Configuration/Project Settings/TC ProjectType</testCaseId>
+      <testCaseId>Test Cases/Project Configuration/Project Settings/TC WorkType</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -72,6 +72,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Project Configuration/Project Settings/TC AsbestosContainmentTypes</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3715f1b-55c1-4131-815f-4b19f9b07af2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Project Configuration/Project Template/Custom Project/TC CustomProjectTemplate</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cbc9b680-cea2-4a97-a931-6df9192296e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Project Configuration/Project Template/Standard Project/TC StandardProjectTemplate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

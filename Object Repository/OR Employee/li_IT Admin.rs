@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_IT Admin</name>
+   <tag></tag>
+   <elementGuidId>c644c4b1-4362-4a4d-9f81-f5851adc6b45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@id=''])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>8f7e1256-e122-4120-8c48-8d4080bcee7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>98192acb-0bd4-4219-93f1-aa72d4eeec96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-73 ng-star-inserted</value>
+      <webElementGuid>1909c618-0890-4be5-964c-d7cabd2a45cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>d763459d-b283-4fd5-9173-727d7694ab0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IT Admin</value>
+      <webElementGuid>af2c3991-9238-4c8a-b5ea-2fd1c04c5b70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_30_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-73 ng-star-inserted&quot;]</value>
+      <webElementGuid>ee0978c8-2547-4022-b94c-bf05c591d862</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//li[@id=''])[7]</value>
+      <webElementGuid>aadd6557-1568-45ac-b918-a83b9fa9f10d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_30_list']/li[7]</value>
+      <webElementGuid>9237c0b8-38e6-431b-be07-ca12dc7b313a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]</value>
+      <webElementGuid>137cf81b-4000-48b3-b4e4-e49495336bd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'IT Admin' or . = 'IT Admin')]</value>
+      <webElementGuid>f72695b0-0a0e-4d17-95c9-dd0daf6cea67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

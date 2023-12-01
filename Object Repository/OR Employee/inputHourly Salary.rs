@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputHourly Salary</name>
+   <tag></tag>
+   <elementGuidId>1381cb54-61ad-49d4-aca6-f42c8164552f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='Hourly Salary']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>4a7ab6d1-0ab7-46a0-91ea-57b6e17a89fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched p-filled ng-valid</value>
+      <webElementGuid>c2469a41-8a50-4572-a6a5-0d5b1856327e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Hourly Salary</value>
+      <webElementGuid>5292d3a9-1b50-4736-a967-dc8b8d44bf10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>863f6695-ed39-421a-afd9-10a3b6a13b47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>7fa8591a-84b2-4f80-b2cf-780becc85e23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>08fb39b5-c565-4660-9fa7-f8b337ede0d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>0ff71d10-0787-4792-8503-06a47317d5da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Hourly Salary&quot;)</value>
+      <webElementGuid>f163f1bb-b6a4-4036-bc52-4caa8bdc4f38</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='Hourly Salary']</value>
+      <webElementGuid>acd51e50-12f7-445c-8429-da5927074c83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='p-accordiontab-0-content']/div/div/qmt-new-input/div/input</value>
+      <webElementGuid>be44e29b-a699-4521-8262-0ecf9dd0a9a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/qmt-new-input/div/input</value>
+      <webElementGuid>0828adfb-b33c-4eff-8ee0-9a72e438773a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'Hourly Salary' and @type = 'number']</value>
+      <webElementGuid>b7f34246-9935-480e-9658-0ffd839fae88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

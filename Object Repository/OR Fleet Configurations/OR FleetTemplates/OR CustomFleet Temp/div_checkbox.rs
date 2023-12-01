@@ -6,16 +6,15 @@
    <elementGuidId>e4666dae-fb1c-4e46-9e52-075615e6dbe8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@id = 'checkbox']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-dialog-container[@id='mat-dialog-3']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[4]/div</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@dir='ltr']//div[4]//div[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>00f675a8-ce1f-409e-89df-edc6c7da3330</webElementGuid>
+      <webElementGuid>147a7b5f-4f8b-4fcf-b2e0-db1a5d531818</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed</value>
-      <webElementGuid>4c6cfcfd-cf75-476b-9b0e-cb9bbf1917d6</webElementGuid>
+      <webElementGuid>4dbe05fc-2ad4-4762-b2d3-4295e5c2fc32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +41,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>bg-[#B6D1F71F] border-dashed</value>
-      <webElementGuid>8b594a0e-16ce-4bd7-a23a-6d4dc6e8ae52</webElementGuid>
+      <webElementGuid>be66ab23-17a1-45b5-a619-9d0bd0ddffda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +49,23 @@
       <name>text</name>
       <type>Main</type>
       <value> </value>
-      <webElementGuid>42e2844b-ae9a-421b-aef1-4fff3c338bb3</webElementGuid>
+      <webElementGuid>0b49c61a-3a60-4b82-a3e3-e666a628af5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//div[@dir='ltr']//div[4]//div[1]</value>
-      <webElementGuid>41c5520f-ad5b-4172-9417-724449818efe</webElementGuid>
+      <webElementGuid>8d7b9303-6a5e-42d6-a428-4b1362d6e350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>10c68706-af60-41bb-bfb7-067c78906474</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-3']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[4]/div</value>
-      <webElementGuid>b8b9ab04-fcb0-4471-a2f0-67a8f1d6644f</webElementGuid>
+      <webElementGuid>1191ec49-5d88-4643-b90a-af4548df1bc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[4]/div</value>
-      <webElementGuid>c9b5ec60-9f44-4f7e-bfe8-1ae98fb80680</webElementGuid>
+      <webElementGuid>b78c1eeb-4991-4e60-b993-3b2f48fbce9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' ' or . = ' ')]</value>
-      <webElementGuid>2e91be39-cfdc-43c6-a8c8-f05b5a380656</webElementGuid>
+      <webElementGuid>3eb1ed79-1124-483a-84b9-513113a96587</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

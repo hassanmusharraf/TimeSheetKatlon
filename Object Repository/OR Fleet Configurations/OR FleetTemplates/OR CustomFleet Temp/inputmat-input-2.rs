@@ -6,15 +6,19 @@
    <elementGuidId>42473a9d-2b7d-45ac-8b17-fdcc473adfd0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-input-2</value>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Add new option' and @id = 'mat-input-2']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='mat-input-2']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-input-2</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>11320d82-90ab-4461-9e5b-2d5ab33ecc94</webElementGuid>
+      <webElementGuid>97fe2b9b-49a4-437f-911e-b5e4e54298b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Add new option</value>
-      <webElementGuid>7504ac55-c0f7-4cd7-af93-51f3bc2f126c</webElementGuid>
+      <webElementGuid>d8c82742-337a-445d-843f-64e2e6fe1511</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control text-sm text-[#91919180] font-medium ng-tns-c99-39 cdk-text-field-autofill-monitored</value>
-      <webElementGuid>869ce883-2e53-428a-ae82-04e3ddac02e0</webElementGuid>
+      <webElementGuid>04264147-66f3-4a73-971a-ed71d1e4be81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>ng-reflect-placeholder</name>
       <type>Main</type>
       <value>Add new option</value>
-      <webElementGuid>3199610f-8015-4417-83fd-6b8c9d6fa224</webElementGuid>
+      <webElementGuid>44e06f6c-0dd1-46aa-ad36-6830120b37f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-2</value>
-      <webElementGuid>d51565f8-b26e-415b-9597-7e3637288c22</webElementGuid>
+      <webElementGuid>0678c5b6-d461-44c1-8d8a-32199427c43b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>data-placeholder</name>
       <type>Main</type>
       <value>Add new option</value>
-      <webElementGuid>61a4c070-5841-4e5d-a339-c6ac18000716</webElementGuid>
+      <webElementGuid>553d21bd-25e8-486e-a4cd-b24fba499ab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6ccd3ba4-5726-4ddb-b4b2-6b8bc8fbe92e</webElementGuid>
+      <webElementGuid>326d920a-294f-4b3a-ae84-a8fda8a4abec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9db73d0b-7647-431c-ab91-cb0f52386be5</webElementGuid>
+      <webElementGuid>f1409a02-8ba0-4bae-b1c4-e25f033783de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-2&quot;)</value>
-      <webElementGuid>33344252-8e2f-43da-9955-c2a2cb702298</webElementGuid>
+      <webElementGuid>810d28ef-1f9c-4f95-9816-906bece525c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-2']</value>
-      <webElementGuid>761638ba-e402-44d7-8d4b-a783c7328941</webElementGuid>
+      <webElementGuid>24173633-9bf9-4e21-b6f5-a2adcce1c5a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-7']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/div/div[2]/mat-form-field/div/div/div[3]/input</value>
-      <webElementGuid>ebf284e8-b96c-4b7a-8fa0-2ed75617cac2</webElementGuid>
+      <webElementGuid>3aaf865d-cd6e-484a-85a2-cb4b83394391</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>0a94f74f-2cc5-453b-b114-773494019672</webElementGuid>
+      <webElementGuid>8a5bf510-d12f-4193-bcc4-3e609fcb9bec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Add new option' and @id = 'mat-input-2']</value>
-      <webElementGuid>2aeb1b14-9c50-4d6c-a2aa-a097bb35607c</webElementGuid>
+      <webElementGuid>f8d212a9-63f2-4c83-9839-e5afe73524fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

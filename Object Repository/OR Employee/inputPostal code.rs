@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputPostal code</name>
+   <tag></tag>
+   <elementGuidId>206869d6-18af-47cb-8482-ed7ebfada988</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='Postal code']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>782c1ac3-d54f-4375-a890-3031a24f76ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine</value>
+      <webElementGuid>f910eb67-3f7d-4d3c-a241-6bfee099a27c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Postal code</value>
+      <webElementGuid>7bae6958-3184-4da2-bec5-9b42c0931d10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>65084a98-56c7-41f6-b82c-8fd339838f32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>9904357c-f2d3-4c34-ac76-375822388d62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>f92da6ad-1e0b-4304-a8ce-429b15c423b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>08cfd67b-abf7-4748-b227-25d7436ee688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Postal code&quot;)</value>
+      <webElementGuid>7a86247c-229e-4fbc-bea3-360a9f12d322</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='Postal code']</value>
+      <webElementGuid>0bd90c24-b246-4e6a-9602-6fd70f6520a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-step-content-0-0']/qmt-employee-detail/form/div/div/qmt-new-input[11]/div/input</value>
+      <webElementGuid>d2086cad-ce71-433a-863f-af3bc13fcc7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-new-input[11]/div/input</value>
+      <webElementGuid>c2389290-ca28-4411-bb3f-ebae713fe80d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'Postal code' and @type = 'text']</value>
+      <webElementGuid>034d2eba-1278-46cf-826c-9ab7b1b0b0cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

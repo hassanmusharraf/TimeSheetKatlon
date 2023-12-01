@@ -6,15 +6,18 @@
    <elementGuidId>dbf8f9a8-1cb3-4b69-9697-d8e28a1f19f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@id = 'Field Name']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Field Name']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a2da505f-ea01-4a46-b99d-9ea47c23b09f</webElementGuid>
+      <webElementGuid>001de7fb-c116-47bd-b333-31b9ee3ffe1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine</value>
-      <webElementGuid>d056d6d0-5ac3-4638-a5a5-8e71a4ede1a2</webElementGuid>
+      <webElementGuid>853a50d5-9bd3-4d0c-b1fe-95b5d34d3dc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +41,15 @@
       <name>id</name>
       <type>Main</type>
       <value>Field Name</value>
-      <webElementGuid>da89bfa3-8023-4cd8-abb2-abbaa4e2c08a</webElementGuid>
+      <webElementGuid>83408ae3-3982-4149-b865-d136fdc35eac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5320e0d0-efa4-4e9e-8bd4-6acc90f6b0ed</webElementGuid>
+      <webElementGuid>04887a52-5560-435b-a439-ff2f738004db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>45a6f120-cf23-4251-8abb-3e925beacc37</webElementGuid>
+      <webElementGuid>0ae28b7b-d020-4dbe-bf21-0d3d23e69a2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>min</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>7c569acd-2e00-4392-9b53-0e5bffe6785b</webElementGuid>
+      <webElementGuid>083afac1-2ef9-4eb8-98ac-2d2c1fc80b26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>max</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>f24280de-4e99-4b11-8543-f3a4399ae24d</webElementGuid>
+      <webElementGuid>b14ac6ec-7df6-4a79-a46d-75221426bf02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Field Name&quot;)</value>
-      <webElementGuid>471f704b-a033-45d6-ad7c-68da7df0b5d3</webElementGuid>
+      <webElementGuid>d12ce3c1-3716-4162-9015-6300a365afd7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Field Name']</value>
-      <webElementGuid>076d0cc5-8e9a-4e17-a685-c968ad96526b</webElementGuid>
+      <webElementGuid>c6dbb9cf-3c93-42e8-b239-20de62fa1405</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/qmt-new-input/div/input</value>
-      <webElementGuid>9074f644-4fc0-43ec-ad61-34d5fbee3ea3</webElementGuid>
+      <webElementGuid>31194a61-87a9-44d6-991c-e7ddf92570a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/qmt-new-input/div/input</value>
-      <webElementGuid>061d12b0-0d72-429e-a414-fe7ae31cc5ed</webElementGuid>
+      <webElementGuid>cc573fb5-5b11-40d3-96b8-734ddc37faa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'Field Name' and @type = 'text']</value>
-      <webElementGuid>c6e1f6ad-00ca-4269-b2cc-70c5dd16e630</webElementGuid>
+      <webElementGuid>9caa3a60-572a-4661-850f-6de5f7a58f7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

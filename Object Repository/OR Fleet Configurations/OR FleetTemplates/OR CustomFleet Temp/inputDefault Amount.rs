@@ -6,15 +6,18 @@
    <elementGuidId>79365cc3-f705-4173-b20d-ff2d361bd506</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@id = 'Default Amount']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Default Amount']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>20869927-7a4d-4d73-bd84-0322552df21e</webElementGuid>
+      <webElementGuid>b00f3549-e3d0-4cc4-87d3-9c49eba4fc65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>554542af-594c-431f-a1a1-76ce4b026616</webElementGuid>
+      <webElementGuid>4201cae1-cbe2-4d78-8955-392b86da087c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +41,23 @@
       <name>id</name>
       <type>Main</type>
       <value>Default Amount</value>
-      <webElementGuid>1aa322cf-5acf-40e2-9bac-361c15e7a2f8</webElementGuid>
+      <webElementGuid>836e3491-05e6-45f1-a604-7e7c8daa2742</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>27894fd3-3ed9-4700-aeed-481e0f8a1ef9</webElementGuid>
+      <webElementGuid>423f08af-0a52-41d4-90ce-8ae5c1484abf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Add amount here</value>
-      <webElementGuid>ba12d74e-5fd5-41cd-92d7-0a182d2c47ef</webElementGuid>
+      <webElementGuid>8f6d77e6-b0d2-4d80-8747-fca145b5b429</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>e89fb3d8-c188-452b-883a-ef66361e4795</webElementGuid>
+      <webElementGuid>9259eca7-8ec8-4346-b4bb-34fa38248d0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>min</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>12b05837-b295-4bc2-978d-bbe23f04506a</webElementGuid>
+      <webElementGuid>01f73a56-0115-4ca9-879c-3efebcd79771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>max</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>de17319b-3336-47db-95ed-f5e88d8e70f5</webElementGuid>
+      <webElementGuid>a28f0caa-66ed-48d2-ae1b-34a513ec07a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Default Amount&quot;)</value>
-      <webElementGuid>d6c7050d-b2b4-45cb-b333-fdb35b82e6f0</webElementGuid>
+      <webElementGuid>f3a4011d-338d-40c8-a010-3a1270b774b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Default Amount']</value>
-      <webElementGuid>5caa5f81-1b28-40bc-8da9-a2d86863b18a</webElementGuid>
+      <webElementGuid>fca0b778-ca75-45f7-9f26-e51858b07bfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-2']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/qmt-new-input[3]/div/input</value>
-      <webElementGuid>7570550f-7f11-4d56-9ec7-0744b0f04d9a</webElementGuid>
+      <webElementGuid>6bc5c535-c0e7-4869-b87e-f32e94161521</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//qmt-new-input[3]/div/input</value>
-      <webElementGuid>e5330f30-1b01-4774-8e4e-c330c279b7aa</webElementGuid>
+      <webElementGuid>5d162a91-75f8-4f6c-8909-89ca2f31a991</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'Default Amount' and @type = 'number' and @placeholder = 'Add amount here']</value>
-      <webElementGuid>8c6f550f-c1ef-4794-8161-9c92f80efa9d</webElementGuid>
+      <webElementGuid>6dad526c-c5ef-442f-9454-12cdb516f2ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

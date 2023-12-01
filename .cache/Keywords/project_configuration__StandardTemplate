@@ -1,46 +1,39 @@
 {
-  "keywordFileContentHash": "E33ABE94E3DE26F733F317BF6E4CA3CC",
+  "keywordFileContentHash": "FC9ECA726067EF2F2979724A63C3FD27",
   "keywordClasses": [
     {
       "name": "project_configuration.StandardTemplate",
       "keywordMethods": [
         {
           "name": "add_project_detail",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "update_project_detail",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "add_task",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "add_settings",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "add_resource",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "goto_standard_template",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "goto_project",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

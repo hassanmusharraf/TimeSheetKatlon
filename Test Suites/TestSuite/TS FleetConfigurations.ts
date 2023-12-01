@@ -50,4 +50,18 @@
          <variableId>c7b88fe1-c898-41b5-a7d2-9ba6843f00bd</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>178e84b9-141a-4d82-9904-be9fd32923f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Fleet Configurations/Fleet Templates/TC CustomFleet Template</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65ebfd4f-8a07-40aa-a8f6-77e41e4f8452</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Fleet Configurations/Fleet Templates/TC StandardFleet Template</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

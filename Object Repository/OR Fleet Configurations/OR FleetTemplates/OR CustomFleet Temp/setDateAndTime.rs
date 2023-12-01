@@ -7,17 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@placeholder='Add date-time here']</value>
+         <value>//*[@id = 'default-value-date-time']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//input[@placeholder='Add date-time here']</value>
-      <webElementGuid>338b8f11-cc74-4fd7-8758-43877c410724</webElementGuid>
+      <webElementGuid>337ca16d-9374-4a56-9a61-d55b3fb9c929</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>default-value-date-time</value>
+      <webElementGuid>ebe95c72-b2e5-4fc1-9313-7b29e9430e92</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_102  Operations Management</name>
+   <tag></tag>
+   <elementGuidId>70e30937-17c6-4516-923d-9af11c0f00af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@id=''])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>64d9ba94-678b-44df-846c-79ff734f45b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>7f4a8e9a-c360-473d-a3a5-db59b919ba16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-84 ng-star-inserted</value>
+      <webElementGuid>07352734-d35c-4381-ac62-27eea41758d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>c603ab20-8342-42ec-8aa1-efdb250dd409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>102 | Operations Management </value>
+      <webElementGuid>6578b856-f936-42e9-9d64-89e556bb033a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_41_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-84 ng-star-inserted&quot;]</value>
+      <webElementGuid>0c7bb1b5-9458-42a9-87b2-5d2c6d0ea257</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//li[@id=''])[3]</value>
+      <webElementGuid>a5931e06-8b80-4d5b-85ff-e5cfa9bce210</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_41_list']/li[3]</value>
+      <webElementGuid>aed20254-3626-461f-bd35-2ae7753b876e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li[3]</value>
+      <webElementGuid>b375f525-77b6-44b7-892c-7f68d35d7f75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '102 | Operations Management ' or . = '102 | Operations Management ')]</value>
+      <webElementGuid>4e6ff7af-2a3b-4556-969a-340d6d386b1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

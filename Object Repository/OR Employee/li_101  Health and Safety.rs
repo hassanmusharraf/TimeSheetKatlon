@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_101  Health and Safety</name>
+   <tag></tag>
+   <elementGuidId>906d4314-2b60-4f88-8bff-d8c5df93c5bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@id=''])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>f3c25427-9f88-4b4d-9288-aae0054fddfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>feae9617-b8f4-4426-ba17-bbe7fc945112</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-61 ng-star-inserted</value>
+      <webElementGuid>3edd1cd4-e4d8-4e5e-a427-64d6ad129a05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>6a9f454e-c4fb-4c87-b64e-9ac65d9555f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>101 | Health and Safety </value>
+      <webElementGuid>4fcfeec1-b5cf-47f1-95d3-7a97a8f29396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_22_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-61 ng-star-inserted&quot;]</value>
+      <webElementGuid>d32ffffd-9e3b-4513-84c5-007a43b2996b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//li[@id=''])[2]</value>
+      <webElementGuid>dbf15b5c-de5d-4548-a29d-0ee863648c79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_22_list']/li[2]</value>
+      <webElementGuid>7420b4dc-e5b0-4b18-98c6-b27b2d5ba951</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li[2]</value>
+      <webElementGuid>0ab0fb66-f265-4e34-8bee-d070dc9c9096</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '101 | Health and Safety ' or . = '101 | Health and Safety ')]</value>
+      <webElementGuid>0221248b-761d-4734-aedb-d024c6059330</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

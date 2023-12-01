@@ -6,15 +6,18 @@
    <elementGuidId>24ba5bc2-7c81-460d-a81e-cb4943667083</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@id = 'Default Text']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Default Text']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3237cf48-a64e-46f7-8b68-6c02abcbf20e</webElementGuid>
+      <webElementGuid>05a7854e-0c85-4409-ae50-6a46d0b43d17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>d65b5ca5-7a27-4ee5-9b2e-f5e640fdc6f6</webElementGuid>
+      <webElementGuid>59b967e2-0b71-4554-88a6-5bb6c1c14437</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +41,23 @@
       <name>id</name>
       <type>Main</type>
       <value>Default Text</value>
-      <webElementGuid>47c92042-3037-409e-9841-87718b57e6f3</webElementGuid>
+      <webElementGuid>846837d2-376c-458d-95ae-821a5048dfec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>311d66cb-c0ab-4b69-bcf1-3d29438bba3e</webElementGuid>
+      <webElementGuid>50be8b19-a00f-44b9-a0d4-f71b222439d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Add text here</value>
-      <webElementGuid>26c6f7bb-8958-4c0e-b37e-c46899b5782f</webElementGuid>
+      <webElementGuid>63cdbf0c-32f3-45a8-8e8f-383c0999cf73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>4e17c600-07d7-4e65-af87-27d63eaed461</webElementGuid>
+      <webElementGuid>2a14fa2e-25fc-4eab-bada-d4cd4e56a8e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>min</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>b9d24d69-f53e-4f20-a756-45ee0ec6c97e</webElementGuid>
+      <webElementGuid>aacb4c72-0b1f-4b77-8153-5a83917c9c74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>max</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>bcba8e0c-dca6-474b-9509-5b5f5e9d2ae7</webElementGuid>
+      <webElementGuid>085b8791-46bd-4567-8f5e-8ee3bc73a7cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Default Text&quot;)</value>
-      <webElementGuid>e6ca8bc4-38d7-45b3-821f-28a5cdd5b4b1</webElementGuid>
+      <webElementGuid>87751b1b-653f-4f75-8043-1afdc6674202</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Default Text']</value>
-      <webElementGuid>c1f127dc-a7f3-4e55-a47b-b098ca7bf9fa</webElementGuid>
+      <webElementGuid>c4843a4c-aedb-4c2c-9d19-6bccc6003f97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/qmt-new-input[3]/div/input</value>
-      <webElementGuid>5230cb06-3bf0-4998-9a97-07d03f41a34c</webElementGuid>
+      <webElementGuid>fe20efb5-5557-4781-b058-bb624343d209</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//qmt-new-input[3]/div/input</value>
-      <webElementGuid>2cd272f4-b0ff-4a24-9f94-ba6fd4a05bbd</webElementGuid>
+      <webElementGuid>5f79f5b1-0e2b-4e1e-8fd2-ee8aead29b9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'Default Text' and @type = 'text' and @placeholder = 'Add text here']</value>
-      <webElementGuid>4827050b-6148-4068-a3d0-903ee7ad3e04</webElementGuid>
+      <webElementGuid>45ee011b-142e-4836-a73d-19afbfdc5061</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

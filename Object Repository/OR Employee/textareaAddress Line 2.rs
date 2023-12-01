@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textareaAddress Line 2</name>
+   <tag></tag>
+   <elementGuidId>8f29abf5-d093-4e0f-bb08-a2572577600a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='Address Line 2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>9f98d447-c1c3-40c1-ad46-acb9d1f67efb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-input-element mat-form-field-autofill-control text-sm text-[#91919180] font-medium ng-tns-c99-48 ng-untouched ng-valid cdk-text-field-autofill-monitored ng-dirty</value>
+      <webElementGuid>61653729-45df-45f0-94bc-3a3e0499814e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-id</name>
+      <type>Main</type>
+      <value>Address Line 2</value>
+      <webElementGuid>4c636500-987a-498f-aae4-efacbe92f31f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-model</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>32e3e1c4-fc07-416b-b77c-cf5502e2b1ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-required</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>bc18cc8f-d6c5-49c0-9e20-c09e3a35a165</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Address Line 2</value>
+      <webElementGuid>f522cf84-3a23-4f9d-b1bb-c936d0a1a323</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>462820b9-c99b-4b99-9c82-eacab20ae713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>bb3e78aa-2375-4739-8de6-ddc01fc75544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Address Line 2&quot;)</value>
+      <webElementGuid>3b907db0-1842-4b86-91e0-bb08cc86aec2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@id='Address Line 2']</value>
+      <webElementGuid>7b841777-6778-411b-ac48-33b37db3c119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-step-content-0-0']/qmt-employee-detail/form/div/div/qmt-textarea-input[2]/div/mat-form-field/div/div/div[3]/textarea</value>
+      <webElementGuid>120254aa-0153-418a-883a-757b4a67f48e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-textarea-input[2]/div/mat-form-field/div/div/div[3]/textarea</value>
+      <webElementGuid>715c19f2-63b3-4e54-99a2-3a6b39f7c438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'Address Line 2']</value>
+      <webElementGuid>92f19809-0db3-4ae5-bdb4-cdb0d838736c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

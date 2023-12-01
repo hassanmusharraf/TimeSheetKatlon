@@ -21,17 +21,17 @@ CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, Gl
 
 CustomKeywords.'fleet_configurations.FleetCustomTemp.add_custom_fleet'()
 
-CustomKeywords.'fleet_configurations.FleetCustomTemp.add_text_field'()
-
-CustomKeywords.'fleet_configurations.FleetCustomTemp.add_number_field'()
-
-CustomKeywords.'fleet_configurations.FleetCustomTemp.add_amount_field'()
-
-CustomKeywords.'fleet_configurations.FleetCustomTemp.add_checkBox_field'()
-
-CustomKeywords.'fleet_configurations.FleetCustomTemp.add_date_field'()
-
-CustomKeywords.'fleet_configurations.FleetCustomTemp.add_dateAndTime_field'()
+//CustomKeywords.'fleet_configurations.FleetCustomTemp.add_text_field'()
+//
+//CustomKeywords.'fleet_configurations.FleetCustomTemp.add_number_field'()
+//
+//CustomKeywords.'fleet_configurations.FleetCustomTemp.add_amount_field'()
+//
+//CustomKeywords.'fleet_configurations.FleetCustomTemp.add_checkBox_field'()
+//
+//CustomKeywords.'fleet_configurations.FleetCustomTemp.add_date_field'()
+//
+//CustomKeywords.'fleet_configurations.FleetCustomTemp.add_dateAndTime_field'()
 
 CustomKeywords.'fleet_configurations.FleetCustomTemp.add_selectionBox_field'()
 

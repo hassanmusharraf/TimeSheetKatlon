@@ -14,6 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class UnionCode {
+	
 	@Keyword
 	def add_union_code() {
 
@@ -141,7 +142,7 @@ public class UnionCode {
 
 		int amount=4000
 		float percentage=4.2
-		
+
 		for (int i=1;i<=size_of_table;i++) {
 
 			WebElement element =  driver.findElement(By.xpath("/html/body/qm-root/qmt-layout/qmt-navigation/mat-sidenav-container/mat-sidenav-content/div/div/qmt-union-code-form/form/div/div[2]/div[${i}]"))
@@ -156,9 +157,9 @@ public class UnionCode {
 
 				WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/Input amount type'),
 						'PERCENTAGE')
-				
+
 				percentage+=5
-				
+
 				WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/inputUnion Amount'),"${percentage}")
 
 				WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/select unit'))
@@ -191,7 +192,7 @@ public class UnionCode {
 						'AMOUNT')
 
 				amount+=5
-				
+
 				WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/inputUnion Amount'),"${amount}")
 
 				WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/select unit'))
@@ -209,14 +210,12 @@ public class UnionCode {
 				WebUI.setText(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/textareaNote 2'),"updating union code 2")
 
 				if(i==size_of_table-1) {
-					
+
 					WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR subhead/close_subhead'))
-					
 				}
 			}
 
 			WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-			
 		}
 
 		WebUI.click(findTestObject('Object Repository/OR WorkForce Configuration/OR UnionCode/OR UnionCode/button_Update'))

@@ -27,13 +27,13 @@ public class CostType {
 		
 		WebUI.navigateToUrl('http://localhost:4200/super-admin/cost-type/list')
 		
-		WebUI.click(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/button_add Add Cost Type'))
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/button_add Add Cost Type'))
 		
-		WebUI.setText(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/inputCode'), '101')
+		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/inputCode'), '101')
 		
-		WebUI.setText(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/inputName'), 'type1')
+		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/inputName'), 'type1')
 		
-		WebUI.click(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/button_Add'))
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/button_Add'))
 		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		
@@ -42,13 +42,13 @@ public class CostType {
 	def update_cost_type() {
 		
 		
-		WebUI.click(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_6f7d9e'))
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_6f7d9e'))
 		
-		WebUI.setText(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/inputCode'), '1011')
+		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/inputCode'), '1011')
 		
-		WebUI.setText(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/inputName'), 'type12')
+		WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/inputName'), 'type12')
 		
-		WebUI.click(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/button_Update'))
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/button_Update'))
 		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		
@@ -56,9 +56,9 @@ public class CostType {
 	}
 	@Keyword
 	def delete_cost_type() {
-		WebUI.click(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/buttonrow-delete'))
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/buttonrow-delete'))
 		
-		WebUI.click(findTestObject('Object Repository/Project Configuration/CostType/Page_QM Timesheet/button_Delete'))
+		WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostType/Page_QM Timesheet/button_Delete'))
 		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 		

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputUOM Unit Price</name>
+   <tag></tag>
+   <elementGuidId>20f43042-f92a-4dbd-a199-6b7fcf75090a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='UOM Unit Price']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c873adfd-8328-4817-9e03-5bdba8d492ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine ng-valid p-filled</value>
+      <webElementGuid>581c63fb-a740-4f98-8267-2457159c9bbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>UOM Unit Price</value>
+      <webElementGuid>d93ea357-f665-4804-b733-e438c19b2c0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>f13d51eb-d11e-47e2-8196-c8bf82573d20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Add number here</value>
+      <webElementGuid>94b18bcd-407e-46d2-8e24-063d3fb1dde3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>29018324-eb9d-4edc-a6f8-a4e61e00551a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>190fd0a0-e753-48f1-85ba-715112fdf0a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>50148679-65e0-4232-b586-bbe6a8b9f13c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;UOM Unit Price&quot;)</value>
+      <webElementGuid>631bd282-6a58-462d-a985-4610d710e968</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='UOM Unit Price']</value>
+      <webElementGuid>8e2a7297-b02b-4147-af70-ee4763e956ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-job-task-modal/mat-dialog-content/form/div[4]/qmt-new-input[4]/div/input</value>
+      <webElementGuid>b128ab10-3c7d-4478-96ec-40e867fba420</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-new-input[4]/div/input</value>
+      <webElementGuid>0b6333d1-5807-4d3b-9139-afbc7dd07db9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'UOM Unit Price' and @type = 'number' and @placeholder = 'Add number here']</value>
+      <webElementGuid>8e14488a-4f02-41c7-8bba-496263b34eff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

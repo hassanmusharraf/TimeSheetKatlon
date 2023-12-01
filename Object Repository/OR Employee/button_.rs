@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_</name>
+   <tag></tag>
+   <elementGuidId>dd8f80c7-afd7-4739-a7e5-1da39531442d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-element.p-ripple.p-autocomplete-dropdown.ng-tns-c329-43.p-button.p-component.p-button-icon-only.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>32bec672-6a0a-433c-bc45-448b463d8135</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cc35a3a8-7526-46d6-a57b-e2a7aef37094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-element p-ripple p-autocomplete-dropdown ng-tns-c329-43 p-button p-component p-button-icon-only ng-star-inserted</value>
+      <webElementGuid>e2e0ec99-c43e-4087-8477-837e2403b616</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-icon</name>
+      <type>Main</type>
+      <value>pi pi-chevron-down</value>
+      <webElementGuid>105d2968-347c-4306-868b-b58d9df2c243</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> </value>
+      <webElementGuid>de98acfc-8e3c-457d-8688-844fb7f08f72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Employment Type&quot;)/span[@class=&quot;ng-tns-c329-43 p-autocomplete p-component p-autocomplete-dd&quot;]/button[@class=&quot;p-element p-ripple p-autocomplete-dropdown ng-tns-c329-43 p-button p-component p-button-icon-only ng-star-inserted&quot;]</value>
+      <webElementGuid>b7b0cd38-38d3-4a9d-8d22-144b126c213b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>ffb27a14-c653-4795-bf9e-3210430789b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p-autocomplete[@id='Employment Type']/span/button</value>
+      <webElementGuid>c25e7dcc-12e3-48fc-b521-7a7461cfbdc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/button</value>
+      <webElementGuid>af01f591-2714-448a-8812-6e2bec08f4ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' ' or . = ' ')]</value>
+      <webElementGuid>27477dfd-b8db-42f5-9ff8-d9f5a7eddc6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select</name>
+   <tag></tag>
+   <elementGuidId>c04125ae-e33d-492f-9d35-1b191b82443e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'select']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-7']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[7]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>73805527-864f-43fc-ac8f-d4b1f1b58425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>cd9823c5-9e67-46c9-be4c-09682e53f08f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>a42f92f3-e9f9-45b3-a0df-33a27aa9afbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select</value>
+      <webElementGuid>0b801e92-bb6e-441e-94ef-4306747933be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[normalize-space()='Selection box']</value>
+      <webElementGuid>c429839d-0aff-42bb-b320-867c63870d4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>87272c97-6d2d-4ed0-8b43-2518b0587006</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-7']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[7]/div</value>
+      <webElementGuid>6e9fa1da-273a-458a-8f8a-e336be38d77d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div</value>
+      <webElementGuid>54101473-902a-4f0a-8ab1-d1e906339245</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select' or . = 'Select')]</value>
+      <webElementGuid>3ce97deb-6855-40ca-bc3e-29b4aca56967</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

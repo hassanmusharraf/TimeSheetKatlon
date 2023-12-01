@@ -2,6 +2,8 @@ package com
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import java.text.SimpleDateFormat
+
 import org.openqa.selenium.By
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
@@ -9,11 +11,12 @@ import org.openqa.selenium.WebElement
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
+
+
 
 public class Components {
 
@@ -31,6 +34,9 @@ public class Components {
 		WebUI.delay(GlobalVariable.MED_TIMESLEEP)
 	}
 
+
+
+
 	//logout from web application
 	@Keyword
 	def static logOutFromApplication() {
@@ -40,9 +46,12 @@ public class Components {
 	}
 
 
+
+
 	// search element
 	@Keyword
 	def static search_element(String str) {
+		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/OR TimeSheet Configuration/OR TimeSheetType/input_p-inputtext p-component p-element'),
@@ -56,6 +65,10 @@ public class Components {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 
+
+
+
+
 	@Keyword
 	def static getNumberOfRowsByXpath(String str) {
 
@@ -67,6 +80,11 @@ public class Components {
 
 		return table
 	}
+
+
+
+
+
 
 	// get a row by it's value
 	@Keyword
@@ -96,6 +114,42 @@ public class Components {
 		}
 	}
 
+
+	
+	@Keyword
+	def static select_row_by_name(String xpath,String nameValue) {
+		
+		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
+		
+		nameValue=nameValue.trim()
+
+		List<WebElement> rows = getNumberOfRowsByXpath(xpath)
+		
+		println('printing rows')
+		
+		println(rows)
+		
+		println('into func')
+		
+		for (int i=0;i<rows.size();i++) {
+			
+			println('into for')
+			
+			if (rows.get(i).getText().trim().equals(nameValue) ) {
+	
+				println(rows.get(i).getText()+" Row present")
+	
+				return rows.get(i)
+			}
+			
+		}
+		
+	}
+
+
+
+
+
 	@Keyword
 	def static verify_element_present() {
 		WebUI.waitForElementPresent(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Bulk Upload Button'),GlobalVariable.LOW_TIMESLEEP)
@@ -111,6 +165,48 @@ public class Components {
 		WebUI.verifyElementClickable(findTestObject('Object Repository/OR Component/OR VerifyElementPresent/Search Button'),GlobalVariable.LOW_TIMESLEEP)
 	}
 
+
+
+
+
+	// get current date
+	@Keyword
+	def static getTodaysDate() {
+
+		def todays_date = new Date()
+
+		def start_date = new SimpleDateFormat('ddMMyyyy')
+
+		GlobalVariable.TODAYS_DATE = start_date.format(todays_date)
+
+		println(GlobalVariable.TODAYS_DATE)
+
+		return GlobalVariable.TODAYS_DATE
+	}
+
+
+
+
+
+	//get custom date
+	@Keyword
+	def static getCustomDate(int var=30) {
+
+		def end_date = new Date() + var
+
+		def end_date1 = new SimpleDateFormat('ddMMyyyy')
+
+		GlobalVariable.DATE = end_date1.format(end_date)
+
+		println(GlobalVariable.DATE)
+
+		return GlobalVariable.DATE
+	}
+
+
+
+
+
 	@Keyword
 	def static getNumberOfColumns(TestObject TO) {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
@@ -125,11 +221,20 @@ public class Components {
 
 
 
+
+
+
 	// generating random email
 	@Keyword
 	public static String generateRandomEmail() {
 		return "test" + UUID.randomUUID().toString().substring(0, 8) + "@example.com"
 	}
+
+
+
+
+
+
 
 	// scrolling down to find element
 	@Keyword

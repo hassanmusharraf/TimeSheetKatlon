@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sub Job</name>
+   <tag></tag>
+   <elementGuidId>3dd69fe2-6d1f-4259-ae0e-0359135a39e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ng-tns-c329-84.p-autocomplete-input.p-inputtext.p-component.p-autocomplete-dd-input.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'Sub Job']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>fb562458-d2bd-43a4-b316-3002f2d801c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-autocomplete</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>2a11f4c7-89ff-4bb8-afd5-d622524a12e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>searchbox</value>
+      <webElementGuid>b47ac7b8-5886-4a3c-97dc-6f30d4843aff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c329-84 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted</value>
+      <webElementGuid>61e7aaae-bc0b-4925-8752-b8b691ef71dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+      <webElementGuid>5e7db5ee-d1ec-4500-8f8a-9a132a9049f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>c21eecb3-38e6-4f47-9d26-297e74893380</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>3502aee4-f7a1-4d47-9094-05968a60433d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Sub Job&quot;)/span[@class=&quot;ng-tns-c329-84 p-autocomplete p-component p-autocomplete-dd&quot;]/input[@class=&quot;ng-tns-c329-84 p-autocomplete-input p-inputtext p-component p-autocomplete-dd-input ng-star-inserted&quot;]</value>
+      <webElementGuid>8023f20d-17fe-4b24-8046-0c22b7e70410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Sub Job</value>
+      <webElementGuid>f243ddc0-57a9-4ece-8be8-50897c639d11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[3]</value>
+      <webElementGuid>419bb99a-9c42-4768-8cb6-07ab248d126c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p-autocomplete[@id='Sub Job']/span/input</value>
+      <webElementGuid>a0296c33-662f-4976-a886-df249a3649c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p-autocomplete/span/input</value>
+      <webElementGuid>0ba74d20-d02e-454d-9a8e-5f6a5fab0c7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>b5107ac8-04a9-4ffe-87b3-e699d80105e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

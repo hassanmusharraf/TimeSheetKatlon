@@ -6,19 +6,19 @@
    <elementGuidId>d467b11d-7092-414b-8eab-4fd70705d5b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//qmt[@id='upload-button']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'upload-button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//qmt[@id='upload-button']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-stroked-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ac106385-64c5-45dc-9595-b7e731f9b9c8</webElementGuid>
+      <webElementGuid>601b3f5e-285a-41ac-b9e7-dcb9b3fe4316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>0437c250-4a92-4588-b07d-0b8d473a3a84</webElementGuid>
+      <webElementGuid>c1078d7f-9653-406b-8aa5-95a9e07bd852</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>ccabc01e-31df-4c51-b69e-4c5684d648b8</webElementGuid>
+      <webElementGuid>3bd8a9b6-46c8-40b2-aae3-a1e12c2b5d0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>48254cab-9e50-4ba6-9517-292a9c8a5f57</webElementGuid>
+      <webElementGuid>f1449325-be0e-411f-bbfa-948e2ae98c9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>upload Bulk Upload </value>
-      <webElementGuid>d4747583-9a64-454f-be5e-0650a368307d</webElementGuid>
+      <webElementGuid>eeecae68-330d-4387-88fc-d49cbb8b166a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;upload-button&quot;)/div[@class=&quot;flex gap-2&quot;]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>9d94d9bb-d902-4aed-8c27-fa47afdeb103</webElementGuid>
+      <webElementGuid>701eb34d-5463-44e4-a091-ede74cd1f949</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>id</name>
       <type>Main</type>
       <value>upload-button</value>
-      <webElementGuid>bea8ebf3-f27e-442f-be1b-3e9caf37557a</webElementGuid>
+      <webElementGuid>e45d538d-60fc-436f-a895-5f2b3ea20817</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//qmt-upload-excel-btn[@id='upload-button']/div/button</value>
-      <webElementGuid>1bd7eff3-2157-4c62-a844-61aa2e19c5ea</webElementGuid>
+      <webElementGuid>5628d753-3d76-426d-9279-882f53edc325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//qmt-upload-excel-btn/div/button</value>
-      <webElementGuid>2df3beb5-2892-4e9e-a077-f6accde87747</webElementGuid>
+      <webElementGuid>938d6df7-4678-44b9-8552-2aae787884f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'upload Bulk Upload ' or . = 'upload Bulk Upload ')]</value>
-      <webElementGuid>7b2e750d-740b-442e-a3c8-74dc84bc31e4</webElementGuid>
+      <webElementGuid>ee54ffa9-4880-4c51-a721-5abf94ac2dc0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

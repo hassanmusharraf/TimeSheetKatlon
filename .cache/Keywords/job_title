@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "14735D5D54B30EC807552B7811897BF5",
+  "keywordClasses": [
+    {
+      "name": "job_title",
+      "keywordMethods": [
+        {
+          "name": "add_job_title",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_job_title",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_job_title",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_job_title",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

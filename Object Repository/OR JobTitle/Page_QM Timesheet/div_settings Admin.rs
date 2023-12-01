@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_settings Admin</name>
+   <tag></tag>
+   <elementGuidId>6640950d-2749-4fe5-9bb5-279e3eeb0ebb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.anml-data.ng-tns-c177-5.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>24905210-d474-4e94-a9e1-a428a1b94a05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>anml-data ng-tns-c177-5 ng-star-inserted</value>
+      <webElementGuid>7cf3263f-1525-4767-b463-c950492dc219</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+      <webElementGuid>04b12c8d-4c5d-4bd3-a8a7-b37852ed2350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+      <webElementGuid>c81ce1d6-fd5d-49bb-b361-2ddd9e485b13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> settings Admin</value>
+      <webElementGuid>291d7890-dd7d-47b9-b4cd-58e9b8ad8202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography mat-app-background&quot;]/qm-root[1]/qmt-layout[@class=&quot;ng-star-inserted&quot;]/qmt-navigation[1]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container sidenav-container&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav sidenav relative ng-tns-c183-1 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened mat-sidenav-fixed ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c183-1&quot;]/ng-material-multilevel-menu[@class=&quot;ng-tns-c183-1&quot;]/div[@class=&quot;amml-container my-custom-class normal-case ng-star-inserted&quot;]/mat-list[@class=&quot;mat-list mat-list-base&quot;]/ng-list-item[@class=&quot;ng-tns-c177-5 ng-star-inserted&quot;]/div[@class=&quot;amml-menu-container ng-tns-c177-5&quot;]/mat-list-item[@class=&quot;mat-list-item mat-focus-indicator mat-ripple ng-tns-c177-5 amml-item selected-amml-item level-1-submenulevel-0 ng-star-inserted&quot;]/span[@class=&quot;mat-list-item-content&quot;]/a[@class=&quot;anml-link ng-tns-c177-5 ng-star-inserted&quot;]/div[@class=&quot;anml-data ng-tns-c177-5 ng-star-inserted&quot;]</value>
+      <webElementGuid>b5bad92e-9a63-4635-8d40-1f0374fce912</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>70b27af1-a2f9-4e23-81f1-a6424e479420</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' settings Admin' or . = ' settings Admin')]</value>
+      <webElementGuid>92fbbe6a-23fb-41cb-9de7-4d81272cf60e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

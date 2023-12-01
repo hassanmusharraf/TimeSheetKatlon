@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>add_new_temp</name>
+   <tag></tag>
+   <elementGuidId>04518613-eb08-471b-9756-bd0554481d61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href=&quot;/super-admin/job/template/add&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href=&quot;/super-admin/job/template/add&quot;]</value>
+      <webElementGuid>495f064f-bafa-4b96-b75c-e32ff40bff0b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

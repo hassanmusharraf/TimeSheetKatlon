@@ -19,8 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
 
-CustomKeywords.'project_configuration.StandardTemplate.goto_project'()
+CustomKeywords.'project_configuration.StandardProject.goto_project'()
 
-CustomKeywords.'project_configuration.StandardTemplate.add_project_detail'()
+CustomKeywords.'project_configuration.StandardProject.add_project_detail'()
 
 WebUI.closeBrowser()

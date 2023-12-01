@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>new obj</name>
+   <tag></tag>
+   <elementGuidId>5fb3a646-a911-428c-b9e1-929dc35f9f58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]</value>
+      <webElementGuid>ccae8696-67b6-4bfd-a080-e56f0abb6826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pr_id_57_list</value>
+      <webElementGuid>85adf799-f7f5-4405-9c63-5a681fe81e31</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

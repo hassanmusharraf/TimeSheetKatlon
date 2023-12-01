@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputWeekly Work Hours</name>
+   <tag></tag>
+   <elementGuidId>f6a1ffc7-13b7-4f79-a2b4-48efbcb4c299</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='Weekly Work Hours']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1757a5a5-67dc-4fdf-88f3-e1d34baa0b28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>7ce3b314-54fb-4c54-a9f4-645dd57c747d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Weekly Work Hours</value>
+      <webElementGuid>d6f1ffa8-59eb-4b8b-9bf0-7426e1a8c029</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>c5b9bf9a-2dac-447e-ba10-effc5966e73d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-form</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>426dc23c-84ab-4348-aaf2-0b5d90203e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>cc5a1a0e-88e4-4bbe-9c22-46c18b25dd92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>fc27d617-3426-4886-bad8-2f2660247e2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Weekly Work Hours&quot;)</value>
+      <webElementGuid>1002ebce-06a8-4b1c-8a42-35c46ca53a7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='Weekly Work Hours']</value>
+      <webElementGuid>274db0ec-1419-4423-b973-4d40fba0417e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-step-content-0-0']/qmt-employee-detail/form/div/div/qmt-new-input[9]/div/input</value>
+      <webElementGuid>7f74503f-530e-4c98-9dbe-69dfddb21e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//qmt-new-input[9]/div/input</value>
+      <webElementGuid>bb1dcd81-8dd0-4ba2-8e51-f57373768cc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'Weekly Work Hours' and @type = 'number']</value>
+      <webElementGuid>5b895c35-522a-40b2-b19a-ef61bbff2124</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

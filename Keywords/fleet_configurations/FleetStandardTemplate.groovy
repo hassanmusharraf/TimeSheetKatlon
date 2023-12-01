@@ -138,12 +138,12 @@ public class FleetStandardTemplate {
 
 		WebUI.click(findTestObject('OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/Fleet Category'))
 
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/li_Category 2'))
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/li_category 2'))
 
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/inputShort Description'), 'updating desc')
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/isSSR'))
-		
+
 		WebUI.click(findTestObject('OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/Base UOM'))
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/li_Day'))
@@ -171,7 +171,7 @@ public class FleetStandardTemplate {
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/li_100  Job Sites'))
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/IsEnable'))
-		
+
 		WebUI.setText(findTestObject('OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/input date'), '22102023')
 
 		WebUI.click(findTestObject('OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/Fleet Status'))
@@ -196,6 +196,7 @@ public class FleetStandardTemplate {
 
 	@Keyword
 	def delete_fleet_template() {
+		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR StandardFleet/buttonrow-delete'))
@@ -207,6 +208,7 @@ public class FleetStandardTemplate {
 
 	@Keyword
 	def goto_fleet_template() {
+		
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/fleet/fleet-type-data/90d5739f-4f11-4ebb-8ab3-82ed30be26d7/list?id=90d5739f-4f11-4ebb-8ab3-82ed30be26d7')

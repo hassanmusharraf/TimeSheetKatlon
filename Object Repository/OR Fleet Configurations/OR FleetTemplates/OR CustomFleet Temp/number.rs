@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>number</name>
+   <tag></tag>
+   <elementGuidId>eefd1bd2-7537-4baf-9c74-6d66637ca10f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'number']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8e24b996-2f75-49af-a969-9f86b9f2ea09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>e1c44689-20e3-47c8-8250-8c015389d305</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>8660a92c-a827-4c67-a8e4-439c0a03aecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>123</value>
+      <webElementGuid>4f37d38c-3458-4256-b32a-c1a30cf107ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-1&quot;)/qmt-custom-fleet-field-model[@class=&quot;ng-star-inserted&quot;]/mat-dialog-content[@class=&quot;mat-dialog-content !m-0&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;pb-6 px-5 mt-5&quot;]/div[@class=&quot;flex flex-wrap gap-x-10 gap-y-4&quot;]/div[@class=&quot;border border-solid border-[#DAE0E6] p-3 flex flex-col justify-around w-[130px] h-[140px] rounded-md ng-star-inserted&quot;]/div[@class=&quot;p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed&quot;]</value>
+      <webElementGuid>c84844c1-f404-4fcb-85c0-4216a2b781b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>5c75f829-0404-439a-9825-ce0197c9ec22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[2]/div</value>
+      <webElementGuid>39333b98-7962-4a75-938a-d748e2e4a603</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div[2]/div</value>
+      <webElementGuid>92cafe82-da5c-4df8-a499-019bb285ff4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '123' or . = '123')]</value>
+      <webElementGuid>16931e0b-5eb3-498b-9871-a40efd3673ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

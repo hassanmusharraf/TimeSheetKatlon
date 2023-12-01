@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_R001  Testing Region</name>
+   <tag></tag>
+   <elementGuidId>28a2b38c-5e74-43a5-b844-3a8f0e95f0c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@id=''])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>b9fe7c6f-14ae-400e-b9d7-acd725701e82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>b7ef9c80-8d78-4781-ad8b-b3640d648055</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-ripple p-element p-autocomplete-item ng-tns-c329-58 ng-star-inserted</value>
+      <webElementGuid>aae4c33a-aa5d-4d84-b48e-19eb28ae563b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>2c15c6f7-fb07-4961-8529-7a9e89781aee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>R001 | Testing Region </value>
+      <webElementGuid>12f1ebd6-f3fc-476f-a895-cd3cde3ec515</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pr_id_19_list&quot;)/li[@class=&quot;p-ripple p-element p-autocomplete-item ng-tns-c329-58 ng-star-inserted&quot;]</value>
+      <webElementGuid>c502d59f-b852-4335-a856-c85ae50ac131</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//li[@id=''])[3]</value>
+      <webElementGuid>c95eb5b7-8e11-4c03-ba10-279d1d3eceed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='pr_id_19_list']/li[3]</value>
+      <webElementGuid>9ebc3bc2-fb31-4dfc-b7ff-92c0f56f3597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li[3]</value>
+      <webElementGuid>15ff9589-8905-4210-9ae4-1448a25e3e1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'R001 | Testing Region ' or . = 'R001 | Testing Region ')]</value>
+      <webElementGuid>160b019c-fbd4-4dd7-b7d0-6d4c884ec6df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

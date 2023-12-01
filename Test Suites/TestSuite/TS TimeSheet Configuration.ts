@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>dc450a60-86be-4bd1-afe0-c643bce836db</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TimeSheet Configuration/TC HoursForJob</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

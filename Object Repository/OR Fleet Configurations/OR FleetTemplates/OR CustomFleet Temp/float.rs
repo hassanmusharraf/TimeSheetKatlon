@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>float</name>
+   <tag></tag>
+   <elementGuidId>769b11cf-3d58-4a39-92f9-c16046894531</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'float']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-2']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e3ca1399-22f3-4975-aa86-dc083a71cd8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>52833066-6603-42fc-a1cc-4f79f76f0913</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>bg-[#B6D1F71F] border-dashed</value>
+      <webElementGuid>f3b1dadb-f880-4f0a-8603-671de16bc7e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>12.3</value>
+      <webElementGuid>318850ac-0e3b-4790-948d-9722b705f05e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-2&quot;)/qmt-custom-fleet-field-model[@class=&quot;ng-star-inserted&quot;]/mat-dialog-content[@class=&quot;mat-dialog-content !m-0&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;pb-6 px-5 mt-5&quot;]/div[@class=&quot;flex flex-wrap gap-x-10 gap-y-4&quot;]/div[@class=&quot;border border-solid border-[#DAE0E6] p-3 flex flex-col justify-around w-[130px] h-[140px] rounded-md ng-star-inserted&quot;]/div[@class=&quot;p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed&quot;]</value>
+      <webElementGuid>88e12494-e890-4bd1-b15d-935a63ca9c74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>float</value>
+      <webElementGuid>f53d2ab2-4230-498d-9b73-cac82ee40cb6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-2']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[3]/div</value>
+      <webElementGuid>929e98a8-8a88-4509-bfb8-e273fa1c320f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>9fe4484e-8527-49ac-a387-7b0296e6662f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '12.3' or . = '12.3')]</value>
+      <webElementGuid>49641487-6bf3-4d0c-b489-43decf57ca62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

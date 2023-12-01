@@ -1,0 +1,50 @@
+{
+  "keywordFileContentHash": "FC2614BE2226042479DFD0E65EB1585D",
+  "keywordClasses": [
+    {
+      "name": "job_title.JobTitle",
+      "keywordMethods": [
+        {
+          "name": "select_organization_for_job_title",
+          "parameters": [
+            {
+              "name": "org_name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "add_job_title",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "update_job_title",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "delete_job_title",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_job_title",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

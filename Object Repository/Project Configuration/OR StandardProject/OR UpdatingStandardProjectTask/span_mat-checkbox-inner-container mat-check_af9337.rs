@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_mat-checkbox-inner-container mat-check_af9337</name>
+   <tag></tag>
+   <elementGuidId>65a21216-d9b9-43cc-a091-c083348b0bcc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-checkbox[@id='Billable']/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b61b2ae6-fb49-4691-87c6-34a6658ab281</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin</value>
+      <webElementGuid>a4b6ce96-61aa-4aec-a9f5-72596e1be1f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Billable&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/span[@class=&quot;mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin&quot;]</value>
+      <webElementGuid>896a7b91-70b3-4358-ae1c-6a5176412650</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-checkbox[@id='Billable']/label/span</value>
+      <webElementGuid>2500c57f-33de-4f0a-be86-24d7b6c92f2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>12682cbc-d17d-424a-9a74-cf7f2aee1504</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

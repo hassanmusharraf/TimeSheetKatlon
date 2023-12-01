@@ -26,7 +26,7 @@ public class WorkType {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.navigateToUrl('http://localhost:4200/super-admin/job-work-type/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR WorkType/Page_QM Timesheet/button_add Add New'))
@@ -40,7 +40,7 @@ public class WorkType {
 		WebUI.click(findTestObject('Project Configuration/OR WorkType/Page_QM Timesheet/DropDownRegion'))
 
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR WorkType/Page_QM Timesheet/region name'))
-		
+
 		WebUI.click(findTestObject('Project Configuration/OR WorkType/Page_QM Timesheet/DropDownLocation'))
 
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR WorkType/Page_QM Timesheet/li_101  Richmond BC'))
@@ -86,22 +86,22 @@ public class WorkType {
 	@Keyword
 	def delete_work_type() {
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR WorkType/Page_QM Timesheet/buttonrow-delete'))
 
 		WebUI.click(findTestObject('Object Repository/Project Configuration/OR WorkType/Page_QM Timesheet/button_Delete'))
 
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
-	
+
+
 	@Keyword
 	def goto_work_type() {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl('http://localhost:4200/super-admin/job-work-type/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 }

@@ -1,0 +1,61 @@
+{
+  "keywordFileContentHash": "5FDA9CE44B217C37D83BDC834C4B133F",
+  "keywordClasses": [
+    {
+      "name": "project_configuration.ProjectCustomTemp",
+      "keywordMethods": [
+        {
+          "name": "add_custom_project",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_text_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_number_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_amount_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_checkBox_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_date_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_dateAndTime_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "add_selectionBox_field",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "save_template",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "goto_add_custom_template",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

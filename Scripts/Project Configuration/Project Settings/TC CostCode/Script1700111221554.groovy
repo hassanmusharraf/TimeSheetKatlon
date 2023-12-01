@@ -30,24 +30,24 @@ CustomKeywords.'project_configuration.CostCode.delete_cost_code'()
 //WebUI.navigateToUrl('http://localhost:4200/super-admin/cost-code/list')
 //
 //
-//WebUI.click(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/button_add Add Cost Code'))
+//WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/button_add Add Cost Code'))
 //
-//WebUI.setText(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/inputCode'), '0001')
+//WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/inputCode'), '0001')
 //
-//WebUI.setText(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/inputName'), 'Name1')
+//WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/inputName'), 'Name1')
 //
-//WebUI.click(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/button_Add'))
+//WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/button_Add'))
 //
-//WebUI.click(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_6f7d9e'))
+//WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/button_mat-focus-indicator flex justify-cen_6f7d9e'))
 //
-//WebUI.setText(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/inputCode'), '00012')
+//WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/inputCode'), '00012')
 //
-//WebUI.setText(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/inputName'), 'Name')
+//WebUI.setText(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/inputName'), 'Name')
 //
-//WebUI.click(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/button_Update'))
+//WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/button_Update'))
 //
-//WebUI.click(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/buttonrow-delete'))
+//WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/buttonrow-delete'))
 //
-//WebUI.click(findTestObject('Object Repository/Project Configuration/CostCode/Page_QM Timesheet/button_Delete'))
+//WebUI.click(findTestObject('Object Repository/Project Configuration/OR CostCode/Page_QM Timesheet/button_Delete'))
 WebUI.closeBrowser()
 

@@ -6,16 +6,15 @@
    <elementGuidId>9d1087d9-63f4-466b-baef-4d265bffdd33</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@id = 'date']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/qmt-custom-fleet-field-model[1]/mat-dialog-content[1]/form[1]/div[1]/div[1]/div[5]/div[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[5]//div[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>88400943-64dd-4aa2-9d71-da01ea84a555</webElementGuid>
+      <webElementGuid>a4b12bce-d718-4088-9648-d50ab67f52a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-2 flex justify-center items-center border rounded-md h-[80px] bg-[#B6D1F71F] border-dashed</value>
-      <webElementGuid>5efe1925-5291-4061-bd41-9503eb85d579</webElementGuid>
+      <webElementGuid>28eccf58-694b-4429-8fd6-fa86b2113bcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +41,7 @@
       <name>ng-reflect-ng-class</name>
       <type>Main</type>
       <value>bg-[#B6D1F71F] border-dashed</value>
-      <webElementGuid>3387cfb4-2737-4cb3-b3ac-691f9d4767ee</webElementGuid>
+      <webElementGuid>c842d14c-7a1c-4272-b40d-655e67c1874b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +49,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Date</value>
-      <webElementGuid>02ad7a46-6d73-42a3-acf1-3a673e6704f3</webElementGuid>
+      <webElementGuid>4f4b15b6-ae81-4233-a20c-5ef6d5105845</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//div[5]//div[1]</value>
-      <webElementGuid>6ce65cb3-77c5-4abe-a9bd-96f86369ac5f</webElementGuid>
+      <webElementGuid>a691ad47-ff9e-4f03-801b-5161fcd7fe4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>date</value>
+      <webElementGuid>ddf054c4-5c14-414b-b25d-a03acc04b498</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-4']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[5]/div</value>
-      <webElementGuid>d6873140-e473-4abc-936f-6cff25daad98</webElementGuid>
+      <webElementGuid>cc565a64-e651-41ef-9f5e-16c4dc77780c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div</value>
-      <webElementGuid>4f7cd40e-294a-4173-8964-477a03bbf35b</webElementGuid>
+      <webElementGuid>06803d13-a954-4540-b9db-26c239ee7700</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Date' or . = 'Date')]</value>
-      <webElementGuid>dc2e4444-2c6a-471c-90dd-ffefe0e1726a</webElementGuid>
+      <webElementGuid>4e452568-e976-46fc-93ef-42a1f1734e23</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

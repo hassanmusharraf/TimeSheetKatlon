@@ -21,213 +21,213 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class FleetCustomTemp {
-	
+
 	@Keyword
 	def add_custom_fleet() {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/fleet/template/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.click(findTestObject('OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/OR AddCustomFleetTempButton'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputTemplate Name'),
-			'Adding Custom Fleet Temp')
-		
+				'Adding Custom Fleet Temp')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputTemplate Code'),
-			'T001')
-		
+				'T001')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/textareaTemplate Description'),
-			'Desc')
-		
+				'Desc')
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
-	
-	
+
+
+
 	// adding text field
 	@Keyword
 	def add_text_field() {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_addCreate New Field'))
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_ABC'))
-		
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/create-new-field'))
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/text'))
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputField Name'),'Adding Text')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDescription'),
-			'Desc')
-		
+				'Desc')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDefault Text'),
-			'Text')
-		
+				'Text')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	// adding number field
 	@Keyword
 	def add_number_field() {
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_addCreate New Field'))
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_123'))
-		
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/create-new-field'))
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/number'))
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputField Name'),'Adding Number')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDescription'),
-			'Desc')
-		
+				'Desc')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDefault whole number'),
-			'5202')
-		
+				'5202')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
-	
-	
+
+
 	// adding amount field
 	@Keyword
 	def add_amount_field() {
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_addCreate New Field'))
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_12.3'))
-		
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/create-new-field'))
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/float'))
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputField Name'),
-			'Adding amount')
-		
+				'Adding amount')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDescription'),
-			'Desc')
-		
+				'Desc')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDefault Amount'),
-			'15.56')
-		
+				'15.56')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
-	
-	
+
+
 	// adding checkbox field
 	@Keyword
 	def add_checkBox_field() {
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_addCreate New Field'))
-		
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/create-new-field'))
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_checkbox'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputField Name'),
-			'Adding Checkbox')
-		
+				'Adding Checkbox')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDescription'),
-			'Desc')
-		
+				'Desc')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/default_value_check_box'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
+
 	@Keyword
 	def add_date_field() {
 		// adding Date field
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_addCreate New Field'))
-		
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/create-new-field'))
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_Date'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputField Name'),'Adding Date')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDescription'),'Desc')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/click_date_field'), '10122023')
-				
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
-	
+
+
 	@Keyword
 	def add_dateAndTime_field() {
-		
+
 		// adding Date with time field
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_addCreate New Field'))
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/h4_Date Time'))
-		
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/create-new-field'))
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/datetime-local'))
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputField Name'),
-			'Adding Date And Time')
-		
+				'Adding Date And Time')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDescription'),'Desc')
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/setDateAndTime'), '10122023001005A')
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
 	}
-	
-	
+
+
 	@Keyword
 	def add_selectionBox_field() {
-		
+
 		// adding selection box field
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_addCreate New Field'))
-		
-		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_Select'))
-		
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/create-new-field'))
+
+		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/select'))
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputField Name'),
-			'Adding SearchBox')
-		
+				'Adding SearchBox')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputDescription'),
-			'Desc')
-		
+				'Desc')
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputmat-input-2'),
-			'Option 1')
-		
+				'Option 1')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_add Add Option'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/inputmat-input-2'),
-			'option 2')
-		
+				'option 2')
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/div_add Add Option'))
-		
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Add'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
-	
+
+
 	@Keyword
 	def save_template() {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
+		//		WebUI.executeJavaScript('window.scrollTo(0, -document.body.scrollHeight);', null)
+
 		WebUI.click(findTestObject('Object Repository/OR Fleet Configurations/OR FleetTemplates/OR CustomFleet Temp/button_Save Template'))
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
-	
-	
+
+
 	@Keyword
 	def goto_add_custom_template() {
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
-		
+
 		WebUI.navigateToUrl(GlobalVariable.BASE_URL + 'super-admin/fleet/template/list')
-		
+
 		WebUI.delay(GlobalVariable.LOW_TIMESLEEP)
 	}
 }

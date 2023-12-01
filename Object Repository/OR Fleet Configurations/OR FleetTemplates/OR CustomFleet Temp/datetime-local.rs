@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>datetime-local</name>
+   <tag></tag>
+   <elementGuidId>da58fde2-bc92-47ae-8efc-c4edebc6ceaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'datetime-local']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-6']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[6]/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>e72ca3c7-dc94-49f0-8bdb-732639c3aca0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>!m-0 ng-star-inserted</value>
+      <webElementGuid>5b23b6d0-8390-4493-9f39-9948f553f731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date Time</value>
+      <webElementGuid>969df188-4ed3-4451-8b43-d8882268a9f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h4[normalize-space()='Date Time']</value>
+      <webElementGuid>c39add22-f9be-4fed-8e3a-346bb2be4ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>datetime-local</value>
+      <webElementGuid>407975d7-e01a-4e71-8883-680b1dcf9c1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-6']/qmt-custom-fleet-field-model/mat-dialog-content/form/div/div/div[6]/div/h4</value>
+      <webElementGuid>65a84834-1d95-4aae-be98-fe92e5b0afb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/h4</value>
+      <webElementGuid>701d3a1d-2066-4d4e-8152-f40d60962a5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Date Time' or . = 'Date Time')]</value>
+      <webElementGuid>5606dc5b-0614-4851-aabf-7df55ecccb2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

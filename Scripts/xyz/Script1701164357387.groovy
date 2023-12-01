@@ -17,3 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+WebUI.navigateToUrl(GlobalVariable.BASE_URL+'http://localhost:4200/auth/login')
+
+
+

@@ -1,0 +1,27 @@
+{
+  "keywordFileContentHash": "D618735DF5F926D94CBB1C6280BA1D93",
+  "keywordClasses": [
+    {
+      "name": "employee.Employee",
+      "keywordMethods": [
+        {
+          "name": "add_employee",
+          "parameters": []
+        },
+        {
+          "name": "update_employee",
+          "parameters": []
+        },
+        {
+          "name": "delete_employee",
+          "parameters": []
+        },
+        {
+          "name": "goto_employee",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

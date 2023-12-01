@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "C55A0E0DA2A96948B5AEBAE0620A7DA0",
+  "keywordFileContentHash": "BE1C90CF7BF9912AD68C6DE2075BC029",
   "keywordClasses": [
     {
       "name": "com.Components",
@@ -33,13 +33,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "logOutFromApplication",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "search_element",
@@ -57,8 +55,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getNumberOfRowsByXpath",
@@ -76,8 +73,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "getRowByNameValue",
@@ -108,13 +104,64 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "select_row_by_name",
+          "parameters": [
+            {
+              "name": "xpath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "nameValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         },
         {
           "name": "verify_element_present",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "getTodaysDate",
+          "parameters": []
+        },
+        {
+          "name": "getCustomDate",
+          "parameters": [
+            {
+              "name": "var",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         },
         {
           "name": "getNumberOfColumns",
@@ -132,13 +179,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "generateRandomEmail",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "scrollToElement",
@@ -156,11 +201,14 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "getCustomDate",
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

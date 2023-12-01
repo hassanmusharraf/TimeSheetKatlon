@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-job-work-type-form[1]/form[1]/div[1]/div[1]/qmt-new-autocomplete[2]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
+         <value>//*[@id = 'Region']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>Region</value>
-      <webElementGuid>07a32708-33ac-4ef7-b3e4-867712b16aa3</webElementGuid>
+      <webElementGuid>2c5d726d-98b8-4e4b-8139-24a08ef6f720</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-job-work-type-form[1]/form[1]/div[1]/div[1]/qmt-new-autocomplete[2]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
-      <webElementGuid>2cf43511-e954-4842-896c-f90e42168659</webElementGuid>
+      <webElementGuid>fc6dbc4f-2e91-4a30-b201-41c0282ff461</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

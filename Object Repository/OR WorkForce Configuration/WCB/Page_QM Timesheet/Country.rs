@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Country</name>
+   <tag></tag>
+   <elementGuidId>398c90a2-6190-4cb1-8e57-5c59b8b40df8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-wcb-form[1]/form[1]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Country</value>
+      <webElementGuid>fb2d30e4-4ad7-4180-a88e-dc96129585b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/qm-root[1]/qmt-layout[1]/qmt-navigation[1]/mat-sidenav-container[1]/mat-sidenav-content[1]/div[1]/div[1]/qmt-wcb-form[1]/form[1]/div[1]/div[1]/qmt-new-autocomplete[1]/div[1]/p-autocomplete[1]/span[1]/input[1]</value>
+      <webElementGuid>2d5cc031-df07-44a3-bb01-4e51ab9fabfe</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -6,6 +6,10 @@
    <elementGuidId>da7092f9-cfce-4be3-b984-2f3c9052863b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'add-new-button']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='add-new-button']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#add-new-button</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9c81924d-4fee-4fe8-a3dc-3dbc6add2368</webElementGuid>
+      <webElementGuid>18c89e4f-7cb6-4b04-a05e-d7520671a2eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>803d23a9-c0ac-4bd6-b37e-e5f721238541</webElementGuid>
+      <webElementGuid>3e0eb9bc-75e8-4269-bad3-8ce07966deda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>add-new-button</value>
-      <webElementGuid>e538b25c-950e-48aa-be3d-6cd47a22ef4c</webElementGuid>
+      <webElementGuid>c15b8b5f-12c8-4bfc-9375-ea6c34cb637d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator !pl-2 mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>5b4d53e9-187a-40b5-87aa-dd4228606c10</webElementGuid>
+      <webElementGuid>bf93ffea-9cc0-4591-a033-9f355001bed2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +58,15 @@
       <name>ng-reflect-color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>4db4117a-ff94-4a25-a7e9-dd7028ad59d7</webElementGuid>
+      <webElementGuid>b7e7b464-7dde-4f55-ae5a-99fe033dc649</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>add Add New </value>
-      <webElementGuid>efa87da7-5025-4cfd-864c-9becde8be6f2</webElementGuid>
+      <webElementGuid>0b420e03-88a9-4553-9e5f-147df5cc1718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;add-new-button&quot;)</value>
-      <webElementGuid>fc0a8d8f-0736-4af8-9f99-67f5b72559e3</webElementGuid>
+      <webElementGuid>77ce0cbb-52f9-4fcb-8ce5-a74d49c43f9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='add-new-button']</value>
-      <webElementGuid>b937f50a-7b5a-4ba0-8ec9-08f3568a16dc</webElementGuid>
+      <webElementGuid>456b90c1-5386-47cd-a6d9-7be25743e453</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>eea6b7d1-c88a-46cb-8ca7-581b62688906</webElementGuid>
+      <webElementGuid>b654c7af-32ff-41d2-bed9-476455b8b525</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'add-new-button' and (text() = 'add Add New ' or . = 'add Add New ')]</value>
-      <webElementGuid>2c61cf73-5425-4894-ae0d-f28c8a4e3874</webElementGuid>
+      <webElementGuid>41bdea28-fa34-4f0a-956c-bb602cdb23f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

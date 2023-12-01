@@ -17,29 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
-
-CustomKeywords.'project_configuration.StandardTemplate.goto_add_standard_template'()
-
-CustomKeywords.'com.Components.loginIntoApplication'(GlobalVariable.IT_ADMIN, GlobalVariable.IT_ADMIN_PASS)
-
-CustomKeywords.'project_configuration.StandardTemplate.goto_add_standard_template'()
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
+WebUI.navigateToUrl('https://en.wikipedia.org/wiki/Main_Page')
 
-WebUI.navigateToUrl('http://localhost:4200/super-admin/job/job-data/ca9bdc17-79d2-4c11-9d0e-1a151a81d9ba/edit?id=ca9bdc17-79d2-4c11-9d0e-1a151a81d9ba&name=Standard%20Project&project_id=1c1bcb67-e82f-4d9d-aab7-617b8094f254')
+//Scroll to bottom of page
+WebUI.delay(3)
+WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight);', null)
 
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/a_Resources'))
+//Scroll to Top of page
+WebUI.delay(3)
+WebUI.executeJavaScript('window.scrollTo(0, -document.body.scrollHeight);', null)
 
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/button_add Add New'))
+//Scroll midway on page
+WebUI.delay(3)
+WebUI.executeJavaScript('window.scrollTo(0, 1200);', null)
 
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/div_construction'))
+//Scroll to top of page
+WebUI.delay(3)
+WebUI.executeJavaScript('window.scrollTo(0, 0);', null)
 
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/input_ng-tns-c329-49 p-autocomplete-input p_9d5528'))
-
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_Standard Fleet'))
-
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/Button Job Title'))
-
-WebUI.click(findTestObject('Object Repository/Project Configuration/OR StandardTemplate/OR Resource/li_test  test name2'))
+//Scroll to bottom of page
+WebUI.delay(3)
+WebUI.executeJavaScript('window.scrollTo(0, 999999);', null)
 

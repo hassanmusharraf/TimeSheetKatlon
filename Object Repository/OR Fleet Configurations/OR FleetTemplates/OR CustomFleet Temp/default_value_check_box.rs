@@ -6,16 +6,16 @@
    <elementGuidId>20204fb5-3a9b-4654-9775-5ab10225f261</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-checkbox-6 > label.mat-checkbox-layout > span.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'default-value-checkbox']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-checkbox[@id='mat-checkbox-6']/label/span</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'mat-checkbox-4-input']</value>
+         <key>CSS</key>
+         <value>#mat-checkbox-6 > label.mat-checkbox-layout > span.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d5858c7f-b3ac-4dfb-ad33-a2d0f56a8d9d</webElementGuid>
+      <webElementGuid>f04e8a44-d2c2-4d64-9bf2-90e126538acd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin</value>
-      <webElementGuid>23545e0a-29ef-4f0f-9dd6-baddf5238a8c</webElementGuid>
+      <webElementGuid>6e0676d2-6f04-48e8-9c84-9dfec5b4b545</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +42,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[2]/div[2]/div[1]/mat-dialog-container[1]/qmt-custom-fleet-field-model[1]/mat-dialog-content[1]/form[1]/div[2]/div[1]/div[1]/mat-checkbox[1]/label[1]/span[1]</value>
-      <webElementGuid>0b1b083f-db2a-470c-9c40-96abe686b1f0</webElementGuid>
+      <webElementGuid>4d881815-c4a5-4d5e-a645-71266ab5ec1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-checkbox-4-input</value>
-      <webElementGuid>8406f713-26ec-469f-b030-2ce2de93277b</webElementGuid>
+      <value>default-value-checkbox</value>
+      <webElementGuid>0dcacec3-2b06-47b4-900d-74dc841db492</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-checkbox[@id='mat-checkbox-6']/label/span</value>
-      <webElementGuid>328bb370-63ac-436a-b103-d0ad702a355d</webElementGuid>
+      <webElementGuid>164049f5-04ca-4dfa-b419-03aff117fee3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +66,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/mat-checkbox/label/span</value>
-      <webElementGuid>6eddfa68-0662-443a-bcaf-d9a3d047300a</webElementGuid>
+      <webElementGuid>1d29c3f6-8dbf-48e9-ace6-9f66b179848f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

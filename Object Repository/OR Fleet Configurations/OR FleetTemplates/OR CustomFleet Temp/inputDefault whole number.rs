@@ -6,15 +6,18 @@
    <elementGuidId>cfeaa972-26a9-406d-8f87-28a14b2dc78f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@id = 'Default whole number']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Default whole number']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>76adc1ec-3edb-4f01-9b5e-8d7591526b4c</webElementGuid>
+      <webElementGuid>f7c7a3d2-3534-4d7d-bbe6-a7cbc9d41b4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-valid p-filled</value>
-      <webElementGuid>36297b1d-7fc9-4c97-a021-1d16f408f2d9</webElementGuid>
+      <webElementGuid>73c7de80-4096-4252-8fc0-9fd61be07936</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +41,23 @@
       <name>id</name>
       <type>Main</type>
       <value>Default whole number</value>
-      <webElementGuid>da971fe8-8141-4bc2-ad36-91e065403716</webElementGuid>
+      <webElementGuid>43bb947f-4598-4bf4-8e4e-29c385ec40d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>412ec5bb-81d3-412e-bf97-df84c6e87f6d</webElementGuid>
+      <webElementGuid>98a34de0-45c4-4f98-8cc7-401eb71aa849</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Add whole number here</value>
-      <webElementGuid>6a88f917-bfc8-4808-b76e-f9bfd73689aa</webElementGuid>
+      <webElementGuid>1681d499-5760-4d16-b510-3d687765040f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>6a5ad651-b808-4232-a234-4ec392178136</webElementGuid>
+      <webElementGuid>e7c93973-8177-458f-97e6-256d8e789947</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>min</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>32561a41-f430-4ba6-b9f8-7e0ffc235146</webElementGuid>
+      <webElementGuid>d9fbc6aa-2d6b-4787-b5da-1841436e6eef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>max</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>336678b3-ac7e-4674-8114-84d5b7227e44</webElementGuid>
+      <webElementGuid>e16b16f5-979c-45f9-bf20-254373b8630e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Default whole number&quot;)</value>
-      <webElementGuid>f498499b-b888-473c-9faf-7292c3e1edd8</webElementGuid>
+      <webElementGuid>d634f226-da8b-4932-9c9d-77e2f3523fb5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Default whole number']</value>
-      <webElementGuid>e36c9fe8-c55b-430b-8ee3-f212a23e6525</webElementGuid>
+      <webElementGuid>5f058839-1127-410f-a8c2-8039e0ea3fb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-1']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/qmt-new-input[3]/div/input</value>
-      <webElementGuid>5a944b7a-b630-40a1-b206-c0ffd303cb33</webElementGuid>
+      <webElementGuid>6f0717df-f630-4d76-bbea-3b6fffb93c8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//qmt-new-input[3]/div/input</value>
-      <webElementGuid>089e0bc3-0ebf-469d-9cc6-76c5bbaaddb3</webElementGuid>
+      <webElementGuid>a43f75d2-8e38-4697-b0a0-cf1bca0d48e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'Default whole number' and @type = 'number' and @placeholder = 'Add whole number here']</value>
-      <webElementGuid>1de72d41-27e4-4973-8d8c-59a43b7dd6a2</webElementGuid>
+      <webElementGuid>1bfb2ba4-789d-485a-b1a1-94102fd4ebc1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

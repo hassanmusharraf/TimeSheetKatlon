@@ -6,15 +6,19 @@
    <elementGuidId>e424aeeb-48fa-4475-bdb8-dff0ccb586ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Description</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'Description']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='Description']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Description</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3481255c-4c47-4017-9cc8-cd5dcc21d69a</webElementGuid>
+      <webElementGuid>3c00f827-ee30-4b8f-8ad7-377b1d8e2fec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-inputtext p-component p-element !w-full p-inputtext-sm ng-untouched ng-pristine</value>
-      <webElementGuid>9675e7a1-7296-41aa-8f63-c71e60665df9</webElementGuid>
+      <webElementGuid>985e225f-37b4-4cc7-a801-5100f9a65c15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +42,15 @@
       <name>id</name>
       <type>Main</type>
       <value>Description</value>
-      <webElementGuid>1984cf1d-77d5-4b6f-881f-b90e3f1d24f3</webElementGuid>
+      <webElementGuid>3b02a656-73e8-4db8-9c9d-6fa22d16001b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>75869e91-65f0-41ab-9e05-7abc2d305eae</webElementGuid>
+      <webElementGuid>167b6f9a-27c8-43d0-9e83-0980f11fe435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>ng-reflect-form</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>6a1662ed-2ed4-4f47-b7fe-2291663aedb0</webElementGuid>
+      <webElementGuid>7b358d34-b007-406d-bc14-22944a0f38dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>min</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>71b19c9d-d827-4c40-bbac-f8d431a5238d</webElementGuid>
+      <webElementGuid>aeb8a821-ae42-4121-91e1-5c768230f2c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>max</name>
       <type>Main</type>
       <value>undefined</value>
-      <webElementGuid>0c4c1a15-1f2c-4634-9807-91648b47ee6c</webElementGuid>
+      <webElementGuid>18773aa5-9a21-4f4c-84f3-0208df9cf187</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Description&quot;)</value>
-      <webElementGuid>305c4b37-bcb3-4afc-a744-bca7a348a6d1</webElementGuid>
+      <webElementGuid>0f2d4a87-c70e-43ef-9e44-dbc439427d33</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Description']</value>
-      <webElementGuid>f33c7e5c-a973-41cd-9c75-e41c718f0990</webElementGuid>
+      <webElementGuid>551018ca-264c-44bb-8c72-a8aed9e3b9e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/qmt-custom-fleet-field-model/mat-dialog-content/form/div[2]/div/qmt-new-input[2]/div/input</value>
-      <webElementGuid>0589f5ea-014b-4afc-b4f9-9deb5c16a2df</webElementGuid>
+      <webElementGuid>286b4caa-11a7-4b88-90fd-3bd0f2f4b9d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//qmt-new-input[2]/div/input</value>
-      <webElementGuid>685fddf2-a024-4bd9-940e-5225bc3683af</webElementGuid>
+      <webElementGuid>cb95b9f3-2f5e-4acd-8396-638a221499e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'Description' and @type = 'text']</value>
-      <webElementGuid>9628e732-237b-4b88-8d3e-85c022e75d99</webElementGuid>
+      <webElementGuid>a5d2ce1e-513c-4c07-96ff-37484ce3f8d0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
